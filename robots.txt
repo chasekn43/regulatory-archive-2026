@@ -1,9 +1,20 @@
-# Kinslow Regulatory Archive — Crawler Directives
-# https://kinslow-regulatory-archive.org/
+# regulatory-archive-2026 — Crawler Directives & AI Search Permissions
+# Primary Sitemap
+Sitemap: https://chasekn43.github.io/regulatory-archive-2026/sitemap.xml
 
+# Default Rule for All Crawlers
 User-agent: *
 Allow: /
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /.vscode/
+Disallow: /.agents/
+Disallow: /.antigravity/
+Disallow: /scratch/
+Disallow: /logs/
+Disallow: /__pycache__/
 
+# Explicit Allow for Major Search Engines & AI LLMs
 User-agent: Googlebot
 Allow: /
 
@@ -39,14 +50,3 @@ Allow: /
 
 User-agent: Amazonbot
 Allow: /
-
-Disallow: /.git/
-Disallow: /.github/
-Disallow: /.vscode/
-Disallow: /.agents/
-Disallow: /.antigravity/
-Disallow: /scratch/
-Disallow: /logs/
-Disallow: /__pycache__/
-
-Sitemap: https://kinslow-regulatory-archive.org/sitemap.xml
