@@ -1,59 +1,52 @@
-# RFC 9309 & IETF Content Signals Policy
+# Kinslow Regulatory Archive — Crawler Directives
 # https://kinslow-regulatory-archive.org/
-# https://contentsignals.org/
 
 User-agent: *
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
-# Dedicated AI Crawlers with Explicit Content Signals
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 User-agent: GPTBot
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: ChatGPT-User
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: ClaudeBot
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: Claude-Web
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: Google-Extended
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: PerplexityBot
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: Applebot-Extended
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: meta-externalagent
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: CCBot
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 User-agent: Amazonbot
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
-# Disallow build & scratch directories
 Disallow: /.git/
 Disallow: /.github/
 Disallow: /.vscode/
 Disallow: /.agents/
+Disallow: /.antigravity/
 Disallow: /scratch/
 Disallow: /logs/
+Disallow: /__pycache__/
 
-# Canonical Sitemap & LLM Context Endpoints
 Sitemap: https://kinslow-regulatory-archive.org/sitemap.xml
