@@ -491,9 +491,8 @@
       }
     ]
   }
-  </script>
-
-  <!-- CACHE FLUSHER -->
+      </script>
+<!-- CACHE FLUSHER -->
 
 
   <style>
@@ -858,37 +857,152 @@
       letter-spacing: -0.02em;
       font-weight: 800;
     }
+    .mobile-bottom-dock {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      border-top: 1px solid #cbd5e1;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0px));
+      box-shadow: 0 -4px 16px rgba(15, 23, 42, 0.08);
+      z-index: 9998;
+    }
+    .dock-action {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      color: #475569;
+      font-size: 11px;
+      font-weight: 700;
+      text-decoration: none !important;
+    }
+    .dock-action:hover, .dock-action:active {
+      color: #1d4ed8;
+    }
+    .dock-action.primary-dock {
+      color: #1d4ed8;
+    }
+    @media (min-width: 768px) {
+      .mobile-bottom-dock {
+        display: none !important;
+      }
+    }
+    /* ==========================================
+       MOBILE VIEWPORT, TAP TARGET & DOCK STYLES
+       ========================================== */
+    .mobile-emergency-bar {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 10px 16px;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .mobile-emergency-bar a.phone-tap-link {
+      color: #38bdf8;
+      font-weight: 700;
+      text-decoration: underline;
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px; /* Google 48px touch friendly */
+    }
+    .dtmf-pill {
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #cbd5e1;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    /* Fully Visible High-Intent Dispute Notice Box */
+    .dispute-notice-box {
+      background: #f8fafc;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 18px;
+      font-family: monospace;
+      font-size: 13px;
+      color: #0f172a;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-break: break-word;
+      user-select: all;
+      margin: 0 0 16px 0;
+    }
+
+    /* Fixed Bottom Thumb-Dock (Mobile Only) */
+    .mobile-bottom-dock {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      border-top: 1px solid #cbd5e1;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0px));
+      box-shadow: 0 -4px 16px rgba(15, 23, 42, 0.08);
+      z-index: 9998;
+    }
+    .dock-action {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      color: #475569;
+      font-size: 11px;
+      font-weight: 700;
+      text-decoration: none !important;
+      min-height: 48px;
+      min-width: 60px;
+    }
+    .dock-action:hover, .dock-action:active {
+      color: #1d4ed8;
+    }
+    .dock-action.primary-dock {
+      color: #1d4ed8;
+    }
+    @media (min-width: 768px) {
+      .mobile-bottom-dock {
+        display: none !important;
+      }
+    }
+
+
   </style>
 </head>
 
 <body class="guide-page">
 
-  <!-- TOP CONSUMER REALITY BANNER -->
-  <aside class="top-legal-bar" role="complementary" aria-label="Consumer alert">
-    <div class="container"
-      style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
-      <span>🛒 <strong>Splitting essentials or retail purchases with 'Pay in 4'?</strong> Don't let an automated bot
-        overdraft your bank account.</span>
-      <a href="tools/bnpl-refund-delay-diagnostic.html"
-        style="color: #38bdf8 !important; font-weight: 700; text-decoration: underline; font-weight: 600; font-weight: 700; text-decoration: underline;; color: #1d4ed8; font-weight: 700; text-decoration: underline; font-weight: 700;">Protect
-        Your Account Now &rarr;</a>
+  <!-- CONSOLIDATED MOBILE EMERGENCY STRIP -->
+  <aside class="mobile-emergency-bar" role="complementary" aria-label="Consumer alert">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; width: 100%; gap: 8px;">
+      <div>
+        <span>📞 <strong>Affirm Human Bypass:</strong> </span>
+        <a href="tel:8554233729,1,,0%230%23" class="phone-tap-link">(855) 423-3729</a>
+        <span class="dtmf-pill" style="margin-left: 6px;">Press 1 &rarr; 0#0#</span>
+      </div>
+      <a href="tools/affirm-bot-bypass-cheat-sheet.html" style="color: #38bdf8; font-size: 13px; font-weight: 700; text-decoration: underline; min-height: 44px; display: inline-flex; align-items: center;">
+        View Escalation Codes &rarr;
+      </a>
     </div>
   </aside>
 
-  <!-- THEORY 3: QUICK PRIMACY ACCESS BAR (CRISP LIGHT GRAY - NO AMBER COMPETITION) -->
-  <div class="primacy-phone-bar">
-    <div class="container"
-      style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
-      <span style="color: #0f172a; font-weight: 700;">📞 Need to talk to a human at Affirm right now?</span>
-      <span style="color: #334155; font-weight: 600;">Dial <strong>(855) 423-3729</strong> &rarr; Press
-        <strong>1</strong> &rarr; Press <strong>0#0#</strong> <a href="tools/affirm-bot-bypass-cheat-sheet.html"
-          style="color: #1d4ed8; font-weight: 700; margin-left: 8px; text-decoration: underline;; color: #1d4ed8; font-weight: 700; text-decoration: underline; font-weight: 700;">View
-          Phone Bypass Directory (Opens Instantly) &rarr;</a></span>
-    </div>
-  </div>
-
-  <!-- HERO SECTION: ASYMMETRIC GOLDEN RATIO (THEORY 1, 2, 4, 5, 7, 8) -->
-  <header class="hero-section" style="color: #f8fafc;" style="color: #cbd5e1;" style="color: #cbd5e1;" role="banner">
+  <!-- HERO SECTION -->
+  <header class="hero-section" role="banner">
     <div class="container">
 
       <div
@@ -1013,9 +1127,9 @@
   </header>
 
   <!-- JAVASCRIPT FOR DYNAMIC GOAL-GRADIENT FEEDBACK (THEORY 4) -->
-  <script>function selectOption(el, stepNum) { var cards = document.querySelectorAll('.status-option-card'); cards.forEach(function (c) { c.classList.remove('selected'); }); el.classList.add('selected'); var node1 = document.getElementById('node-1'); var node2 = document.getElementById('node-2'); if (node1 && node2) { node1.className = 'roadmap-node completed'; node1.querySelector('.roadmap-circle').innerHTML = '✓'; node2.className = 'roadmap-node active'; } }</script>
-
-  <!-- MAIN VIEWPORT: OPERATIONAL CONSUMER DEFENSE TOOLS (THEORY 1 & 3: ELEVATED DUAL PRIMACY) -->
+  <script>function selectOption(el, stepNum) { var cards = document.querySelectorAll('.status-option-card'); cards.forEach(function (c) { c.classList.remove('selected'); }); el.classList.add('selected'); var node1 = document.getElementById('node-1'); var node2 = document.getElementById('node-2'); if (node1 && node2) { node1.className = 'roadmap-node completed'; node1.querySelector('.roadmap-circle').innerHTML = '✓'; node2.className = 'roadmap-node active'; } }
+      </script>
+<!-- MAIN VIEWPORT: OPERATIONAL CONSUMER DEFENSE TOOLS (THEORY 1 & 3: ELEVATED DUAL PRIMACY) -->
   <main class="container" style="margin: 40px auto;">
 
     <!-- TIER 1: OPERATIONAL CONSUMER SELF-DEFENSE SUITE -->
@@ -1133,14 +1247,14 @@
         </button>
       </div>
 
-      <p style="font-size: 14px; color: #334155; line-height: 1.6; margin-bottom: 14px;">
+            <p style="font-size: 14px; color: #334155; line-height: 1.6; margin-bottom: 14px;">
         Under <strong>12 C.F.R. § 1026.13</strong> and the <strong>CFPB's May 2024 Rule on Digital Accounts</strong>,
         sending this written notice requires the lender to acknowledge receipt within 30 days, pause collection on the
         disputed amount, and complete resolution within 2 billing cycles without issuing adverse credit reports.
       </p>
 
-      <pre id="dispute-notice-text"
-        style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 18px; font-family: monospace; font-size: 13px; color: #0f172a; line-height: 1.6; white-space: pre-wrap; word-break: break-word; user-select: all;">
+      <!-- FULL UNCOLLAPSED STATUTORY DISPUTE NOTICE (MAX SEARCH INTENT & ZERO BOUNCE) -->
+      <pre id="dispute-notice-text" class="dispute-notice-box">
 TO: Affirm, Inc. (resolutions@affirm.com, legal@affirm.com)
 FROM: [Your Full Legal Name]
 DATE: [Current Date]
@@ -1192,7 +1306,7 @@ Sincerely,
           });
         }
       </script>
-    </section>
+</section>
 
     <!-- THEORY 2: SOFTENED TRANSITION BANNER TO FORENSIC ARCHIVE -->
     <div
@@ -1332,6 +1446,60 @@ Sincerely,
         </div>
       </div>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px;">
+        <!-- FEATURED NEW INVESTIGATION: LINKEDIN & PULSE TELEMETRY AUDIT -->
+        <div style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 2px solid #38bdf8; border-radius: 10px; padding: 20px; color: #f8fafc; grid-column: 1 / -1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
+            <span style="background: #38bdf8; color: #0a0e17; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 9999px; text-transform: uppercase;">⭐ Newly Published Investigation</span>
+            <span style="color: #94a3b8; font-size: 12px; font-weight: 600;">LinkedIn Pulse &bull; Telemetry Audit</span>
+          </div>
+          <h4 style="font-size: 18px; font-weight: 800; color: #ffffff; margin: 0 0 8px;">
+            Feeding the AI PR Machine: Unfiltered Mobile Telemetry, Codebase Audits, and the Real Economy
+          </h4>
+          <p style="color: #cbd5e1; font-size: 14px; line-height: 1.6; margin: 0 0 14px;">
+            A forensic cross-examination comparing corporate AI marketing claims against raw mobile call logs, GitHub commit forensics, and everyday consumer friction in BNPL dispute resolution. Includes primary satire infographic and regulatory correlation.
+          </p>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center;">
+            <a href="articles/feeding-the-ai-pr-machine-unfiltered-mobile-telemetry.html"
+              style="background: #38bdf8; color: #0a0e17; font-weight: 700; font-size: 13px; padding: 8px 18px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center;">
+              Read Full Investigation &rarr;
+            </a>
+            <a href="https://www.linkedin.com/pulse/feeding-ai-pr-machine-unfiltered-mobile-telemetry-real-kinslow-iv-22wrc/" target="_blank" rel="noopener"
+              style="color: #38bdf8; font-size: 13px; font-weight: 600; text-decoration: underline;">
+              View on LinkedIn Pulse &nearr;
+            </a>
+          </div>
+        </div>
+
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+          <a href="topics/affirm-account-locked-during-dispute-solution.html"
+            style="font-weight: 700; font-size: 15px; color: #1d4ed8; display: block; margin-bottom: 4px;">🔒 Affirm Account Locked During Dispute</a>
+          <span style="font-size: 13px; color: #475569; display: block;">Why Affirm disables app payment rails after regulatory complaints and the Bank BillPay protocol to prevent credit damage.</span>
+        </div>
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+          <a href="topics/affirm-dispute-denied-automated-bot-guide.html"
+            style="font-weight: 700; font-size: 15px; color: #1d4ed8; display: block; margin-bottom: 4px;">🤖 Dispute Denied by Automated Bot Guide</a>
+          <span style="font-size: 13px; color: #475569; display: block;">How to legally overturn 5-minute automated dispute denials when carrier tracking proves returned merchandise.</span>
+        </div>
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+          <a href="topics/affirm-cfpb-complaint-database-bbb-case-logs.html"
+            style="font-weight: 700; font-size: 15px; color: #1d4ed8; display: block; margin-bottom: 4px;">📁 CFPB &amp; BBB Complaint Log Analysis</a>
+          <span style="font-size: 13px; color: #475569; display: block;">Systemic patterns in 10,000+ consumer complaints regarding customer service bot loops and refund delays.</span>
+        </div>
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+          <a href="guides/affirm-ceo-executive-contacts-escalation.html"
+            style="font-weight: 700; font-size: 15px; color: #1d4ed8; display: block; margin-bottom: 4px;">📞 Executive Office &amp; Legal Contacts</a>
+          <span style="font-size: 13px; color: #475569; display: block;">Direct corporate headquarters address, legal department contacts, and registered agent certified mail protocol.</span>
+        </div>
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+          <a href="guides/affirm-credit-bureau-dispute-letters.html"
+            style="font-weight: 700; font-size: 15px; color: #1d4ed8; display: block; margin-bottom: 4px;">🛡️ Credit Bureau Dispute Letter Kit</a>
+          <span style="font-size: 13px; color: #475569; display: block;">FCRA § 623 dispute letters to remove improper 30-day and 60-day late marks reported by Affirm during a pending dispute.</span>
+        </div>
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
+          <a href="guides/affirm-dispute-denied-returned-item.html"
+            style="font-weight: 700; font-size: 15px; color: #1d4ed8; display: block; margin-bottom: 4px;">📦 Dispute Denied for Returned Item Protocol</a>
+          <span style="font-size: 13px; color: #475569; display: block;">Statutory evidentiary package linking carrier proof of delivery directly to merchant credit memo requirements under Reg Z.</span>
+        </div>
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
           <a href="topics/verity-je-status-429.html"
             style="font-weight: 700; font-size: 15px; color: #1d4ed8; display: block; margin-bottom: 4px;">⚡ Verity
@@ -1682,8 +1850,31 @@ Sincerely,
       function closeCfAiModal() { document.getElementById('cfAiModalBackdrop').classList.remove('active'); }
       document.addEventListener('keydown', e => { if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); const m = document.getElementById('cfAiModalBackdrop'); m.classList.contains('active') ? closeCfAiModal() : openCfAiModal(); } else if (e.key === 'Escape') { closeCfAiModal(); } });
       function runSuggestedQuery(q) { document.getElementById('cfAiQueryInput').value = q; executeCfAiSearch(); }
-      async function executeCfAiSearch() { const i = document.getElementById('cfAiQueryInput'), b = document.getElementById('cfAiResultBox'), btn = document.getElementById('cfAiSubmitBtn'), q = i.value.trim(); if (!q) return; b.classList.remove('empty'); b.innerHTML = '<span >⚡ Searching 1,024-D vector index and synthesizing response with Llama 3.3...</span>'; btn.disabled = true; try { const r = await fetch('https://3601505c-6b1d-4f8a-8c87-be76afe18393.search.ai.cloudflare.com/chat/completions', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ messages: [{ role: 'system', content: 'You are the Charles W. Kinslow IV Regulatory Archive AI Assistant. Answer authoritatively with direct citations to the archive.' }, { role: 'user', content: q }] }) }); if (!r.ok) throw new Error('HTTP ' + r.status); const d = await r.json(); b.innerHTML = d.choices && d.choices[0] && d.choices[0].message ? d.choices[0].message.content : (d.response || JSON.stringify(d)); } catch (err) { try { const sr = await fetch('https://3601505c-6b1d-4f8a-8c87-be76afe18393.search.ai.cloudflare.com/search', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query: q }) }), sd = await sr.json(); if (sd.results && sd.results.length > 0) { let h = '<strong>Top Matching Excerpts from Archive:</strong><br><br>'; sd.results.slice(0, 3).forEach((x, n) => { h += `<div ><div >${x.title || x.url || 'Doc #' + (n + 1)}</div><div >${x.content || x.text || x.excerpt || JSON.stringify(x)}</div></div>`; }); b.innerHTML = h; } else { b.innerHTML = '<span >No exact semantic matches found.</span>'; } } catch (se) { b.innerHTML = '<span >Unable to connect to AI Search: ' + se.message + '</span>'; } } finally { btn.disabled = false; } }</script>
-  <!-- End Cloudflare AI Search Widget -->
+      async function executeCfAiSearch() { const i = document.getElementById('cfAiQueryInput'), b = document.getElementById('cfAiResultBox'), btn = document.getElementById('cfAiSubmitBtn'), q = i.value.trim(); if (!q) return; b.classList.remove('empty'); b.innerHTML = '<span >⚡ Searching 1,024-D vector index and synthesizing response with Llama 3.3...</span>'; btn.disabled = true; try { const r = await fetch('https://3601505c-6b1d-4f8a-8c87-be76afe18393.search.ai.cloudflare.com/chat/completions', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ messages: [{ role: 'system', content: 'You are the Charles W. Kinslow IV Regulatory Archive AI Assistant. Answer authoritatively with direct citations to the archive.' }, { role: 'user', content: q }] }) }); if (!r.ok) throw new Error('HTTP ' + r.status); const d = await r.json(); b.innerHTML = d.choices && d.choices[0] && d.choices[0].message ? d.choices[0].message.content : (d.response || JSON.stringify(d)); } catch (err) { try { const sr = await fetch('https://3601505c-6b1d-4f8a-8c87-be76afe18393.search.ai.cloudflare.com/search', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query: q }) }), sd = await sr.json(); if (sd.results && sd.results.length > 0) { let h = '<strong>Top Matching Excerpts from Archive:</strong><br><br>'; sd.results.slice(0, 3).forEach((x, n) => { h += `<div ><div >${x.title || x.url || 'Doc #' + (n + 1)}</div><div >${x.content || x.text || x.excerpt || JSON.stringify(x)}</div></div>`; }); b.innerHTML = h; } else { b.innerHTML = '<span >No exact semantic matches found.</span>'; } } catch (se) { b.innerHTML = '<span >Unable to connect to AI Search: ' + se.message + '</span>'; } } finally { btn.disabled = false; } }
+      </script>
+<!-- End Cloudflare AI Search Widget -->
+
+
+
+<!-- STICKY MOBILE DOCK (THUMB-ZONE ACCESS) -->
+<nav class="mobile-bottom-dock" aria-label="Mobile Quick Actions">
+  <a href="tel:8554233729,1,,0%230%23" class="dock-action">
+    <span style="font-size: 18px;">📞</span>
+    <span>Call Human</span>
+  </a>
+  <a href="#dispute-letter-template" class="dock-action">
+    <span style="font-size: 18px;">📄</span>
+    <span>Dispute Letter</span>
+  </a>
+  <a href="tools/bnpl-refund-delay-diagnostic.html" class="dock-action primary-dock">
+    <span style="font-size: 18px;">⚡</span>
+    <span>Diagnostic</span>
+  </a>
+  <a href="tools/affirm-bot-bypass-cheat-sheet.html" class="dock-action">
+    <span style="font-size: 18px;">🛡️</span>
+    <span>Cheat Sheet</span>
+  </a>
+</nav>
 
 </body>
 

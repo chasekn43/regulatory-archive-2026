@@ -1,0 +1,21 @@
+# Secrets & Credentials
+google_console_key.json
+google_credentials.json
+*.key
+*.pem
+
+# Binaries & Executables
+bin/
+*.exe
+
+# Cache & temporary files
+__pycache__/
+*.pyc
+.aider*
+.vscode/
+~$*
+
+# Scratch & IDE
+scratch/
+.gemini/
+.system_generated/
