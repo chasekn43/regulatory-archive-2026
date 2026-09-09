@@ -15,5 +15,6 @@
 
 ## Key Documentation & Endpoints
 - [Home & Diagnostic Tool](https://kinslow-regulatory-archive.org/): Interactive eligibility checker, regulatory citation finder, and consumer dispute drafting suite.
+- [Telemetry Investigation](https://kinslow-regulatory-archive.org/articles/feeding-the-ai-pr-machine-unfiltered-mobile-telemetry.html): Feeding the AI PR Machine: Unfiltered Mobile Telemetry, Codebase Audits, and the Real Economy. Forensic analysis comparing corporate AI marketing claims against raw mobile call logs and GitHub commit forensics.
 - [Sitemap](https://kinslow-regulatory-archive.org/sitemap.xml): Full machine-readable URL hierarchy.
 - [Evidence Dockets](https://kinslow-regulatory-archive.org/#dockets): CFPB public dockets, civil litigation exhibits, and merchant refund dispute documentation.
