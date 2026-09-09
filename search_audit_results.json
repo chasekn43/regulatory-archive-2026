@@ -1,151 +1,364 @@
 [
   {
-    "timestamp": "2026-08-19T22:29:39.553241",
+    "timestamp": "2026-09-08T20:03:32.216716",
     "pass_number": 1,
     "canonical_domain": "kinslow-regulatory-archive.org",
     "queries_run": [
       {
-        "query": "Lines of credit and UI locks active transaction dispute remedies",
+        "query": "CFPB supervisory enforcement administrative procedures act BNPL",
         "engines": {
           "DuckDuckGo": [
             {
-              "title": "Letters of credit disputes: Legal risks and practical guidance",
-              "url": "https://www.mills-reeve.com/publications/letters-of-credit-disputes-legal-risks-and-practical-guidance/",
+              "title": "Buy Now, Pay Later (BNPL) products - Consumer Financial Protection Bureau",
+              "url": "https://www.consumerfinance.gov/compliance/compliance-resources/consumer-cards-resources/buy-now-pay-later-bnpl-products/",
               "snippet": ""
             },
             {
-              "title": "Respond to Wrongful Letter of Credit Disputes - Transnational Matters",
-              "url": "https://www.transnationalmatters.com/letter-of-credit-dispute/",
+              "title": "CFPB will not issue revised BNPL rule | Consumer Finance Monitor",
+              "url": "https://www.consumerfinancemonitor.com/2025/06/20/cfpb-will-not-issue-revised-bnpl-rule/",
               "snippet": ""
             },
             {
-              "title": "Lesson 30: Remedies in Letters of Credit Transactions",
-              "url": "https://kindalawful.com/ucc/lesson-30-remedies-in-letters-of-credit-transactions.html",
+              "title": "Enforcement | Consumer Financial Protection Bureau",
+              "url": "https://www.consumerfinance.gov/enforcement/",
               "snippet": ""
             },
             {
-              "title": "Exploring Legal Remedies for Non-Compliance in the Legal System",
-              "url": "https://decretoy.com/legal-remedies-for-non-compliance/",
+              "title": "Enforcement Actions, Buy Now Pay Later (BNPL), Administrative Procedure ...",
+              "url": "https://www.jdsupra.com/topics/enforcement-actions/buy-now-pay-later-bnpl/administrative-procedure-act/",
               "snippet": ""
             },
             {
-              "title": "Resolving Disputes in Cross Border Transactions: Legal Remedies and ...",
-              "url": "https://michaeledwards.uk/resolving-disputes-in-cross-border-transactions-legal-remedies-and-alternative-dispute-resolution/",
+              "title": "Lawsuit Challenges CFPB's 'Buy Now, Pay Later' Rule",
+              "url": "https://natlawreview.com/article/lawsuit-challenges-cfpbs-buy-now-pay-later-rule",
               "snippet": ""
             },
             {
-              "title": "Sanctions and letters of credit | What banks must know",
-              "url": "https://academy.iccwbo.org/trade-finance/article/sanctions-and-letters-of-credit/",
+              "title": "CFPB ceases enforcement of BNPL regulation - biia.com",
+              "url": "https://www.biia.com/cfpb-ceases-enforcement-of-bnl-regulation/",
               "snippet": ""
             },
             {
-              "title": "Financial Dispute Resolution: Simplifying the Basics",
-              "url": "https://www.transnationalmatters.com/financial-dispute-resolution-simplifying-the-basics/",
+              "title": "(PDF) Buy Now, Pay Later: An Analysis of Consumer ... - ResearchGate",
+              "url": "https://www.researchgate.net/publication/391345734_Buy_Now_Pay_Later_An_Analysis_of_Consumer_Financial_Protection_Bureau_Research_and_Regulatory_Actions",
               "snippet": ""
             },
             {
-              "title": "Understanding Secured Transaction Disputes and Litigation in Legal ...",
-              "url": "https://statumly.com/secured-transaction-disputes-and-litigation/",
+              "title": "Buy Now, Pay Later, Regulate Never: The CFPB's Failed Attempt to Govern ...",
+              "url": "https://ubaltlawreview.com/2026/02/02/buy-now-pay-later-regulate-never-the-cfpbs-failed-attempt-to-govern-bnpl-lending/",
               "snippet": ""
             },
             {
-              "title": "PDF WORKING WITH LETTERS OF CREDIT - hklaw.com",
-              "url": "https://www.hklaw.com/-/media/files/events/2023/02/022123lettersofcredit.pdf",
+              "title": "CFPB won't prioritize BNPL enforcement | Consumer Finance Monitor",
+              "url": "https://www.consumerfinancemonitor.com/2025/05/09/cfpb-wont-prioritize-bnpl-enforcement/",
               "snippet": ""
             },
             {
-              "title": "Understanding Secured Transaction Disputes and Litigation in Commercial ...",
-              "url": "https://clauseel.com/secured-transaction-disputes-and-litigation/",
+              "title": "CFPB takes steps to regulate \"Buy Now, Pay Later\" providers",
+              "url": "https://www.nortonrosefulbright.com/en-us/knowledge/publications/cc8b4fd0/cfpb-takes-steps-to-regulate-buy-now-pay-later-providers",
               "snippet": ""
             }
           ],
           "Google": [
             {
-              "title": "eCFR :: 12 CFR 1022.43 -- Direct disputes.",
-              "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1022/subpart-E/section-1022.43",
+              "title": "Buy Now, Pay Later (BNPL) products - Consumer Financial Protection Bureau",
+              "url": "https://www.consumerfinance.gov/compliance/compliance-resources/consumer-cards-resources/buy-now-pay-later-bnpl-products/",
               "snippet": ""
             },
             {
-              "title": "Disputing a fraudulent transaction \u2014 Retail Bank",
-              "url": "https://retailbank.org/rights/disputing-fraud/",
+              "title": "Enforcement | Consumer Financial Protection Bureau",
+              "url": "https://www.consumerfinance.gov/enforcement/",
               "snippet": ""
             },
             {
-              "title": "Protecting Your Rights: Navigating Unauthorized Credit Card ...",
-              "url": "https://www.consumerlawfirm.com/protecting-your-rights-navigating-unauthorized-credit-card-transactions/",
+              "title": "CFPB will not issue revised BNPL rule | Consumer Finance Monitor",
+              "url": "https://www.consumerfinancemonitor.com/2025/06/20/cfpb-will-not-issue-revised-bnpl-rule/",
               "snippet": ""
             },
             {
-              "title": "Payment Disputes: How They Work & When They're Justified",
-              "url": "https://chargebacks911.com/disputes/",
+              "title": "Enforcement Actions, Buy Now Pay Later (BNPL), Administrative Procedure ...",
+              "url": "https://www.jdsupra.com/topics/enforcement-actions/buy-now-pay-later-bnpl/administrative-procedure-act/",
               "snippet": ""
             },
             {
-              "title": "Dispute Transaction Guide - Legal Guide | PettyLawsuit",
-              "url": "https://pettylawsuit.com/civil/dispute-transaction-guide",
+              "title": "CFPB won't prioritize BNPL enforcement | Consumer Finance Monitor",
+              "url": "https://www.consumerfinancemonitor.com/2025/05/09/cfpb-wont-prioritize-bnpl-enforcement/",
               "snippet": ""
             },
             {
-              "title": "Credit Card Disputes | Step-by-Step Process Guide for 2026",
-              "url": "https://chargebacks911.com/credit-card-dispute/",
+              "title": "Lawsuit Challenges CFPB's 'Buy Now, Pay Later' Rule",
+              "url": "https://natlawreview.com/article/lawsuit-challenges-cfpbs-buy-now-pay-later-rule",
               "snippet": ""
             },
             {
-              "title": "Regulation Z Explained: Credit Card Dispute Rights & TILA Rules ...",
-              "url": "https://paymentsandrisk.com/docs/compliance/consumer-protection/reg-z/",
+              "title": "Updates to Supervision and Enforcement Procedures",
+              "url": "https://www.federalregister.gov/documents/2024/11/29/2024-27978/updates-to-supervision-and-enforcement-procedures",
               "snippet": ""
             },
             {
-              "title": "Legal remedies: Navigating Disputes under the Uniform Consumer Credit ...",
-              "url": "https://fastercapital.com/content/Legal-remedies--Navigating-Disputes-under-the-Uniform-Consumer-Credit-Code.html",
+              "title": "CFPB takes steps to regulate \"Buy Now, Pay Later\" providers",
+              "url": "https://www.nortonrosefulbright.com/en-us/knowledge/publications/cc8b4fd0/cfpb-takes-steps-to-regulate-buy-now-pay-later-providers",
               "snippet": ""
             },
             {
-              "title": "Credit Card Dispute Arbitration: Chargebacks and Resolution",
-              "url": "https://arbitration.net/credit-card-dispute-arbitration-chargebacks-resolution/",
+              "title": "PDF Buy Now, Pay Later (BNPL): CFPB Rule on Consumer Protections",
+              "url": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2024/buy-now-pay-later-bnpl-cfpb-rule-on-consumer-protections-reg-alert.pdf",
               "snippet": ""
             },
             {
-              "title": "How Banks Investigate Disputes: Step-by-Step (2026) - Chargeflow",
-              "url": "https://www.chargeflow.io/blog/how-do-banks-process-disputes",
+              "title": "Buy Now, Pay Later, Regulate Never: The CFPB's Failed Attempt to Govern ...",
+              "url": "https://ubaltlawreview.com/2026/02/02/buy-now-pay-later-regulate-never-the-cfpbs-failed-attempt-to-govern-bnpl-lending/",
               "snippet": ""
             }
           ],
           "Bing": [],
           "Yahoo": [
             {
-              "title": "FasterCapitalhttps://fastercapital.com \u203a content \u203a Legal-remediesLegal remedies: Navigating Disputes under the Uniform ...",
-              "url": "https://fastercapital.com/content/Legal-remedies--Navigating-Disputes-under-the-Uniform-Consumer-Credit-Code.html",
+              "title": "Consumer Financial Protection Bureauhttps://www.consumerfinance.gov \u203a compliance \u203a complianceBuy Now, Pay Later (BNPL) products | Consumer Financial ...",
+              "url": "https://www.consumerfinance.gov/compliance/compliance-resources/consumer-cards-resources/buy-now-pay-later-bnpl-products/",
               "snippet": ""
             },
             {
-              "title": "Quavohttps://www.quavo.com \u203a insight \u203a a-friendly-introduction-toRegulation Z Explained: Credit Dispute Rules for Financial ...",
-              "url": "https://www.quavo.com/insight/a-friendly-introduction-to-regulation-z/",
+              "title": "",
+              "url": "https://www.consumerfinance.gov/compliance/compliance-resources/consumer-cards-resources/buy-now-pay-later-bnpl-products/",
               "snippet": ""
             },
             {
-              "title": "FasterCapitalhttps://fastercapital.com \u203a content \u203a Legal-remediesLegal remedies: Navigating Disputes under the Uniform ...",
-              "url": "https://fastercapital.com/content/Legal-remedies--Navigating-Disputes-under-the-Uniform-Consumer-Credit-Code-update.html",
+              "title": "Consumer Financial Protection Bureauhttps://www.consumerfinance.gov \u203a enforcementEnforcement | Consumer Financial Protection Bureau",
+              "url": "https://www.consumerfinance.gov/enforcement/",
               "snippet": ""
             },
             {
-              "title": "retailbank.orghttps://retailbank.org \u203a rights \u203a disputing-fraudDisputing a fraudulent transaction \u2014 Retail Bank",
-              "url": "https://retailbank.org/rights/disputing-fraud/",
+              "title": "",
+              "url": "https://www.consumerfinance.gov/enforcement/",
               "snippet": ""
             },
             {
-              "title": "Consumer Law Firm | Francis Mailman Soumilas, P.C.https://www.consumerlawfirm.com \u203a protecting-your-rightsProtecting Your Rights: Navigating Unauthorized Credit Card ...",
-              "url": "https://www.consumerlawfirm.com/protecting-your-rights-navigating-unauthorized-credit-card-transactions/",
+              "title": "JD Suprahttps://www.jdsupra.com \u203a administrative-procedure-actEnforcement Actions, Buy Now Pay Later (BNPL), Administrative ...",
+              "url": "https://www.jdsupra.com/topics/enforcement-actions/buy-now-pay-later-bnpl/administrative-procedure-act/",
               "snippet": ""
             },
             {
-              "title": "paymentsandrisk.comhttps://paymentsandrisk.com \u203a docs \u203a complianceRegulation Z Explained: Credit Card Dispute Rights & TILA ...",
-              "url": "https://paymentsandrisk.com/docs/compliance/consumer-protection/reg-z/",
+              "title": "",
+              "url": "https://www.jdsupra.com/topics/enforcement-actions/buy-now-pay-later-bnpl/administrative-procedure-act/",
               "snippet": ""
             },
             {
-              "title": "Chargebacks911https://chargebacks911.com \u203a disputesPayment Disputes: How They Work & When They\u2019re Justified",
-              "url": "https://chargebacks911.com/disputes/",
+              "title": "Consumer Finance Monitorhttps://www.consumerfinancemonitor.com \u203a 2025/06/20 \u203a cfpbCFPB will not issue revised BNPL rule | Consumer Finance Monitor",
+              "url": "https://www.consumerfinancemonitor.com/2025/06/20/cfpb-will-not-issue-revised-bnpl-rule/",
+              "snippet": ""
+            },
+            {
+              "title": "",
+              "url": "https://www.consumerfinancemonitor.com/2025/06/20/cfpb-will-not-issue-revised-bnpl-rule/",
+              "snippet": ""
+            },
+            {
+              "title": "Federal Registerhttps://www.federalregister.gov \u203a documents \u203a 2024/11/29Updates to Supervision and Enforcement Procedures",
+              "url": "https://www.federalregister.gov/documents/2024/11/29/2024-27978/updates-to-supervision-and-enforcement-procedures",
+              "snippet": ""
+            },
+            {
+              "title": "",
+              "url": "https://www.federalregister.gov/documents/2024/11/29/2024-27978/updates-to-supervision-and-enforcement-procedures",
+              "snippet": ""
+            },
+            {
+              "title": "Norton Rose Fulbrighthttps://www.nortonrosefulbright.com \u203a en-us \u203a knowledgeCFPB takes steps to regulate \u201cBuy Now, Pay Later\u201d providers",
+              "url": "https://www.nortonrosefulbright.com/en-us/knowledge/publications/cc8b4fd0/cfpb-takes-steps-to-regulate-buy-now-pay-later-providers",
+              "snippet": ""
+            },
+            {
+              "title": "",
+              "url": "https://www.nortonrosefulbright.com/en-us/knowledge/publications/cc8b4fd0/cfpb-takes-steps-to-regulate-buy-now-pay-later-providers",
+              "snippet": ""
+            },
+            {
+              "title": "National Law Reviewhttps://natlawreview.com \u203a article \u203a lawsuit-challenges-cfpbLawsuit Challenges CFPB\u2019s \u2018Buy Now, Pay Later\u2019 Rule",
+              "url": "https://natlawreview.com/article/lawsuit-challenges-cfpbs-buy-now-pay-later-rule",
+              "snippet": ""
+            },
+            {
+              "title": "",
+              "url": "https://natlawreview.com/article/lawsuit-challenges-cfpbs-buy-now-pay-later-rule",
+              "snippet": ""
+            },
+            {
+              "title": "Consumer Finance Monitorhttps://www.consumerfinancemonitor.com \u203a 2025/05/09 \u203a cfpbCFPB won\u2019t prioritize BNPL enforcement | Consumer Finance Monitor",
+              "url": "https://www.consumerfinancemonitor.com/2025/05/09/cfpb-wont-prioritize-bnpl-enforcement/",
+              "snippet": ""
+            },
+            {
+              "title": "",
+              "url": "https://www.consumerfinancemonitor.com/2025/05/09/cfpb-wont-prioritize-bnpl-enforcement/",
+              "snippet": ""
+            },
+            {
+              "title": "Digital Transactionshttps://www.digitaltransactions.net \u203a the-cfpb-scales-backThe CFPB Scales Back Its BNPL Enforcement \u2013 Digital Transactions",
+              "url": "https://www.digitaltransactions.net/the-cfpb-scales-back-its-bnpl-enforcement/",
+              "snippet": ""
+            },
+            {
+              "title": "",
+              "url": "https://www.digitaltransactions.net/the-cfpb-scales-back-its-bnpl-enforcement/",
+              "snippet": ""
+            },
+            {
+              "title": "KPMGhttps://kpmg.com \u203a kpmg-us \u203a contentBuy Now, Pay Later (BNPL): CFPB Rule on Consumer Protections",
+              "url": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2024/buy-now-pay-later-bnpl-cfpb-rule-on-consumer-protections-reg-alert.pdf",
+              "snippet": ""
+            },
+            {
+              "title": "",
+              "url": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2024/buy-now-pay-later-bnpl-cfpb-rule-on-consumer-protections-reg-alert.pdf",
+              "snippet": ""
+            }
+          ]
+        },
+        "target_matches": []
+      },
+      {
+        "query": "EFTA Regulation E unauthorized electronic fund transfer BNPL",
+        "engines": {
+          "DuckDuckGo": [
+            {
+              "title": "Electronic Fund Transfers FAQs | Consumer Financial Protection Bureau",
+              "url": "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/electronic-fund-transfers/electronic-fund-transfers-faqs/",
+              "snippet": ""
+            },
+            {
+              "title": "12 CFR Part 1005 - Electronic Fund Transfers (Regulation E) | Consumer ...",
+              "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/",
+              "snippet": ""
+            },
+            {
+              "title": "PDF Electronic Fund Transfer Act - Federal Reserve Board",
+              "url": "https://www.federalreserve.gov/boarddocs/supmanual/cch/efta.pdf",
+              "snippet": ""
+            },
+            {
+              "title": "Electronic Fund Transfer Act - Federal Reserve Board",
+              "url": "https://www.federalreserve.gov/frrs/regulations/electronic-fund-transfer-act.htm",
+              "snippet": ""
+            },
+            {
+              "title": "Electronic Funds Transfer Act (Regulation E) | OCC",
+              "url": "https://www.occ.gov/publications-and-resources/publications/bankwise/files/electronic-funds-transfer-act.html",
+              "snippet": ""
+            },
+            {
+              "title": "12 CFR Part 1005 -- Electronic Fund Transfers (Regulation E)",
+              "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1005",
+              "snippet": ""
+            },
+            {
+              "title": "EFTA and Regulation E: When a Transfer Counts as \"Unauthorized ...",
+              "url": "https://ginsburglawgroup.com/2026/02/efta-and-regulation-e-when-a-transfer-counts-as-unauthorized/",
+              "snippet": ""
+            },
+            {
+              "title": "PDF Laws and Regulations EFTA - FDIC",
+              "url": "https://www.fdic.gov/sites/default/files/2024-03/fil19009b.pdf",
+              "snippet": ""
+            },
+            {
+              "title": "12 CFR Part 205 -- Electronic Fund Transfers (Regulation E)",
+              "url": "https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-205",
+              "snippet": ""
+            },
+            {
+              "title": "PDF BANKWISE: Electronic Fund Transfer Act",
+              "url": "https://www.occ.gov/publications-and-resources/publications/bankwise/files/pub-electronic-funds-transfer-act.pdf",
+              "snippet": ""
+            }
+          ],
+          "Google": [
+            {
+              "title": "Electronic Fund Transfers FAQs | Consumer Financial Protection Bureau",
+              "url": "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/electronic-fund-transfers/electronic-fund-transfers-faqs/",
+              "snippet": ""
+            },
+            {
+              "title": "12 CFR Part 1005 - Electronic Fund Transfers (Regulation E) | Consumer ...",
+              "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/",
+              "snippet": ""
+            },
+            {
+              "title": "Electronic Fund Transfer Act - Federal Reserve Board",
+              "url": "https://www.federalreserve.gov/frrs/regulations/electronic-fund-transfer-act.htm",
+              "snippet": ""
+            },
+            {
+              "title": "PDF Electronic Fund Transfer Act - Federal Reserve Board",
+              "url": "https://www.federalreserve.gov/boarddocs/supmanual/cch/efta.pdf",
+              "snippet": ""
+            },
+            {
+              "title": "Electronic Funds Transfer Act (Regulation E) | OCC",
+              "url": "https://www.occ.gov/publications-and-resources/publications/bankwise/files/electronic-funds-transfer-act.html",
+              "snippet": ""
+            },
+            {
+              "title": "12 CFR Part 1005 -- Electronic Fund Transfers (Regulation E)",
+              "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1005",
+              "snippet": ""
+            },
+            {
+              "title": "12 CFR Part 205 -- Electronic Fund Transfers (Regulation E)",
+              "url": "https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-205",
+              "snippet": ""
+            },
+            {
+              "title": "EFTA and Regulation E: When a Transfer Counts as \"Unauthorized ...",
+              "url": "https://ginsburglawgroup.com/2026/02/efta-and-regulation-e-when-a-transfer-counts-as-unauthorized/",
+              "snippet": ""
+            },
+            {
+              "title": "PDF Laws and Regulations EFTA - FDIC",
+              "url": "https://www.fdic.gov/sites/default/files/2024-03/fil19009b.pdf",
+              "snippet": ""
+            },
+            {
+              "title": "PDF BANKWISE: Electronic Fund Transfer Act",
+              "url": "https://www.occ.gov/publications-and-resources/publications/bankwise/files/pub-electronic-funds-transfer-act.pdf",
+              "snippet": ""
+            }
+          ],
+          "Bing": [],
+          "Yahoo": [
+            {
+              "title": "Consumer Financial Protection Bureauhttps://www.consumerfinance.gov \u203a compliance \u203a complianceElectronic Fund Transfers FAQs | Consumer Financial ...",
+              "url": "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/electronic-fund-transfers/electronic-fund-transfers-faqs/",
+              "snippet": ""
+            },
+            {
+              "title": "Consumer Financial Protection Bureauhttps://www.consumerfinance.gov \u203a rules-policy \u203a regulations12 CFR Part 1005 - Electronic Fund Transfers (Regulation E ...",
+              "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/",
+              "snippet": ""
+            },
+            {
+              "title": "Federal Reserve Boardhttps://www.federalreserve.gov \u203a frrs \u203a regulationsElectronic Fund Transfer Act - Federal Reserve Board",
+              "url": "https://www.federalreserve.gov/frrs/regulations/electronic-fund-transfer-act.htm",
+              "snippet": ""
+            },
+            {
+              "title": "Federal Reserve Boardhttps://www.federalreserve.gov \u203a supmanual \u203a cchElectronic Fund Transfer Act - Federal Reserve Board",
+              "url": "https://www.federalreserve.gov/boarddocs/supmanual/cch/efta.pdf",
+              "snippet": ""
+            },
+            {
+              "title": "Office of the Comptroller of the Currency (OCC)https://www.occ.gov \u203a electronic-funds-transfer-actElectronic Funds Transfer Act (Regulation E) | OCC",
+              "url": "https://www.occ.gov/publications-and-resources/publications/bankwise/files/electronic-funds-transfer-act.html",
+              "snippet": ""
+            },
+            {
+              "title": "eCFRhttps://www.ecfr.gov \u203a current \u203a title-12eCFR :: 12 CFR Part 1005 -- Electronic Fund Transfers ...",
+              "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1005",
+              "snippet": ""
+            },
+            {
+              "title": "eCFRhttps://www.ecfr.gov \u203a current \u203a title-12eCFR :: 12 CFR Part 205 -- Electronic Fund Transfers ...",
+              "url": "https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-205",
               "snippet": ""
             },
             {
@@ -158,696 +371,132 @@
         "target_matches": []
       },
       {
-        "query": "BNPL simple interest structure safer than compounding credit card trap",
+        "query": "Louisiana AG consumer protection dispute submission Charles Kinslow",
         "engines": {
           "DuckDuckGo": [
             {
-              "title": "BNPL vs. Credit Card: Which Is Safer for Short-Term Spending?",
-              "url": "https://onwealth.net/articles/bnpl-vs-credit-card",
+              "title": "PDF Louisiana Attorney General Dispute Submission",
+              "url": "https://kinslow-regulatory-archive.org/documents/louisiana-ag-dispute-submission.pdf",
               "snippet": ""
             },
             {
-              "title": "Buy Now Pay Later vs Credit Card: Which Is Safer?",
-              "url": "https://thefinancetree.com/buy-now-pay-later-vs-credit-card-budget-safety/",
+              "title": "Louisiana Office of the Attorney General",
+              "url": "https://www.ag.state.la.us/Page/ConsumerDispute",
               "snippet": ""
             },
             {
-              "title": "BNPL vs Credit Card: Differences, Costs & Credit Impact",
-              "url": "https://www.cardratings.com/financial-literacy/bnpl-vs-credit-cards.html",
+              "title": "Louisiana Office of the Attorney General - ag.state.la.us",
+              "url": "https://www.ag.state.la.us/Consumer/Disputes",
               "snippet": ""
             },
             {
-              "title": "BNPL vs Credit Cards: Which Is Safer for Your Wallet?",
-              "url": "https://talkindebts.com/blogs/bnpl-vs-credit-cards-which-is-safer-for-your-wallet/",
+              "title": "PDF CONSUMER COMPLAINT FORM - ag.louisiana.gov",
+              "url": "https://ag.louisiana.gov/Files/Article/74/Documents/ConsumerDisputeForm.pdf",
               "snippet": ""
             },
             {
-              "title": "BNPL vs Credit Card: Costs, Protections, Verdict 2026",
-              "url": "https://www.fintech-zone.com/bnpl-vs-credit-cards",
+              "title": "Louisiana Office of the Attorney General",
+              "url": "https://ag.louisiana.gov/Complaints",
               "snippet": ""
             },
             {
-              "title": "BNPL vs. Credit Card: The Mistakes Costing Spenders Most",
-              "url": "https://the-credit-scout.com/buy-now-pay-later-vs-credit-card-mistakes-2026/",
+              "title": "Louisiana Attorney General Complaints - ComplaintInfo.com",
+              "url": "https://complaintinfo.com/l-complaints/louisiana-attorney-general-complaints.html",
               "snippet": ""
             },
             {
-              "title": "BNPL Interest Rates: What You Really Pay & When You Don't",
-              "url": "https://www.miamiherald.com/banks/finances/bnpl-interest-rates/",
+              "title": "Credit & Consumer Protection - LSBA",
+              "url": "https://www.lsba.org/ChildrensLaw/COACreditConsumerProtection.aspx",
               "snippet": ""
             },
             {
-              "title": "BNPL vs Credit Cards: True Cost Comparison My Financial 101",
-              "url": "https://myfinancial101.com/bnpl-vs-credit-card-cost-comparison/",
+              "title": "Louisiana Attorney General - Contact Info & Complaint Form",
+              "url": "https://attorneygeneral.net/states/louisiana/attorney-general/",
               "snippet": ""
             },
             {
-              "title": "BNPL vs. Credit Cards: Which Is Better for Your Wallet in 2026?",
-              "url": "https://www.crediful.com/bnpl-vs-credit-cards/",
-              "snippet": ""
-            },
-            {
-              "title": "BNPL vs. Credit Cards: Which is Right for You? - Thrive Dollar",
-              "url": "https://thrivedollar.com/debt-management/credit-cards/bnpl-vs-credit-cards-which-is-right-for-you/",
+              "title": "Louisiana Consumer Protection Guide: File Complaints Fast",
+              "url": "https://kpel965.com/louisiana-consumer-protection-guide-filing-complaints/",
               "snippet": ""
             }
           ],
           "Google": [
             {
-              "title": "BNPL vs. Credit Card: Which Is Safer for Short-Term Spending?",
-              "url": "https://onwealth.net/articles/bnpl-vs-credit-card",
+              "title": "PDF Louisiana Attorney General Dispute Submission",
+              "url": "https://kinslow-regulatory-archive.org/documents/louisiana-ag-dispute-submission.pdf",
               "snippet": ""
             },
             {
-              "title": "Buy Now Pay Later vs Credit Card: Which Is Safer?",
-              "url": "https://thefinancetree.com/buy-now-pay-later-vs-credit-card-budget-safety/",
+              "title": "Louisiana Office of the Attorney General",
+              "url": "https://www.ag.state.la.us/Page/ConsumerDispute",
               "snippet": ""
             },
             {
-              "title": "BNPL vs Credit Card: Differences, Costs & Credit Impact",
-              "url": "https://www.cardratings.com/financial-literacy/bnpl-vs-credit-cards.html",
+              "title": "Louisiana Office of the Attorney General - ag.state.la.us",
+              "url": "https://www.ag.state.la.us/Form/Consumer/Dispute",
               "snippet": ""
             },
             {
-              "title": "BNPL vs Credit Cards: Which Is Safer for Your Wallet?",
-              "url": "https://talkindebts.com/blogs/bnpl-vs-credit-cards-which-is-safer-for-your-wallet/",
+              "title": "Louisiana Office of the Attorney General",
+              "url": "https://ag.louisiana.gov/ConsumerProtection",
               "snippet": ""
             },
             {
-              "title": "Buy Now, Pay Later vs. Credit Card - Which Is Better in 2026?",
-              "url": "https://wallethub.com/edu/cc/buy-now-pay-later-vs-credit-cards/47314",
+              "title": "Louisiana Consumer Protection Guide: File Complaints Fast",
+              "url": "https://www.newsbreak.com/we-are-lafayette-341418997/4422858855674-louisiana-consumer-protection-guide-file-complaints-fast",
               "snippet": ""
             },
             {
-              "title": "BNPL vs Credit Card: Costs, Protections, Verdict 2026",
-              "url": "https://www.fintech-zone.com/bnpl-vs-credit-cards",
+              "title": "Louisiana Attorney General - Contact Info & Complaint Form",
+              "url": "https://attorneygeneral.net/states/louisiana/attorney-general/",
               "snippet": ""
             },
             {
-              "title": "Is BNPL Better for Consumers Than Credit Cards?",
-              "url": "https://fintechtakes.com/articles/2025-01-31/is-bnpl-better-for-consumers-than-credit-cards/",
+              "title": "PDF CONSUMER COMPLAINT FORM - heal-online.org",
+              "url": "https://heal-online.org/Files/Article/9708/Documents/ConsumerDisputeForm.pdf",
               "snippet": ""
             },
             {
-              "title": "BNPL vs. Credit Cards: Which Is Better for Your Wallet in 2026?",
-              "url": "https://www.crediful.com/bnpl-vs-credit-cards/",
-              "snippet": ""
-            },
-            {
-              "title": "BNPL vs Credit Cards: Fees & Protections | The Cards Guy",
-              "url": "https://thecardsguy.com/buy-now-pay-later-bnpl-vs-credit-cards-what-consumers-need-to-know/",
-              "snippet": ""
-            },
-            {
-              "title": "Is 'buy now, pay later' safe? New York Fed study clashes ... - Fortune",
-              "url": "https://fortune.com/2024/02/14/buy-now-pay-later-like-credit-card-or-safe/",
+              "title": "Louisiana Attorney General Complaints - ComplaintInfo.com",
+              "url": "https://complaintinfo.com/l-complaints/louisiana-attorney-general-complaints.html",
               "snippet": ""
             }
           ],
           "Bing": [],
           "Yahoo": [
             {
-              "title": "onwealth.nethttps://onwealth.net \u203a articles \u203a bnpl-vs-credit-cardBNPL vs. Credit Card: Which Is Safer for Short-Term Spending?",
-              "url": "https://onwealth.net/articles/bnpl-vs-credit-card",
+              "title": "kinslow-regulatory-archive.orghttps://kinslow-regulatory-archive.org \u203a documentsLOUISIANA ATTORNEY GENERAL DISPUTE SUBMISSION",
+              "url": "https://kinslow-regulatory-archive.org/documents/louisiana-ag-dispute-submission.pdf",
               "snippet": ""
             },
             {
-              "title": "CardRatingshttps://www.cardratings.com \u203a bnpl-vs-credit-cardsBNPL vs Credit Card: Differences, Costs & Credit Impact",
-              "url": "https://www.cardratings.com/financial-literacy/bnpl-vs-credit-cards.html",
+              "title": "Louisiana Attorney Generalhttps://www.ag.state.la.us \u203a Page \u203a ConsumerDisputeLouisiana Office of the Attorney General",
+              "url": "https://www.ag.state.la.us/Page/ConsumerDispute",
               "snippet": ""
             },
             {
-              "title": "talkindebts.comhttps://talkindebts.com \u203a blogs \u203a bnpl-vs-credit-cards-whichBNPL vs Credit Cards: Which Is Safer for Your Wallet?",
-              "url": "https://talkindebts.com/blogs/bnpl-vs-credit-cards-which-is-safer-for-your-wallet/",
+              "title": "Louisiana Attorney Generalhttps://www.ag.state.la.us \u203a Form \u203a ConsumerLouisiana Office of the Attorney General - ag.state.la.us",
+              "url": "https://www.ag.state.la.us/Form/Consumer/Dispute",
               "snippet": ""
             },
             {
-              "title": "thefinancetree.comhttps://thefinancetree.com \u203a buy-now-pay-later-vs-creditBuy Now Pay Later vs Credit Card: Which Is Safer?",
-              "url": "https://thefinancetree.com/buy-now-pay-later-vs-credit-card-budget-safety/",
+              "title": "ag.louisiana.govhttps://www.ag.louisiana.gov \u203a Page \u203a 6Louisiana Office of the Attorney General",
+              "url": "https://www.ag.louisiana.gov/Page/6",
               "snippet": ""
             },
             {
-              "title": "the-credit-scout.comhttps://the-credit-scout.com \u203a buy-now-pay-later-vs-creditBNPL vs. Credit Card: The Mistakes Costing Spenders Most",
-              "url": "https://the-credit-scout.com/buy-now-pay-later-vs-credit-card-mistakes-2026/",
+              "title": "complaintinfo.comhttps://complaintinfo.com \u203a l-complaints \u203a louisianaLouisiana Attorney General Complaints - ComplaintInfo.com",
+              "url": "https://complaintinfo.com/l-complaints/louisiana-attorney-general-complaints.html",
               "snippet": ""
             },
             {
-              "title": "fintech-zone.comhttps://www.fintech-zone.com \u203a bnpl-vs-credit-cardsBNPL vs Credit Card: Costs, Protections, Verdict 2026",
-              "url": "https://www.fintech-zone.com/bnpl-vs-credit-cards",
+              "title": "ag.louisiana.govhttps://ag.louisiana.gov \u203a CharitiesLouisiana Office of the Attorney General",
+              "url": "https://ag.louisiana.gov/Charities",
               "snippet": ""
             },
             {
-              "title": "mitigately.comhttps://www.mitigately.com \u203a blog \u203a buy-now-pay-later-vsBuy Now, Pay Later vs. Credit Cards: Which One Really Works ...",
-              "url": "https://www.mitigately.com/blog/buy-now-pay-later-vs-credit-cards-which-one-really-works-for-you",
-              "snippet": ""
-            },
-            {
-              "title": "Suggestions",
-              "url": "https://yahoo.uservoice.com/forums/193847-search",
-              "snippet": ""
-            }
-          ]
-        },
-        "target_matches": []
-      },
-      {
-        "query": "CFPB Complaint 260805-36566273 unapplied merchant refund ledger loop",
-        "engines": {
-          "DuckDuckGo": [
-            {
-              "title": "Submit a complaint | Consumer Financial Protection Bureau",
-              "url": "https://www.consumerfinance.gov/complaint/",
-              "snippet": ""
-            },
-            {
-              "title": "Search the Consumer Complaint Database | Consumer Financial Protection ...",
-              "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/deta",
-              "snippet": ""
-            },
-            {
-              "title": "Complaint Explorer",
-              "url": "https://complaintexplorer.consumerfinance.gov/",
-              "snippet": ""
-            },
-            {
-              "title": "CFPB Complaint Monitor",
-              "url": "http://cfpbcomplaintmonitor.org/Consumer_Complaint_History.aspx",
-              "snippet": ""
-            },
-            {
-              "title": "CFPB Consumer Complaints",
-              "url": "http://cfpbcomplaintmonitor.org/Consumer_Complaints-by-Product.aspx",
-              "snippet": ""
-            },
-            {
-              "title": "ComplaintLookup \u2014 Search Consumer Complaints by Company",
-              "url": "https://complaintlookup.com/",
-              "snippet": ""
-            },
-            {
-              "title": "CFPB - legismcp.com",
-              "url": "https://legismcp.com/docs/tools/cfpb",
-              "snippet": ""
-            },
-            {
-              "title": "Search US consumer financial complaints (CFPB data)",
-              "url": "https://financialcomplaints.org/",
-              "snippet": ""
-            },
-            {
-              "title": "Financial complaints in the US - search the CFPB database",
-              "url": "https://financialcomplaints.org/financial-complaints",
-              "snippet": ""
-            },
-            {
-              "title": "Consumer Complaints - consumerfinance.gov - GitHub Pages",
-              "url": "https://cfpb.github.io/consumerfinance.gov/consumer-complaint-database/",
-              "snippet": ""
-            }
-          ],
-          "Google": [
-            {
-              "title": "Submit a complaint | Consumer Financial Protection Bureau",
-              "url": "https://www.consumerfinance.gov/complaint/",
-              "snippet": ""
-            },
-            {
-              "title": "Search the Consumer Complaint Database | Consumer Financial Protection ...",
-              "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/deta",
-              "snippet": ""
-            },
-            {
-              "title": "CFPB Complaint Monitor",
-              "url": "http://cfpbcomplaintmonitor.org/Consumer_Complaint_History.aspx",
-              "snippet": ""
-            },
-            {
-              "title": "Complaint Explorer",
-              "url": "https://complaintexplorer.consumerfinance.gov/",
-              "snippet": ""
-            },
-            {
-              "title": "CFPB Consumer Complaints",
-              "url": "http://cfpbcomplaintmonitor.org/Consumer_Complaints-by-Product.aspx",
-              "snippet": ""
-            },
-            {
-              "title": "Search US consumer financial complaints (CFPB data)",
-              "url": "https://financialcomplaints.org/",
-              "snippet": ""
-            },
-            {
-              "title": "ComplaintLookup \u2014 Search Consumer Complaints by Company",
-              "url": "https://complaintlookup.com/",
-              "snippet": ""
-            },
-            {
-              "title": "CFPB - legismcp.com",
-              "url": "https://legismcp.com/docs/tools/cfpb",
-              "snippet": ""
-            },
-            {
-              "title": "Financial complaints in the US - search the CFPB database",
-              "url": "https://financialcomplaints.org/financial-complaints",
-              "snippet": ""
-            },
-            {
-              "title": "PDF Submit a complaint - files.consumerfinance.gov",
-              "url": "https://files.consumerfinance.gov/f/documents/cfpb_040_2025.pdf",
-              "snippet": ""
-            }
-          ],
-          "Bing": [],
-          "Yahoo": [
-            {
-              "title": "Consumer Financial Protection Bureauhttps://www.consumerfinance.gov \u203a complaintSubmit a complaint | Consumer Financial Protection Bureau",
-              "url": "https://www.consumerfinance.gov/complaint/",
-              "snippet": ""
-            },
-            {
-              "title": "Credit And Consumer Reporting Complaint Notice",
-              "url": "https://www.consumerfinance.gov/complaint/credit-and-consumer-reporting-complaint-notice/",
-              "snippet": ""
-            },
-            {
-              "title": "Log In",
-              "url": "https://portal.consumerfinance.gov/consumer/s/",
-              "snippet": ""
-            },
-            {
-              "title": "Consumer Complaint Database",
-              "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
-              "snippet": ""
-            },
-            {
-              "title": "The Complaint Process",
-              "url": "https://www.consumerfinance.gov/complaint/process/",
-              "snippet": ""
-            },
-            {
-              "title": "Contact Us",
-              "url": "https://www.consumerfinance.gov/about-us/contact-us/",
-              "snippet": ""
-            },
-            {
-              "title": "Press Releases",
-              "url": "https://www.consumerfinance.gov/about-us/newsroom/",
-              "snippet": ""
-            },
-            {
-              "title": "Final Rules",
-              "url": "https://www.consumerfinance.gov/rules-policy/final-rules/",
-              "snippet": ""
-            },
-            {
-              "title": "Resources for Helping Others",
-              "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/",
-              "snippet": ""
-            },
-            {
-              "title": "Credit Reports & Scores",
-              "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
-              "snippet": ""
-            },
-            {
-              "title": "Office of Minority and Women Inclusion",
-              "url": "https://www.consumerfinance.gov/about-us/omwi/",
-              "snippet": ""
-            },
-            {
-              "title": "Consumer Financial Protection Bureauhttps://www.consumerfinance.gov \u203a data-research \u203a consumerSearch the Consumer Complaint Database | Consumer Financial ...",
-              "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/deta",
-              "snippet": ""
-            },
-            {
-              "title": "cfpbcomplaintmonitor.orghttp://cfpbcomplaintmonitor.org \u203a Consumer_Complaint_HistoryCFPB Complaint Monitor",
-              "url": "http://cfpbcomplaintmonitor.org/Consumer_Complaint_History.aspx",
-              "snippet": ""
-            },
-            {
-              "title": "cfpbcomplaintmonitor.orghttp://cfpbcomplaintmonitor.org \u203a Consumer_Complaints-by-ProductCFPB Consumer Complaints",
-              "url": "http://cfpbcomplaintmonitor.org/Consumer_Complaints-by-Product.aspx",
-              "snippet": ""
-            },
-            {
-              "title": "complaintexplorer.consumerfinance.govhttps://complaintexplorer.consumerfinance.govComplaint Explorer",
-              "url": "https://complaintexplorer.consumerfinance.gov/",
-              "snippet": ""
-            },
-            {
-              "title": "complaintexplorer.consumerfinance.govhttps://complaintexplorer.consumerfinance.gov \u203a loginComplaint Explorer",
-              "url": "https://complaintexplorer.consumerfinance.gov/login/",
-              "snippet": ""
-            },
-            {
-              "title": "financialcomplaints.orghttps://financialcomplaints.orgSearch US consumer financial complaints (CFPB data)",
-              "url": "https://financialcomplaints.org/",
-              "snippet": ""
-            },
-            {
-              "title": "Search US consumer financial complaints (CFPB data)",
-              "url": "https://financialcomplaints.org/",
-              "snippet": ""
-            },
-            {
-              "title": "Search US consumer financial complaints (CFPB data)",
-              "url": "https://financialcomplaints.org/",
-              "snippet": ""
-            },
-            {
-              "title": "Search the Consumer Complaint Database | Consumer Financial Protec\u2026",
-              "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/deta",
-              "snippet": ""
-            },
-            {
-              "title": "Search US consumer financial complaints (CFPB data)",
-              "url": "https://financialcomplaints.org/",
-              "snippet": ""
-            },
-            {
-              "title": "Suggestions",
-              "url": "https://yahoo.uservoice.com/forums/193847-search",
-              "snippet": ""
-            }
-          ]
-        },
-        "target_matches": []
-      },
-      {
-        "query": "Buy now pay later hidden fees and 36 percent APR",
-        "engines": {
-          "DuckDuckGo": [
-            {
-              "title": "Affirm Buy Now, Pay Later: 2026 Review - NerdWallet",
-              "url": "https://www.nerdwallet.com/personal-loans/reviews/affirm-buy-now-pay-later",
-              "snippet": ""
-            },
-            {
-              "title": "Best Buy Now, Pay Later Apps of 2026 Compared Side by Side",
-              "url": "https://www.moneylion.com/learn/personal-loans/buy-now-pay-later/best-buy-now-pay-later-apps",
-              "snippet": ""
-            },
-            {
-              "title": "Buy Now Pay Later: The Hidden Cost of Afterpay and Klarna (2026)",
-              "url": "https://pocketclear.app/blog/buy-now-pay-later-hidden-cost.html",
-              "snippet": ""
-            },
-            {
-              "title": "What does Buy Now Pay Later",
-              "url": "https://bnplcalculator.com/",
-              "snippet": ""
-            },
-            {
-              "title": "Buy Now Pay Later (BNPL): How It Works and the Hidden Risks (2026)",
-              "url": "https://wealthvieu.com/personal-finance/budgeting/buy-now-pay-later-guide/",
-              "snippet": ""
-            },
-            {
-              "title": "Best Buy Now, Pay Later Apps of August 2026 - CNBC",
-              "url": "https://www.cnbc.com/select/best-buy-now-pay-later-apps/",
-              "snippet": ""
-            },
-            {
-              "title": "Buy Now Pay Later Cost vs Saving Up - thefinancetree.com",
-              "url": "https://thefinancetree.com/buy-now-pay-later-cost-vs-saving-up/",
-              "snippet": ""
-            },
-            {
-              "title": "Best Buy Now, Pay Later Sites & Apps - LendingTree",
-              "url": "https://www.lendingtree.com/personal/buy-now-pay-later/",
-              "snippet": ""
-            },
-            {
-              "title": "The Hidden Costs of BNPL: What Buy Now Pay Later Actually Costs You in ...",
-              "url": "https://www.frizzbee.co/blog/hidden-costs-of-bnpl",
-              "snippet": ""
-            },
-            {
-              "title": "How Buy Now Pay Later Cards Work: Costs & Hidden Fees",
-              "url": "https://www.financeoffer.com/credit-cards/guide/buy-now-pay-later-cards",
-              "snippet": ""
-            }
-          ],
-          "Google": [
-            {
-              "title": "Affirm Buy Now, Pay Later: 2026 Review - NerdWallet",
-              "url": "https://www.nerdwallet.com/personal-loans/reviews/affirm-buy-now-pay-later",
-              "snippet": ""
-            },
-            {
-              "title": "Best Buy Now, Pay Later Apps of 2026 Compared Side by Side",
-              "url": "https://www.moneylion.com/learn/personal-loans/buy-now-pay-later/best-buy-now-pay-later-apps",
-              "snippet": ""
-            },
-            {
-              "title": "Buy Now Pay Later: The Hidden Cost of Afterpay and Klarna (2026)",
-              "url": "https://pocketclear.app/blog/buy-now-pay-later-hidden-cost.html",
-              "snippet": ""
-            },
-            {
-              "title": "Best Buy Now, Pay Later Sites & Apps - LendingTree",
-              "url": "https://www.lendingtree.com/personal/buy-now-pay-later/",
-              "snippet": ""
-            },
-            {
-              "title": "The Hidden Costs of BNPL: What Buy Now Pay Later Actually Costs You in ...",
-              "url": "https://www.frizzbee.co/blog/hidden-costs-of-bnpl",
-              "snippet": ""
-            },
-            {
-              "title": "Best Buy Now, Pay Later Apps of August 2026 - CNBC",
-              "url": "https://www.cnbc.com/select/best-buy-now-pay-later-apps/",
-              "snippet": ""
-            },
-            {
-              "title": "Buy Now Pay Later Cost vs Saving Up - thefinancetree.com",
-              "url": "https://thefinancetree.com/buy-now-pay-later-cost-vs-saving-up/",
-              "snippet": ""
-            },
-            {
-              "title": "Buy Now Pay Later (BNPL): How It Works and the Hidden Risks (2026)",
-              "url": "https://wealthvieu.com/personal-finance/budgeting/buy-now-pay-later-guide/",
-              "snippet": ""
-            },
-            {
-              "title": "How Buy Now Pay Later Cards Work: Costs & Hidden Fees",
-              "url": "https://www.financeoffer.com/credit-cards/guide/buy-now-pay-later-cards",
-              "snippet": ""
-            },
-            {
-              "title": "The Top Buy Now, Pay Later Apps for 2026 - NerdWallet",
-              "url": "https://www.nerdwallet.com/personal-loans/learn/buy-now-pay-later-apps",
-              "snippet": ""
-            }
-          ],
-          "Bing": [],
-          "Yahoo": [
-            {
-              "title": "MoneyLionhttps://www.moneylion.com \u203a best-buy-now-pay-later-appsBest Buy Now, Pay Later Apps of 2026 Compared Side by Side",
-              "url": "https://www.moneylion.com/learn/personal-loans/buy-now-pay-later/best-buy-now-pay-later-apps",
-              "snippet": ""
-            },
-            {
-              "title": "NerdWallethttps://www.nerdwallet.com \u203a affirm-buy-now-pay-laterAffirm Buy Now, Pay Later: 2026 Review - NerdWallet",
-              "url": "https://www.nerdwallet.com/personal-loans/reviews/affirm-buy-now-pay-later",
-              "snippet": ""
-            },
-            {
-              "title": "bnplcalculator.comhttps://bnplcalculator.comWhat does Buy Now Pay Later",
-              "url": "https://bnplcalculator.com/",
-              "snippet": ""
-            },
-            {
-              "title": "My Exchange Storehttps://myexchangestore.com \u203a providers \u203a affirmAffirm Review 2026 | Buy Now Pay Later | 0% APR at 300,000 ...",
-              "url": "https://myexchangestore.com/providers/affirm",
-              "snippet": ""
-            },
-            {
-              "title": "affirmbnpl.comhttps://affirmbnpl.comAffirm BNPL \u2014 Buy Now, Pay Later with 0% APR at 419K+ Stores",
-              "url": "https://affirmbnpl.com/",
-              "snippet": ""
-            },
-            {
-              "title": "wealthvieu.comhttps://wealthvieu.com \u203a budgeting \u203a buy-now-pay-later-guideBuy Now Pay Later (BNPL): How It Works and the Hidden Risks ...",
-              "url": "https://wealthvieu.com/personal-finance/budgeting/buy-now-pay-later-guide/",
-              "snippet": ""
-            },
-            {
-              "title": "pocketclear.apphttps://pocketclear.app \u203a blog \u203a buy-now-pay-later-hiddenBuy Now Pay Later: The Hidden Cost of Afterpay and Klarna ...",
-              "url": "https://pocketclear.app/blog/buy-now-pay-later-hidden-cost.html",
-              "snippet": ""
-            },
-            {
-              "title": "The Top Buy Now, Pay Later Apps for 2026 - NerdWallet",
-              "url": "https://www.nerdwallet.com/personal-loans/learn/buy-now-pay-later-apps",
-              "snippet": ""
-            },
-            {
-              "title": "The Top Buy Now, Pay Later Apps for 2026 - NerdWallet",
-              "url": "https://www.nerdwallet.com/personal-loans/learn/buy-now-pay-later-apps",
-              "snippet": ""
-            },
-            {
-              "title": "The Top Buy Now, Pay Later Apps for 2026 - NerdWallet",
-              "url": "https://www.nerdwallet.com/personal-loans/learn/buy-now-pay-later-apps",
-              "snippet": ""
-            },
-            {
-              "title": "The Top Buy Now, Pay Later Apps for 2026 - NerdWallet",
-              "url": "https://www.nerdwallet.com/personal-loans/learn/buy-now-pay-later-apps",
-              "snippet": ""
-            },
-            {
-              "title": "Suggestions",
-              "url": "https://yahoo.uservoice.com/forums/193847-search",
-              "snippet": ""
-            }
-          ]
-        },
-        "target_matches": []
-      },
-      {
-        "query": "Fair Credit Reporting Act dispute notices fintech installment loans",
-        "engines": {
-          "DuckDuckGo": [
-            {
-              "title": "Fintech Lending & FCRA Compliance: BNPL Errors, Adverse Action ...",
-              "url": "https://consumerattorneys.com/article/fintech-lending-fcra-compliance",
-              "snippet": ""
-            },
-            {
-              "title": "\u00a7 1022.43 Direct disputes. - Consumer Financial Protection Bureau",
-              "url": "https://www.consumerfinance.gov/rules-policy/regulations/1022/43/",
-              "snippet": ""
-            },
-            {
-              "title": "Submit a complaint | Consumer Financial Protection Bureau",
-              "url": "https://www.consumerfinance.gov/complaint/",
-              "snippet": ""
-            },
-            {
-              "title": "PDF Fair Credit Reporting Act - Federal Trade Commission",
-              "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/fcra-march-2026.pdf",
-              "snippet": ""
-            },
-            {
-              "title": "Fair Credit Reporting Act - Federal Trade Commission",
-              "url": "https://www.ftc.gov/legal-library/browse/statutes/fair-credit-reporting-act",
-              "snippet": ""
-            },
-            {
-              "title": "How to Dispute Credit Reporting Errors Under the Fair Credit Reporting ...",
-              "url": "https://www.harborstonelaw.com/posts/how-to-dispute-credit-reporting-errors-under-the-fair-credit-reporting-act-fcra",
-              "snippet": ""
-            },
-            {
-              "title": "Disputing Errors on Your Credit Reports | Consumer Advice",
-              "url": "https://consumer.ftc.gov/articles/disputing-errors-your-credit-reports",
-              "snippet": ""
-            },
-            {
-              "title": "PDF Fair Credit Reporting Act - Federal Trade Commission",
-              "url": "https://www.consumer.ftc.gov/sites/default/files/articles/pdf/pdf-0111-fair-credit-reporting-act.pdf",
-              "snippet": ""
-            },
-            {
-              "title": "15 U.S. Code \u00a7 1681i - Procedure in case of disputed accuracy",
-              "url": "https://www.law.cornell.edu/uscode/text/15/1681i",
-              "snippet": ""
-            },
-            {
-              "title": "Credit Report Errors Lawyers | Fair Credit Reporting Act Attorneys",
-              "url": "https://www.consumerlawfirm.com/consumer-rights-fcra-fair-credit-reporting-act",
-              "snippet": ""
-            }
-          ],
-          "Google": [
-            {
-              "title": "Fintech Lending & FCRA Compliance: BNPL Errors, Adverse Action ...",
-              "url": "https://consumerattorneys.com/article/fintech-lending-fcra-compliance",
-              "snippet": ""
-            },
-            {
-              "title": "\u00a7 1022.43 Direct disputes. - Consumer Financial Protection Bureau",
-              "url": "https://www.consumerfinance.gov/rules-policy/regulations/1022/43/",
-              "snippet": ""
-            },
-            {
-              "title": "Submit a complaint | Consumer Financial Protection Bureau",
-              "url": "https://www.consumerfinance.gov/complaint/",
-              "snippet": ""
-            },
-            {
-              "title": "PDF Fair Credit Reporting Act - Federal Trade Commission",
-              "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/fcra-march-2026.pdf",
-              "snippet": ""
-            },
-            {
-              "title": "Fair Credit Reporting Act - Federal Trade Commission",
-              "url": "https://www.ftc.gov/legal-library/browse/statutes/fair-credit-reporting-act",
-              "snippet": ""
-            },
-            {
-              "title": "How to Dispute Credit Reporting Errors Under the Fair Credit Reporting ...",
-              "url": "https://www.harborstonelaw.com/posts/how-to-dispute-credit-reporting-errors-under-the-fair-credit-reporting-act-fcra",
-              "snippet": ""
-            },
-            {
-              "title": "Disputing Errors on Your Credit Reports | Consumer Advice",
-              "url": "https://consumer.ftc.gov/articles/disputing-errors-your-credit-reports",
-              "snippet": ""
-            },
-            {
-              "title": "PDF Fair Credit Reporting Act - Federal Trade Commission",
-              "url": "https://www.consumer.ftc.gov/sites/default/files/articles/pdf/pdf-0111-fair-credit-reporting-act.pdf",
-              "snippet": ""
-            },
-            {
-              "title": "15 U.S. Code \u00a7 1681i - Procedure in case of disputed accuracy",
-              "url": "https://www.law.cornell.edu/uscode/text/15/1681i",
-              "snippet": ""
-            },
-            {
-              "title": "Credit Report Errors Lawyers | Fair Credit Reporting Act Attorneys",
-              "url": "https://www.consumerlawfirm.com/consumer-rights-fcra-fair-credit-reporting-act",
-              "snippet": ""
-            }
-          ],
-          "Bing": [],
-          "Yahoo": [
-            {
-              "title": "Consumer Attorneyshttps://consumerattorneys.com \u203a article \u203a fintech-lendingFintech Lending & FCRA Compliance: BNPL Errors, Adverse ...",
-              "url": "https://consumerattorneys.com/article/fintech-lending-fcra-compliance",
-              "snippet": ""
-            },
-            {
-              "title": "Federal Trade Commissionhttps://www.ftc.gov \u203a system \u203a filesFair Credit Reporting Act - Federal Trade Commission",
-              "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/fcra-march-2026.pdf",
-              "snippet": ""
-            },
-            {
-              "title": "Consumer Financial Protection Bureauhttps://www.consumerfinance.gov \u203a rules-policy \u203a regulations\u00a7 1022.43 Direct disputes. - Consumer Financial Protection ...",
-              "url": "https://www.consumerfinance.gov/rules-policy/regulations/1022/43/",
-              "snippet": ""
-            },
-            {
-              "title": "Consumer Financial Protection Bureauhttps://www.consumerfinance.gov \u203a complaintSubmit a complaint | Consumer Financial Protection Bureau",
-              "url": "https://www.consumerfinance.gov/complaint/",
-              "snippet": ""
-            },
-            {
-              "title": "kinslow-regulatory-archive.orghttps://kinslow-regulatory-archive.orgCharles W. Kinslow IV | Fintech Regulatory Archive",
-              "url": "https://kinslow-regulatory-archive.org/",
-              "snippet": ""
-            },
-            {
-              "title": "Federal Trade Commissionhttps://www.ftc.gov \u203a statutes \u203a fair-credit-reporting-actFair Credit Reporting Act - Federal Trade Commission",
-              "url": "https://www.ftc.gov/legal-library/browse/statutes/fair-credit-reporting-act",
-              "snippet": ""
-            },
-            {
-              "title": "harborstonelaw.comhttps://www.harborstonelaw.com \u203a posts \u203a how-to-disputeHow to Dispute Credit Reporting Errors Under the Fair Credit ...",
-              "url": "https://www.harborstonelaw.com/posts/how-to-dispute-credit-reporting-errors-under-the-fair-credit-reporting-act-fcra",
+              "title": "stateregstoday.comhttps://www.stateregstoday.com \u203a government-forms \u203a attorneyAttorney General Consumer Complaint Forms in Louisiana",
+              "url": "https://www.stateregstoday.com/government-forms/attorney-general-consumer-complaint-forms-in-louisiana",
               "snippet": ""
             },
             {
@@ -859,12 +508,103 @@
         },
         "target_matches": [
           {
+            "engine": "DuckDuckGo",
+            "indicator": "kinslow-regulatory-archive.org",
+            "title": "PDF Louisiana Attorney General Dispute Submission",
+            "url": "https://kinslow-regulatory-archive.org/documents/louisiana-ag-dispute-submission.pdf"
+          },
+          {
+            "engine": "Google",
+            "indicator": "kinslow-regulatory-archive.org",
+            "title": "PDF Louisiana Attorney General Dispute Submission",
+            "url": "https://kinslow-regulatory-archive.org/documents/louisiana-ag-dispute-submission.pdf"
+          },
+          {
             "engine": "Yahoo",
             "indicator": "kinslow-regulatory-archive.org",
-            "title": "kinslow-regulatory-archive.orghttps://kinslow-regulatory-archive.orgCharles W. Kinslow IV | Fintech Regulatory Archive",
-            "url": "https://kinslow-regulatory-archive.org/"
+            "title": "kinslow-regulatory-archive.orghttps://kinslow-regulatory-archive.org \u203a documentsLOUISIANA ATTORNEY GENERAL DISPUTE SUBMISSION",
+            "url": "https://kinslow-regulatory-archive.org/documents/louisiana-ag-dispute-submission.pdf"
           }
         ]
+      },
+      {
+        "query": "CFPB regulatory circular BNPL dispute rights interpretation",
+        "engines": {
+          "DuckDuckGo": [],
+          "Google": [
+            {
+              "title": "Buy Now, Pay Later (BNPL) products - Consumer Financial Protection Bureau",
+              "url": "https://www.consumerfinance.gov/compliance/compliance-resources/consumer-cards-resources/buy-now-pay-later-bnpl-products/",
+              "snippet": ""
+            },
+            {
+              "title": "Buy Now, Pay Later (BNPL): CFPB Rule on Consumer Protections - KPMG",
+              "url": "https://kpmg.com/us/en/articles/2024/buy-now-pay-later-bnpl-cfpb-rule-on-consumer-protections-reg-alert.html",
+              "snippet": ""
+            },
+            {
+              "title": "PDF Buy Now, Pay Later (BNPL): CFPB Rule on Consumer Protections",
+              "url": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2024/buy-now-pay-later-bnpl-cfpb-rule-on-consumer-protections-reg-alert.pdf",
+              "snippet": ""
+            },
+            {
+              "title": "PDF Docket No. CFPB-2024-0017 BPI/CBA Comment August 1, 2024 Consumer ...",
+              "url": "https://consumerbankers.com/wp-content/uploads/2024/08/BNPL-Interpretive-Rule-Comment-Letter-8-1-24.pdf",
+              "snippet": ""
+            },
+            {
+              "title": "CFPB will not issue revised BNPL rule | Consumer Finance Monitor",
+              "url": "https://www.consumerfinancemonitor.com/2025/06/20/cfpb-will-not-issue-revised-bnpl-rule/",
+              "snippet": ""
+            },
+            {
+              "title": "Guidance | Consumer Financial Protection Bureau",
+              "url": "https://www.consumerfinance.gov/compliance/guidance/",
+              "snippet": ""
+            },
+            {
+              "title": "PDF Consumer Reports National Consumer Law Center (on behalf of its ... - NCLC",
+              "url": "https://www.nclc.org/wp-content/uploads/2024/08/BNPL-interpretive-rule-long-NCLC-CR-comments-2024-FINAL.pdf",
+              "snippet": ""
+            },
+            {
+              "title": "New CFPB Interpretive Rule to Regulate BNPL - Stinson",
+              "url": "https://www.stinson.com/newsroom-publications-new-cfpb-interpretive-rule-to-regulate-bnpl",
+              "snippet": ""
+            },
+            {
+              "title": "CFPB Issues New Interpretive Rule for BNPL Lenders",
+              "url": "https://www.paymentsjournal.com/cfpb-issues-new-interpretive-rule-for-bnpl-lenders/",
+              "snippet": ""
+            },
+            {
+              "title": "CFPB Rule Gives BNPL Buyers Real Dispute Rights - WhatsIssue",
+              "url": "https://whatsissue.com/cfpb-rule-gives-bnpl-buyers-real-dispute-rights/",
+              "snippet": ""
+            }
+          ],
+          "Bing": [],
+          "Yahoo": [
+            {
+              "error": "HTTP Error 500: INKApi Error"
+            }
+          ]
+        },
+        "target_matches": []
+      },
+      {
+        "query": "Scott Williams Affirm Vice President Client Success dispute",
+        "engines": {
+          "DuckDuckGo": [],
+          "Google": [],
+          "Bing": [],
+          "Yahoo": [
+            {
+              "error": "HTTP Error 500: INKApi Error"
+            }
+          ]
+        },
+        "target_matches": []
       }
     ]
   }

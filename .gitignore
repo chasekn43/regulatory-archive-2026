@@ -19,3 +19,12 @@ __pycache__/
 scratch/
 .gemini/
 .system_generated/
+
+# Auxiliary Tool Suites & Local Reports
+bRIGHT lIGHT/403_tools-main/
+bRIGHT lIGHT/solver-main/
+bRIGHT lIGHT/indexnow-main/.github/
+search_audit_results.json
+forum_leads_report.md
+tools/forum_lead_monitor.py
+*.docx

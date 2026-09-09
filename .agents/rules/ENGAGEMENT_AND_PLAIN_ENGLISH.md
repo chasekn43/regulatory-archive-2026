@@ -47,3 +47,13 @@
 ## 6. Debra Fine's Conversational Engagement
 * **Ask Open-Ended Questions**: *"Have you ever had a customer service bot run you in circles?"*
 * **Human Empathy**: Acknowledge the emotional frustration of dealing with billion-dollar automated systems.
+
+---
+
+## 7. Permanent Ban on Melodramatic AI Throat-Clearing & Defensive Confession Tropes
+* **NEVER use theatrical, fake-humble confession preambles**:
+  * BANNED: *"Here is the raw, unvarnished truth of why..."*
+  * BANNED: *"To be completely transparent with you..."*
+  * BANNED: *"Let me be brutally honest..."*
+  * BANNED: *"Here is what really happened behind the scenes..."*
+* **The Rule**: Cut the preamble. Deliver the raw data, exact terminal outputs, and mechanical facts directly without rhetorical framing, hand-wringing, or theatrical build-up.
