@@ -75,3 +75,12 @@
   2. **Secondary/Mirror Origin Check**: Query all endpoints against the secondary live host (`charwiz43.github.io/BNPL-abuse-fintech-lies-regulatory/`).
   3. **Vanity Domain / Cloudflare Edge Redirect Check**: Test both root and subpath 301/302 routing from branded domains (`kinslow-regulatory-archive.org` and `bypassbots.org`).
 * **Zero Assumptions**: If any origin, mirror, or redirect returns a 404, 403, or 5xx, state the exact failure, the exact URL, and the raw terminal response immediately. Never claim parity without all three checks passing.
+
+---
+
+## 9. Immediate Concrete Execution & Zero GUI Interruption Protocol
+
+* **Immediate Implementation**: Never announce or promise fixes in conversation without executing them immediately in code. Fix the files directly, verify with automated linters, and push.
+* **Zero Interactive Credential Popups**: Never run Git commands that can trigger interactive OS credential dialogs or Windows Credential Manager popups (e.g., Atlassian/Git GUI login). Always prepend `$env:GIT_TERMINAL_PROMPT=0` on Windows PowerShell.
+* **Zero Inline Styles Standard**: Never leave `style="..."` inline attributes in production HTML files. All layout, spacing, and visual properties must reside in centralized CSS (`index.css`) with clean semantic class names.
+* **Secondary Remote Permissions**: The `charwiz43` secondary remote is owned by an alternate GitHub account and returns 403 when pushed with the local `chasekn43` credentials. Never attempt interactive auth to resolve it; report the exact terminal permission code.
