@@ -1,6 +1,6 @@
 {
-  "name": "Charles W. Kinslow IV | Fintech & BNPL Regulatory Archive",
-  "short_name": "Kinslow Archive",
+  "name": "Kinslow Regulatory Archive",
+  "short_name": "KinslowVault",
   "description": "Public regulatory archive of CFPB Complaint #260717-35668593, primary exhibits, and legal research.",
   "start_url": "./",
   "scope": "./",

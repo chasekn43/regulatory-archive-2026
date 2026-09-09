@@ -1,6 +1,6 @@
 # regulatory-archive-2026 — Crawler Directives & AI Search Permissions
 # Primary Sitemap
-Sitemap: https://chasekn43.github.io/regulatory-archive-2026/sitemap.xml
+Sitemap: https://kinslow-regulatory-archive.org/sitemap.xml
 
 # Default Rule for All Crawlers
 User-agent: *

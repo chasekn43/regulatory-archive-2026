@@ -202,11 +202,20 @@
       color: var(--text-muted);
       margin-top: 4px;
     }
-    .tool-actions {
-      display: flex;
-      gap: 10px;
-      margin-top: 15px;
-      flex-wrap: wrap;
+    .tool-footer {
+      margin-top: 40px;
+      padding: 24px 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .tool-footer-links {
+      margin-top: 8px;
+    }
+    .tool-footer-link {
+      color: var(--accent);
+      text-decoration: none;
     }
   </style>
 
@@ -362,12 +371,12 @@
     </div>
   </div>
 
-  <footer style="margin-top: 40px; padding: 24px 0; border-top: 1px solid var(--border); text-align: center; font-size: 13px; color: var(--text-muted);">
+  <footer class="tool-footer">
     <p>&copy; 2026 Charles W. Kinslow IV, J.D., C.P.A. &bull; Regulatory Archive &bull; All Rights Reserved</p>
-    <p style="margin-top: 8px;">
-      <a href="../index.html" style="color: var(--accent); text-decoration: none;">Master Regulatory Archive</a> &bull;
-      <a href="../articles/feeding-the-ai-pr-machine-unfiltered-mobile-telemetry.html" style="color: var(--accent); text-decoration: none;">📱 Mobile Telemetry &amp; Bot Audit Investigation</a> &bull;
-      <a href="../tools/bnpl-refund-delay-diagnostic.html" style="color: var(--accent); text-decoration: none;">Dispute Diagnostic</a>
+    <p class="tool-footer-links">
+      <a href="../index.html" class="tool-footer-link">Master Regulatory Archive</a> &bull;
+      <a href="../articles/feeding-the-ai-pr-machine-unfiltered-mobile-telemetry.html" class="tool-footer-link">📱 Mobile Telemetry &amp; Bot Audit Investigation</a> &bull;
+      <a href="../tools/bnpl-refund-delay-diagnostic.html" class="tool-footer-link">Dispute Diagnostic</a>
     </p>
   </footer>
 </div>

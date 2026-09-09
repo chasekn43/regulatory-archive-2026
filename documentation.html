@@ -283,6 +283,21 @@
       line-height: 1.55;
     }
 
+    .card-actions {
+      margin-top: 14px;
+    }
+
+    .card-link-accent {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    .card-link-muted {
+      color: var(--text-muted);
+      text-decoration: underline;
+    }
+
     .viewer-container {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -536,9 +551,9 @@
       <div class="card">
         <h3>5. Telemetry Audit: Mobile Logs vs. AI PR</h3>
         <p>Empirical forensic analysis comparing corporate AI marketing claims against raw mobile call logs (0.90% mobile screen time out of 5.3T hours), GitClear 150M line code churn data, and U.S. Census Bureau statistics.</p>
-        <p style="margin-top: 14px;">
-          <a href="articles/feeding-the-ai-pr-machine-unfiltered-mobile-telemetry.html" style="color: var(--accent); font-weight: 700; text-decoration: underline;">Read Full Investigation &rarr;</a> &bull; 
-          <a href="https://www.linkedin.com/pulse/feeding-ai-pr-machine-unfiltered-mobile-telemetry-real-kinslow-iv-22wrc/" target="_blank" rel="noopener" style="color: var(--text-muted); text-decoration: underline;">LinkedIn Pulse &nearr;</a>
+        <p class="card-actions">
+          <a href="articles/feeding-the-ai-pr-machine-unfiltered-mobile-telemetry.html" class="card-link-accent">Read Full Investigation &rarr;</a> &bull; 
+          <a href="https://www.linkedin.com/pulse/feeding-ai-pr-machine-unfiltered-mobile-telemetry-real-kinslow-iv-22wrc/" target="_blank" rel="noopener" class="card-link-muted">LinkedIn Pulse &nearr;</a>
         </p>
       </div>
     </div>
