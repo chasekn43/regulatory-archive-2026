@@ -29,57 +29,89 @@
 
   <!-- Structured JSON-LD Schema (TechArticle + FAQPage) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "TechArticle",
-        "@id": "https://kinslow-regulatory-archive.org/topics/verity-je-status-429.html#article",
-        "headline": "How to Fix Verity Error Status 429 (Rate Limit & API Connection Failed)",
-        "description": "Comprehensive troubleshooting and engineering remediation protocol for Verity API 429 Too Many Requests exceptions.",
-        "author": {
-          "@type": "Person",
-          "name": "Charles W. Kinslow IV, J.D., C.P.A."
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Kinslow Regulatory Archive",
-          "url": "https://kinslow-regulatory-archive.org"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://kinslow-regulatory-archive.org/topics/verity-je-status-429.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What does 'Verity API connection failed status 429' mean?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "HTTP Status 429 indicates 'Too Many Requests'. When Verity outputs this error, your client application or automated mod has exceeded the configured requests-per-minute (RPM) threshold or concurrent socket threshold on the target gateway."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I fix Verity rate limit reached errors?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "1. Implement exponential backoff with jitter on 429 retry loops. 2. Inspect the HTTP 'Retry-After' response header. 3. Enable client-side request batching or token-bucket rate limiting. 4. Verify API key authentication headers and connection keep-alive pools."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why does Verity JE Mod throw Error 429 during automated polling?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "High-frequency polling without caching or Webhook integration triggers Cloudflare or upstream API gateway edge rate limiters designed to protect ledger backend integrity from denial-of-service."
-            }
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kinslow-regulatory-archive.org/topics/verity-je-status-429.html#article",
+      "headline": "How to Fix Verity Error Status 429 (Rate Limit & API Connection Failed)",
+      "description": "Comprehensive troubleshooting and engineering remediation protocol for Verity API 429 Too Many Requests exceptions.",
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
         ]
-      }
-    ]
-  }
-  </script>
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Kinslow Regulatory Archive",
+        "url": "https://kinslow-regulatory-archive.org"
+      },
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kinslow-regulatory-archive.org/topics/verity-je-status-429.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does 'Verity API connection failed status 429' mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HTTP Status 429 indicates 'Too Many Requests'. When Verity outputs this error, your client application or automated mod has exceeded the configured requests-per-minute (RPM) threshold or concurrent socket threshold on the target gateway."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I fix Verity rate limit reached errors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1. Implement exponential backoff with jitter on 429 retry loops. 2. Inspect the HTTP 'Retry-After' response header. 3. Enable client-side request batching or token-bucket rate limiting. 4. Verify API key authentication headers and connection keep-alive pools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Verity JE Mod throw Error 429 during automated polling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "High-frequency polling without caching or Webhook integration triggers Cloudflare or upstream API gateway edge rate limiters designed to protect ledger backend integrity from denial-of-service."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <style>
     :root {

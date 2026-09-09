@@ -32,85 +32,117 @@
 
   <!-- Structured JSON-LD Schema (Enterprise Topic Graph) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "TechArticle",
-        "@id": "https://kinslow-regulatory-archive.org/topics/fintech-bnpl-merchant-dispute-resolution.html#article",
-        "headline": "Fintech BNPL Merchant Dispute Resolution & Automated Customer Care Defects: An Operational Case Study",
-        "description": "Technical legal and operational case study examining merchant dispute mechanics, carrier tracking discrepancies, 86-minute automated fraud denial algorithms, cease-and-desist mandates, and bank BillPay payment execution workarounds.",
-        "inLanguage": "en-US",
-        "mainEntityOfPage": "https://kinslow-regulatory-archive.org/topics/fintech-bnpl-merchant-dispute-resolution.html",
-        "datePublished": "2026-08-10",
-        "dateModified": "2026-08-10",
-        "author": {
-          "@type": "Person",
-          "name": "Charles W. Kinslow IV, J.D., C.P.A.",
-          "alternateName": ["Charles Kinslow", "Chase Kinslow", "Charles W. Kinslow", "Charles K."],
-          "jobTitle": "Attorney & CPA",
-                    "sameAs": [
-            "https://www.linkedin.com/in/chasekn/",
-            "https://github.com/chasekn43",
-            "https://orcid.org/0009-0002-8851-7890"
-          ]
-        },
-        "publisher": {
-          "@type": "Person",
-          "name": "Charles W. Kinslow IV, J.D., C.P.A."
-        },
-        "about": [
-          {
-            "@type": "DefinedTerm",
-            "name": "Buy Now Pay Later (BNPL) Merchant Dispute"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "Automated Bot Fraud Rejection"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "Point of Sale Lines of Credit Freeze"
-          },
-          {
-            "@type": "DefinedTerm",
-            "name": "Bank BillPay Execution Workaround"
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kinslow-regulatory-archive.org/topics/fintech-bnpl-merchant-dispute-resolution.html#article",
+      "headline": "Fintech BNPL Merchant Dispute Resolution & Automated Customer Care Defects: An Operational Case Study",
+      "description": "Technical legal and operational case study examining merchant dispute mechanics, carrier tracking discrepancies, 86-minute automated fraud denial algorithms, cease-and-desist mandates, and bank BillPay payment execution workarounds.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://kinslow-regulatory-archive.org/topics/fintech-bnpl-merchant-dispute-resolution.html",
+      "datePublished": "2026-08-10",
+      "dateModified": "2026-08-10",
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "alternateName": [
+          "Charles Kinslow",
+          "Chase Kinslow",
+          "Charles W. Kinslow",
+          "Charles K."
+        ],
+        "jobTitle": "Attorney & CPA",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://github.com/chasekn43",
+          "https://orcid.org/0009-0002-8851-7890"
         ]
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://kinslow-regulatory-archive.org/topics/fintech-bnpl-merchant-dispute-resolution.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What happens when a merchant refuses to intercept or cancel a fraudulent BNPL transaction?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "When a merchant refuses to intercept shipping, the primary liability shifts to the point-of-sale lender under consumer protection frameworks (e.g., Regulation Z 12 C.F.R. § 1026.13 and FTC holder-in-due-course rules). Lenders are required to conduct human review of carrier records, billing address anomalies, and device fingerprints."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do automated bot fraud rejection algorithms create regulatory UDAAP liability?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Automated systems that issue rapid fraud denials (e.g., within 86 minutes) without verifying police incident reports, geographic anomalies (such as 1,800-mile routing gaps), or carrier tracking logs fail to satisfy reasonable investigation standards, exposing lenders to Dodd-Frank Title X UDAAP enforcement."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can a consumer bypass an in-app payment lock when a fintech lender freezes UI controls?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Consumers can utilize direct bank BillPay systems to remit payments to the lender's designated clearing account, creating irrefutable, bank-verified proof of timely performance regardless of portal lockouts."
-            }
+      "publisher": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A."
+      },
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Buy Now Pay Later (BNPL) Merchant Dispute"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Automated Bot Fraud Rejection"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Point of Sale Lines of Credit Freeze"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Bank BillPay Execution Workaround"
+        }
+      ],
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kinslow-regulatory-archive.org/topics/fintech-bnpl-merchant-dispute-resolution.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What happens when a merchant refuses to intercept or cancel a fraudulent BNPL transaction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When a merchant refuses to intercept shipping, the primary liability shifts to the point-of-sale lender under consumer protection frameworks (e.g., Regulation Z 12 C.F.R. § 1026.13 and FTC holder-in-due-course rules). Lenders are required to conduct human review of carrier records, billing address anomalies, and device fingerprints."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "How do automated bot fraud rejection algorithms create regulatory UDAAP liability?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Automated systems that issue rapid fraud denials (e.g., within 86 minutes) without verifying police incident reports, geographic anomalies (such as 1,800-mile routing gaps), or carrier tracking logs fail to satisfy reasonable investigation standards, exposing lenders to Dodd-Frank Title X UDAAP enforcement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a consumer bypass an in-app payment lock when a fintech lender freezes UI controls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Consumers can utilize direct bank BillPay systems to remit payments to the lender's designated clearing account, creating irrefutable, bank-verified proof of timely performance regardless of portal lockouts."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <style>
     :root {

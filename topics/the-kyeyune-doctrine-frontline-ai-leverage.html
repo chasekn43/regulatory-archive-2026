@@ -20,49 +20,82 @@
 
   <!-- Structured JSON-LD Schema (Article + FAQPage) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "@id": "https://kinslow-regulatory-archive.org/topics/the-kyeyune-doctrine-frontline-ai-leverage.html#article",
-        "headline": "The Kyeyune Doctrine: Why Frontline Conscience Beats Credentialed AI Moats",
-        "description": "An architectural and ethical examination of Anthropic's 2026 Claude hackathon and the rise of frontline non-technical AI builders.",
-        "author": {
-          "@type": "Person",
-          "name": "Charles W. Kinslow IV, J.D., C.P.A."
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Kinslow Regulatory Archive",
-          "url": "https://kinslow-regulatory-archive.org"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://kinslow-regulatory-archive.org/topics/the-kyeyune-doctrine-frontline-ai-leverage.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is the Kyeyune Doctrine in AI development?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The principle that the highest-leverage AI products are built not by detached software engineers or credentialed professionals protecting existing billable silos, but by frontline practitioners using radical simplicity (like a dashcam while driving) to solve immediate physical friction for their community."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How did a non-technical road technician win at Anthropic's Claude hackathon?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Kyeyune mounted a dashcam on his vehicle during daily road surveying in Uganda and fed the visual stream to Claude, turning 3 weeks of manual surveying into a 5-hour pavement breakdown, cost estimation, and rural equity distribution report."
-            }
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://kinslow-regulatory-archive.org/topics/the-kyeyune-doctrine-frontline-ai-leverage.html#article",
+      "headline": "The Kyeyune Doctrine: Why Frontline Conscience Beats Credentialed AI Moats",
+      "description": "An architectural and ethical examination of Anthropic's 2026 Claude hackathon and the rise of frontline non-technical AI builders.",
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
         ]
-      }
-    ]
-  }
-  </script>
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Kinslow Regulatory Archive",
+        "url": "https://kinslow-regulatory-archive.org"
+      },
+      "isBasedOn": [
+        "https://www.linkedin.com/pulse/feeding-ai-pr-machine-unfiltered-mobile-telemetry-real-kinslow-iv-22wrc/",
+        "https://www.linkedin.com/posts/chasekn_artificialintelligence-productivity-technology-activity-7503172248480980992-_Zf1",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kinslow-regulatory-archive.org/topics/the-kyeyune-doctrine-frontline-ai-leverage.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Kyeyune Doctrine in AI development?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The principle that the highest-leverage AI products are built not by detached software engineers or credentialed professionals protecting existing billable silos, but by frontline practitioners using radical simplicity (like a dashcam while driving) to solve immediate physical friction for their community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How did a non-technical road technician win at Anthropic's Claude hackathon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyeyune mounted a dashcam on his vehicle during daily road surveying in Uganda and fed the visual stream to Claude, turning 3 weeks of manual surveying into a 5-hour pavement breakdown, cost estimation, and rural equity distribution report."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <style>
     :root {

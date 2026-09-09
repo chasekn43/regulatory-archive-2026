@@ -22,60 +22,96 @@
 
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "HowTo",
-        "name": "How to Dispute and Remove Erroneous Affirm Credit Reporting",
-        "description": "A comprehensive statutory dispute guide to removing unlawful BNPL late payments from Experian, Equifax, and TransUnion under FCRA § 623 and Regulation Z § 1026.13.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Pull Official Credit Bureau Reports",
-            "text": "Download full disclosures from AnnualCreditReport.com and identify the exact account name (e.g. Affirm Inc / Cross River Bank) and date reported delinquent."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Establish Statutory Dispute Status Under Regulation Z",
-            "text": "Verify that written dispute notice was provided to Affirm within 60 days of the disputed billing statement, activating 12 CFR § 1026.13(d)(2) protections."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Send Direct Furnisher Dispute Letter Under FCRA § 623",
-            "text": "Send a formal notice of inaccurate reporting directly to Affirm's Credit Furnisher Operations citing 15 U.S.C. § 1681s-2(a)(8)."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "File Bureau Disputes via Certified Mail",
-            "text": "Mail dispute packages containing tracking receipts, billing dispute letters, and merchant records to Experian, TransUnion, and Equifax."
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Can Affirm report late payments while a dispute is under review?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Under Regulation Z, 12 C.F.R. § 1026.13(d)(2), a creditor or its agent may not directly or indirectly make an adverse credit report regarding the disputed amount until the creditor has fulfilled all statutory dispute investigation requirements."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What are Affirm's duties as a data furnisher under FCRA?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Under 15 U.S.C. § 1681s-2(b), upon receiving notice of a dispute from a consumer reporting agency, furnishers must conduct an investigation, review all relevant information provided by the consumer, and report results to the bureaus."
-            }
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HowTo",
+      "name": "How to Dispute and Remove Erroneous Affirm Credit Reporting",
+      "description": "A comprehensive statutory dispute guide to removing unlawful BNPL late payments from Experian, Equifax, and TransUnion under FCRA § 623 and Regulation Z § 1026.13.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Pull Official Credit Bureau Reports",
+          "text": "Download full disclosures from AnnualCreditReport.com and identify the exact account name (e.g. Affirm Inc / Cross River Bank) and date reported delinquent."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Establish Statutory Dispute Status Under Regulation Z",
+          "text": "Verify that written dispute notice was provided to Affirm within 60 days of the disputed billing statement, activating 12 CFR § 1026.13(d)(2) protections."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Send Direct Furnisher Dispute Letter Under FCRA § 623",
+          "text": "Send a formal notice of inaccurate reporting directly to Affirm's Credit Furnisher Operations citing 15 U.S.C. § 1681s-2(a)(8)."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "File Bureau Disputes via Certified Mail",
+          "text": "Mail dispute packages containing tracking receipts, billing dispute letters, and merchant records to Experian, TransUnion, and Equifax."
+        }
+      ],
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
         ]
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can Affirm report late payments while a dispute is under review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Under Regulation Z, 12 C.F.R. § 1026.13(d)(2), a creditor or its agent may not directly or indirectly make an adverse credit report regarding the disputed amount until the creditor has fulfilled all statutory dispute investigation requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are Affirm's duties as a data furnisher under FCRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under 15 U.S.C. § 1681s-2(b), upon receiving notice of a dispute from a consumer reporting agency, furnishers must conduct an investigation, review all relevant information provided by the consumer, and report results to the bureaus."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

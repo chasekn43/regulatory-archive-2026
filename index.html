@@ -40,95 +40,203 @@
 
   <!-- SCHEMA THEORY: WEBAPPLICATION, HOWTO, FAQPAGE & DIGITALDOCUMENT SCHEMA -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebApplication",
-        "@id": "https://kinslow-regulatory-archive.org/#app",
-        "url": "https://kinslow-regulatory-archive.org/",
-        "name": "Affirm Refund Dispute & Bot Bypass Self-Defense Toolkit",
-        "applicationCategory": "FinanceApplication",
-        "operatingSystem": "All",
-        "browserRequirements": "Requires JavaScript",
-        "offers": {
-          "@type": "Offer",
-          "price": "0.00",
-          "priceCurrency": "USD"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://kinslow-regulatory-archive.org/#app",
+      "url": "https://kinslow-regulatory-archive.org/",
+      "name": "Affirm Refund Dispute & Bot Bypass Self-Defense Toolkit",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      },
+      "description": "Free interactive web application generating formal Regulation Z (12 CFR § 1026.13) billing error dispute notices and providing phone tree bypass shortcuts.",
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
         },
-        "description": "Free interactive web application generating formal Regulation Z (12 CFR § 1026.13) billing error dispute notices and providing phone tree bypass shortcuts."
-      },
-      {
-        "@type": "HowTo",
-        "name": "How to Dispute an Affirm Refund Delay Under Regulation Z (12 C.F.R. § 1026.13)",
-        "description": "Step-by-step statutory procedure to dispute Buy Now Pay Later (BNPL) billing errors, pause loan payments, and eliminate unauthorized charges.",
-        "totalTime": "PT5M",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Obtain Carrier Return Delivery Proof",
-            "text": "Obtain UPS, FedEx, or USPS carrier tracking delivery confirmation proving the merchant received the returned merchandise."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Audit the 7-Business-Day Statutory Window",
-            "text": "Under 12 C.F.R. § 1026.12(e), merchants have 7 business days from receipt of return to transmit a credit memo to the creditor."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Transmit Formal 12 C.F.R. § 1026.13 Billing Error Notice",
-            "text": "Send a formal written dispute letter to resolutions@affirm.com and legal@affirm.com citing 12 C.F.R. § 1026.13 to legally compel a temporary payment freeze."
-          }
-        ]
-      },
-      {
-        "@type": "DigitalDocument",
-        "name": "12 C.F.R. § 1026.13 Statutory Billing Error Notice Template",
-        "description": "Formal legal notice template for Buy Now Pay Later consumer credit disputes asserting billing error resolution rights.",
-        "url": "https://kinslow-regulatory-archive.org/#dispute-letter-template",
-        "encodingFormat": "text/plain",
-        "isAccessibleForFree": true
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How do I reach a human representative at Affirm customer service (855-423-3729)?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Call Affirm customer support at (855) 423-3729. When prompted, press 1 for existing loan inquiries, then immediately enter DTMF sequence 0#0# to bypass the automated SMS containment bot and route directly to a live representative."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the 12 C.F.R. § 1026.13 dispute letter template for Affirm?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A formal billing error notice sent under Truth in Lending Act Regulation Z (12 C.F.R. § 1026.13). It specifies the consumer's name, loan ID, carrier tracking delivery proof, and invokes the mandatory requirement that the lender acknowledge within 30 days and resolve within 2 complete billing cycles without reporting adverse credit."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why is Affirm charging me for an item I already returned?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Affirm automated loan servicing schedules pull automatic payments from your debit card regardless of merchant return status until a credit memo is processed. Sending a formal 12 C.F.R. § 1026.13 dispute notice legally compels Affirm to pause automatic collections and interest charges during the investigation."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does the CFPB Buy Now Pay Later rule apply credit card dispute protections to Affirm?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Under the CFPB's May 2024 Interpretive Rule on Digital User Accounts, BNPL providers that issue digital accounts are defined as card issuers under Truth in Lending (Regulation Z), granting consumers full statutory billing error dispute and refund rights."
-            }
-          }
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
         ]
       }
-    ]
-  }
-      </script>
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Dispute an Affirm Refund Delay Under Regulation Z (12 C.F.R. § 1026.13)",
+      "description": "Step-by-step statutory procedure to dispute Buy Now Pay Later (BNPL) billing errors, pause loan payments, and eliminate unauthorized charges.",
+      "totalTime": "PT5M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Obtain Carrier Return Delivery Proof",
+          "text": "Obtain UPS, FedEx, or USPS carrier tracking delivery confirmation proving the merchant received the returned merchandise."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Audit the 7-Business-Day Statutory Window",
+          "text": "Under 12 C.F.R. § 1026.12(e), merchants have 7 business days from receipt of return to transmit a credit memo to the creditor."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Transmit Formal 12 C.F.R. § 1026.13 Billing Error Notice",
+          "text": "Send a formal written dispute letter to resolutions@affirm.com and legal@affirm.com citing 12 C.F.R. § 1026.13 to legally compel a temporary payment freeze."
+        }
+      ],
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
+        ]
+      }
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "12 C.F.R. § 1026.13 Statutory Billing Error Notice Template",
+      "description": "Formal legal notice template for Buy Now Pay Later consumer credit disputes asserting billing error resolution rights.",
+      "url": "https://kinslow-regulatory-archive.org/#dispute-letter-template",
+      "encodingFormat": "text/plain",
+      "isAccessibleForFree": true,
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I reach a human representative at Affirm customer service (855-423-3729)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call Affirm customer support at (855) 423-3729. When prompted, press 1 for existing loan inquiries, then immediately enter DTMF sequence 0#0# to bypass the automated SMS containment bot and route directly to a live representative."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 12 C.F.R. § 1026.13 dispute letter template for Affirm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A formal billing error notice sent under Truth in Lending Act Regulation Z (12 C.F.R. § 1026.13). It specifies the consumer's name, loan ID, carrier tracking delivery proof, and invokes the mandatory requirement that the lender acknowledge within 30 days and resolve within 2 complete billing cycles without reporting adverse credit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is Affirm charging me for an item I already returned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Affirm automated loan servicing schedules pull automatic payments from your debit card regardless of merchant return status until a credit memo is processed. Sending a formal 12 C.F.R. § 1026.13 dispute notice legally compels Affirm to pause automatic collections and interest charges during the investigation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the CFPB Buy Now Pay Later rule apply credit card dispute protections to Affirm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under the CFPB's May 2024 Interpretive Rule on Digital User Accounts, BNPL providers that issue digital accounts are defined as card issuers under Truth in Lending (Regulation Z), granting consumers full statutory billing error dispute and refund rights."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <!-- CACHE FLUSHER -->
 
 

@@ -22,60 +22,96 @@
 
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "HowTo",
-        "name": "How to Overcome an Affirm Return Dispute Denial Using Carrier Proof of Delivery",
-        "description": "Step-by-step forensic guide for consumers to overturn denied Affirm dispute claims when merchandise was returned to the merchant or carrier.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Obtain Official Carrier Proof of Delivery (POD)",
-            "text": "Request a certified Proof of Delivery document directly from the shipping carrier (USPS, UPS, FedEx, OnTrac) showing delivery timestamp, receiving location, and signature."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "File a Police Incident Report for Merchant Withholding",
-            "text": "If a merchant confirms receipt of the returned goods but refuses to issue a refund credit, file a local police incident report documenting fraudulent conversion."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Compile a Forensic Ledger Dispute Packet",
-            "text": "Assemble the return authorization (RMA), carrier tracking logs, police report, and call logs into a single indexed PDF."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Submit to Affirm Legal & Federal Regulators",
-            "text": "Submit the forensic packet to Affirm's compliance office, CFPB, and State AG, establishing that Affirm is financing an uncredited, returned asset."
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What should I do if Affirm closes my return dispute as 'no refund due'?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Submit certified carrier tracking showing the physical delivery confirmation and file a formal billing error notice under 12 CFR § 1026.13, demanding a written explanation from compliance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How does a police report help a BNPL dispute?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A certified police incident report (such as Monroe PD Incident Report #26-29572) establishes official governmental documentation of merchant non-performance, preventing the lender from claiming the consumer failed to substantiate their claim."
-            }
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HowTo",
+      "name": "How to Overcome an Affirm Return Dispute Denial Using Carrier Proof of Delivery",
+      "description": "Step-by-step forensic guide for consumers to overturn denied Affirm dispute claims when merchandise was returned to the merchant or carrier.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Obtain Official Carrier Proof of Delivery (POD)",
+          "text": "Request a certified Proof of Delivery document directly from the shipping carrier (USPS, UPS, FedEx, OnTrac) showing delivery timestamp, receiving location, and signature."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "File a Police Incident Report for Merchant Withholding",
+          "text": "If a merchant confirms receipt of the returned goods but refuses to issue a refund credit, file a local police incident report documenting fraudulent conversion."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Compile a Forensic Ledger Dispute Packet",
+          "text": "Assemble the return authorization (RMA), carrier tracking logs, police report, and call logs into a single indexed PDF."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Submit to Affirm Legal & Federal Regulators",
+          "text": "Submit the forensic packet to Affirm's compliance office, CFPB, and State AG, establishing that Affirm is financing an uncredited, returned asset."
+        }
+      ],
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
         ]
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should I do if Affirm closes my return dispute as 'no refund due'?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Submit certified carrier tracking showing the physical delivery confirmation and file a formal billing error notice under 12 CFR § 1026.13, demanding a written explanation from compliance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a police report help a BNPL dispute?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A certified police incident report (such as Monroe PD Incident Report #26-29572) establishes official governmental documentation of merchant non-performance, preventing the lender from claiming the consumer failed to substantiate their claim."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -26,104 +26,147 @@
 
     <!-- Schema.org Multi-Entity Graph (Article + FAQPage + BreadcrumbList + Speakable) -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "BreadcrumbList",
+      "@id": "https://kinslow-regulatory-archive.org/topics/genesis-of-bnpl-installment-loans.html#breadcrumb",
+      "itemListElement": [
         {
-          "@type": "BreadcrumbList",
-          "@id": "https://kinslow-regulatory-archive.org/topics/genesis-of-bnpl-installment-loans.html#breadcrumb",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Archive Home",
-              "item": "https://kinslow-regulatory-archive.org/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Topics",
-              "item": "https://kinslow-regulatory-archive.org/#topics"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Genesis of BNPL Installment Loans",
-              "item": "https://kinslow-regulatory-archive.org/topics/genesis-of-bnpl-installment-loans.html"
-            }
-          ]
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Archive Home",
+          "item": "https://kinslow-regulatory-archive.org/"
         },
         {
-          "@type": "TechArticle",
-          "@id": "https://kinslow-regulatory-archive.org/topics/genesis-of-bnpl-installment-loans.html#article",
-          "isPartOf": {
-            "@id": "https://kinslow-regulatory-archive.org/#website"
-          },
-          "headline": "The Genesis of Modern BNPL: Installment Loans Disguised as Pay-in-Four",
-          "description": "Analysis of how modern Buy Now, Pay Later (BNPL) fintech company Affirm structures 3-, 6-, and 12-month interest-bearing installment loans up to 36% APR and the resulting consumer protection vulnerabilities.",
-          "inLanguage": "en-US",
-          "datePublished": "2026-08-19T00:00:00Z",
-          "dateModified": "2026-08-19T00:00:00Z",
-          "mainEntityOfPage": "https://kinslow-regulatory-archive.org/topics/genesis-of-bnpl-installment-loans.html",
-          "author": {
-            "@type": "Person",
-            "name": "Charles W. Kinslow IV, J.D., C.P.A.",
-            "jobTitle": "Regulatory Compliance & FinTech GRC Specialist",
-            "sameAs": [
-              "https://www.linkedin.com/in/chasekn/",
-              "https://github.com/chasekn43",
-              "https://orcid.org/0009-0002-8851-7890"
-            ]
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Kinslow Regulatory Archive",
-            "url": "https://kinslow-regulatory-archive.org/"
-          },
-          "about": [
-            { "@type": "Thing", "name": "Buy Now Pay Later" },
-            { "@type": "Organization", "name": "Affirm Inc." },
-            { "@type": "GovernmentOrganization", "name": "Consumer Financial Protection Bureau" },
-            { "@type": "Legislation", "name": "Truth in Lending Act Regulation Z 12 CFR 1026" }
-          ],
-          "speakable": {
-            "@type": "SpeakableSpecification",
-            "cssSelector": [".takeaways-box", "h1", ".executive-summary"]
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Topics",
+          "item": "https://kinslow-regulatory-archive.org/#topics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Genesis of BNPL Installment Loans",
+          "item": "https://kinslow-regulatory-archive.org/topics/genesis-of-bnpl-installment-loans.html"
+        }
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://kinslow-regulatory-archive.org/topics/genesis-of-bnpl-installment-loans.html#article",
+      "isPartOf": {
+        "@id": "https://kinslow-regulatory-archive.org/#website"
+      },
+      "headline": "The Genesis of Modern BNPL: Installment Loans Disguised as Pay-in-Four",
+      "description": "Analysis of how modern Buy Now, Pay Later (BNPL) fintech company Affirm structures 3-, 6-, and 12-month interest-bearing installment loans up to 36% APR and the resulting consumer protection vulnerabilities.",
+      "inLanguage": "en-US",
+      "datePublished": "2026-08-19T00:00:00Z",
+      "dateModified": "2026-08-19T00:00:00Z",
+      "mainEntityOfPage": "https://kinslow-regulatory-archive.org/topics/genesis-of-bnpl-installment-loans.html",
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Regulatory Compliance & FinTech GRC Specialist",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://github.com/chasekn43",
+          "https://orcid.org/0009-0002-8851-7890"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Kinslow Regulatory Archive",
+        "url": "https://kinslow-regulatory-archive.org/"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Buy Now Pay Later"
+        },
+        {
+          "@type": "Organization",
+          "name": "Affirm Inc."
+        },
+        {
+          "@type": "GovernmentOrganization",
+          "name": "Consumer Financial Protection Bureau"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Truth in Lending Act Regulation Z 12 CFR 1026"
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".takeaways-box",
+          "h1",
+          ".executive-summary"
+        ]
+      },
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kinslow-regulatory-archive.org/topics/genesis-of-bnpl-installment-loans.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When did modern interest-bearing BNPL installment loans begin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The very first instance of a modern Buy Now, Pay Later (BNPL) fintech company structuring its business model around 3-, 6-, and 12-month interest-bearing installment loans was the launch of Affirm in 2012."
           }
         },
         {
-          "@type": "FAQPage",
-          "@id": "https://kinslow-regulatory-archive.org/topics/genesis-of-bnpl-installment-loans.html#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "When did modern interest-bearing BNPL installment loans begin?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The very first instance of a modern Buy Now, Pay Later (BNPL) fintech company structuring its business model around 3-, 6-, and 12-month interest-bearing installment loans was the launch of Affirm in 2012."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does Affirm charge interest on BNPL loans?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. While short-term pay-in-4 plans are often advertised as interest-free, Affirm reported in regulatory filings that 87% of its monthly installment loan gross merchandise volume carried interest, with finance charges reaching up to 36% to 36.99% APR."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Why are dispute protections weaker for BNPL loans than credit cards?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Credit cards offer federally mandated purchase protections, chargeback mechanisms, and zero-liability fraud guarantees under the Truth in Lending Act (TILA). In contrast, BNPL lenders act as third-party installment loan providers where merchant return and refund disputes often leave consumers caught in communication loops with no statutory freeze on payments."
-              }
-            }
-          ]
+          "@type": "Question",
+          "name": "Does Affirm charge interest on BNPL loans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. While short-term pay-in-4 plans are often advertised as interest-free, Affirm reported in regulatory filings that 87% of its monthly installment loan gross merchandise volume carried interest, with finance charges reaching up to 36% to 36.99% APR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are dispute protections weaker for BNPL loans than credit cards?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Credit cards offer federally mandated purchase protections, chargeback mechanisms, and zero-liability fraud guarantees under the Truth in Lending Act (TILA). In contrast, BNPL lenders act as third-party installment loan providers where merchant return and refund disputes often leave consumers caught in communication loops with no statutory freeze on payments."
+          }
         }
       ]
     }
-    </script>
+  ]
+}
+</script>
 
     <style>
         :root {

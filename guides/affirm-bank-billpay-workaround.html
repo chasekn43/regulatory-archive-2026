@@ -32,70 +32,106 @@
 
   <!-- Structured JSON-LD Schema (HowTo + FAQPage) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "HowTo",
-        "@id": "https://kinslow-regulatory-archive.org/guides/affirm-bank-billpay-workaround.html#howto",
-        "name": "How to Pay Affirm Using External Bank BillPay When App Controls Are Locked",
-        "description": "Step-by-step procedure to remit payments to Affirm using an independent banking institution's BillPay system, generating permanent proof of timely settlement.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Access Your Bank's Online BillPay Portal",
-            "text": "Log into your personal checking or savings account portal (e.g., Chase, Wells Fargo, Bank of America, or credit union) and navigate to the Bill Pay / Pay Bills section."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Search and Add 'Affirm, Inc.' as a Payee",
-            "text": "Search for Affirm in your bank's national electronic payee directory. If Affirm does not appear electronically, enter Affirm's corporate payment processing address."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Input Your 16-Digit Affirm Loan ID or Account Phone Number",
-            "text": "Enter your unique Affirm Loan ID, agreement number, or primary registered phone number in the Account Number field to ensure automated backend ledger matching."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Execute Payment and Capture Banking Trace Confirmation",
-            "text": "Submit the payment and immediately download or screenshot the processed transaction receipt displaying the bank's Confirmation Number and processed date."
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://kinslow-regulatory-archive.org/guides/affirm-bank-billpay-workaround.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Can Affirm claim I missed a payment if I paid through my bank's BillPay?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Under the Electronic Fund Transfer Act (EFTA) and Regulation E, a processed bank electronic BillPay receipt with a bank trace identifier constitutes legal proof of payment delivery. Affirm's internal ledger delay cannot be imputed as consumer default."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why does Affirm customer service claim the only way to pay is through the Affirm app?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "First-tier customer service representatives and automated scripts are trained to funnel users into proprietary in-app channels. However, Affirm maintains standard corporate clearing accounts within the US banking ACH network capable of receiving third-party bill payments."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What should I do if Affirm continues to show an overdue balance after BillPay cleared?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Transmit a copy of your bank's cleared transaction statement displaying the trace number to Affirm Customer Operations and file an official CFPB Complaint referencing Section 1026.13 billing error resolution."
-            }
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HowTo",
+      "@id": "https://kinslow-regulatory-archive.org/guides/affirm-bank-billpay-workaround.html#howto",
+      "name": "How to Pay Affirm Using External Bank BillPay When App Controls Are Locked",
+      "description": "Step-by-step procedure to remit payments to Affirm using an independent banking institution's BillPay system, generating permanent proof of timely settlement.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Access Your Bank's Online BillPay Portal",
+          "text": "Log into your personal checking or savings account portal (e.g., Chase, Wells Fargo, Bank of America, or credit union) and navigate to the Bill Pay / Pay Bills section."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Search and Add 'Affirm, Inc.' as a Payee",
+          "text": "Search for Affirm in your bank's national electronic payee directory. If Affirm does not appear electronically, enter Affirm's corporate payment processing address."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Input Your 16-Digit Affirm Loan ID or Account Phone Number",
+          "text": "Enter your unique Affirm Loan ID, agreement number, or primary registered phone number in the Account Number field to ensure automated backend ledger matching."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Execute Payment and Capture Banking Trace Confirmation",
+          "text": "Submit the payment and immediately download or screenshot the processed transaction receipt displaying the bank's Confirmation Number and processed date."
+        }
+      ],
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
         ]
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kinslow-regulatory-archive.org/guides/affirm-bank-billpay-workaround.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can Affirm claim I missed a payment if I paid through my bank's BillPay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Under the Electronic Fund Transfer Act (EFTA) and Regulation E, a processed bank electronic BillPay receipt with a bank trace identifier constitutes legal proof of payment delivery. Affirm's internal ledger delay cannot be imputed as consumer default."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Affirm customer service claim the only way to pay is through the Affirm app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "First-tier customer service representatives and automated scripts are trained to funnel users into proprietary in-app channels. However, Affirm maintains standard corporate clearing accounts within the US banking ACH network capable of receiving third-party bill payments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if Affirm continues to show an overdue balance after BillPay cleared?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transmit a copy of your bank's cleared transaction statement displaying the trace number to Affirm Customer Operations and file an official CFPB Complaint referencing Section 1026.13 billing error resolution."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <style>
     :root {

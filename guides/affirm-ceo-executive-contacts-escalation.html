@@ -22,60 +22,96 @@
 
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "HowTo",
-        "name": "How to Escalate an Affirm Dispute Beyond Automated Bot Rejections",
-        "description": "A forensic, step-by-step playbook for consumers to break out of Affirm customer service bot loops using formal statutory notice, executive escalation, and evidentiary paper trails.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Document the Automated Loop & Denial Logs",
-            "text": "Screenshot all automated rejection emails, chat transcripts, and case numbers. Note the exact timestamp and refusal of human agent intervention."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Draft a Formal Notice of Statutory Dispute Under Regulation Z",
-            "text": "Draft a formal written notice citing 12 C.F.R. § 1026.13 and 15 U.S.C. § 1666 detailing the transaction ID, merchant return tracking, and uncredited balance."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Route via Certified Mail and Executive Escalation Channels",
-            "text": "Send the dispute package with certified proof of delivery to Affirm's registered agent and corporate legal department rather than in-app chat."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Submit Concurrent Regulatory Inquiries to the CFPB and State AG",
-            "text": "File a formal complaint attaching the complete paper trail to the CFPB Portal and your state Attorney General Public Inquiry Unit."
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How do I get a human agent to review my Affirm dispute?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Submitting a formal written dispute under 12 CFR § 1026.13 with certified carrier delivery evidence forces the lender's specialized compliance team to manually review the ledger rather than relying on front-line automated tier-1 bots."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can Affirm legally ignore proof of returned merchandise?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Under the Truth in Lending Act (TILA) and Regulation Z, lenders are legally required to conduct a reasonable investigation of billing errors upon receiving written notice within 60 days of the statement."
-            }
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HowTo",
+      "name": "How to Escalate an Affirm Dispute Beyond Automated Bot Rejections",
+      "description": "A forensic, step-by-step playbook for consumers to break out of Affirm customer service bot loops using formal statutory notice, executive escalation, and evidentiary paper trails.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Document the Automated Loop & Denial Logs",
+          "text": "Screenshot all automated rejection emails, chat transcripts, and case numbers. Note the exact timestamp and refusal of human agent intervention."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Draft a Formal Notice of Statutory Dispute Under Regulation Z",
+          "text": "Draft a formal written notice citing 12 C.F.R. § 1026.13 and 15 U.S.C. § 1666 detailing the transaction ID, merchant return tracking, and uncredited balance."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Route via Certified Mail and Executive Escalation Channels",
+          "text": "Send the dispute package with certified proof of delivery to Affirm's registered agent and corporate legal department rather than in-app chat."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Submit Concurrent Regulatory Inquiries to the CFPB and State AG",
+          "text": "File a formal complaint attaching the complete paper trail to the CFPB Portal and your state Attorney General Public Inquiry Unit."
+        }
+      ],
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
         ]
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I get a human agent to review my Affirm dispute?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Submitting a formal written dispute under 12 CFR § 1026.13 with certified carrier delivery evidence forces the lender's specialized compliance team to manually review the ledger rather than relying on front-line automated tier-1 bots."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Affirm legally ignore proof of returned merchandise?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the Truth in Lending Act (TILA) and Regulation Z, lenders are legally required to conduct a reasonable investigation of billing errors upon receiving written notice within 60 days of the statement."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

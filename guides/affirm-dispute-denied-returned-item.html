@@ -32,62 +32,98 @@
 
   <!-- Structured JSON-LD Schema (HowTo + FAQPage) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "HowTo",
-        "@id": "https://kinslow-regulatory-archive.org/guides/affirm-dispute-denied-returned-item.html#howto",
-        "name": "How to Reopen and Escalate a Denied Affirm Dispute for Returned Goods",
-        "description": "Systematic process to compile return receipts, carrier proof of delivery, and regulatory complaints to reverse erroneous dispute rejections.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Gather Official Carrier Proof of Delivery (POD)",
-            "text": "Obtain the certified tracking history from FedEx, UPS, or USPS showing the return shipment package weight, destination city, delivery timestamp, and recipient signature."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Compile Merchant RMA and Return Authorization Emails",
-            "text": "Export complete unedited email chains containing the merchant's Return Merchandise Authorization (RMA) number, return instructions, and credit acknowledgment."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Draft a Formal Written Notice of Billing Error Under Regulation Z",
-            "text": "Submit a formal written dispute letter invoking 12 C.F.R. § 1026.13 asserting that billing for returned goods constitutes an unresolved billing error."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "File Concurrent CFPB and State Attorney General Complaints",
-            "text": "Submit the compiled PDF dossier to the Consumer Financial Protection Bureau (CFPB) and state Attorney General Consumer Protection Division."
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://kinslow-regulatory-archive.org/guides/affirm-dispute-denied-returned-item.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Why did Affirm deny my dispute even though the tracking number shows the item was returned?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Many point-of-sale dispute decisions are handled by automated scripts that close cases if the merchant fails to post a backend refund API webhook within a set timeframe, regardless of physical return proof."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can Affirm report me to credit bureaus while a return dispute is active?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Under the Fair Credit Billing Act (FCBA) and Regulation Z, creditors are prohibited from issuing adverse credit reports or taking collection actions on disputed amounts while an active, documented billing error investigation is underway."
-            }
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HowTo",
+      "@id": "https://kinslow-regulatory-archive.org/guides/affirm-dispute-denied-returned-item.html#howto",
+      "name": "How to Reopen and Escalate a Denied Affirm Dispute for Returned Goods",
+      "description": "Systematic process to compile return receipts, carrier proof of delivery, and regulatory complaints to reverse erroneous dispute rejections.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Gather Official Carrier Proof of Delivery (POD)",
+          "text": "Obtain the certified tracking history from FedEx, UPS, or USPS showing the return shipment package weight, destination city, delivery timestamp, and recipient signature."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Compile Merchant RMA and Return Authorization Emails",
+          "text": "Export complete unedited email chains containing the merchant's Return Merchandise Authorization (RMA) number, return instructions, and credit acknowledgment."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Draft a Formal Written Notice of Billing Error Under Regulation Z",
+          "text": "Submit a formal written dispute letter invoking 12 C.F.R. § 1026.13 asserting that billing for returned goods constitutes an unresolved billing error."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "File Concurrent CFPB and State Attorney General Complaints",
+          "text": "Submit the compiled PDF dossier to the Consumer Financial Protection Bureau (CFPB) and state Attorney General Consumer Protection Division."
+        }
+      ],
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
         ]
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kinslow-regulatory-archive.org/guides/affirm-dispute-denied-returned-item.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why did Affirm deny my dispute even though the tracking number shows the item was returned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many point-of-sale dispute decisions are handled by automated scripts that close cases if the merchant fails to post a backend refund API webhook within a set timeframe, regardless of physical return proof."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Affirm report me to credit bureaus while a return dispute is active?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the Fair Credit Billing Act (FCBA) and Regulation Z, creditors are prohibited from issuing adverse credit reports or taking collection actions on disputed amounts while an active, documented billing error investigation is underway."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <style>
     :root {

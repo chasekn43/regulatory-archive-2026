@@ -32,62 +32,98 @@
 
   <!-- Structured JSON-LD Schema (HowTo + FAQPage) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "HowTo",
-        "@id": "https://kinslow-regulatory-archive.org/guides/affirm-automated-customer-service-escalation.html#howto",
-        "name": "How to Break Through Automated Customer Service Scripts and Escalate an Affirm Dispute",
-        "description": "A tactical guide to escaping automated chat bots and scripted phone support to obtain certified human case review and regulatory oversight.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Establish a Written Paper Trail (Cease Phone Communications)",
-            "text": "Transition all communications to verifiable written channels (email or certified postal mail) to maintain timestamps, exact wording, and attachment proofs."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Draft a Structured 'Formal Notice of Dispute'",
-            "text": "Send a formal dispute notice clearly identifying your Loan ID, transaction timeline, statutory citations (Regulation Z § 1026.13, FCRA § 1681s-2), and specific resolution demanded."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Copy Executive Leadership and Regulatory Inboxes",
-            "text": "Route formal dispute documentation to Executive Customer Care and compliance departments rather than front-line outsourced chat queues."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "File Formal Regulatory Complaints with Evidence Attachments",
-            "text": "Lodge formal complaints with the CFPB, State Attorney General Public Inquiry Unit, and BBB, attaching the unedited email thread and proof of non-responsiveness."
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://kinslow-regulatory-archive.org/guides/affirm-automated-customer-service-escalation.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Why is it difficult to reach a human supervisor at Affirm?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Fintech platforms rely heavily on tiered automated bots and outsourced scripts to reduce operational costs. Front-line agents often lack the system permissions to overturn automated ledger entries or modify credit bureau reporting."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What triggers mandatory executive review of an Affirm dispute?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Formal complaints submitted through regulatory portals (CFPB, State AG) or formal written notices citing statutory billing errors require review by specialized regulatory response teams rather than standard customer support."
-            }
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HowTo",
+      "@id": "https://kinslow-regulatory-archive.org/guides/affirm-automated-customer-service-escalation.html#howto",
+      "name": "How to Break Through Automated Customer Service Scripts and Escalate an Affirm Dispute",
+      "description": "A tactical guide to escaping automated chat bots and scripted phone support to obtain certified human case review and regulatory oversight.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Establish a Written Paper Trail (Cease Phone Communications)",
+          "text": "Transition all communications to verifiable written channels (email or certified postal mail) to maintain timestamps, exact wording, and attachment proofs."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Draft a Structured 'Formal Notice of Dispute'",
+          "text": "Send a formal dispute notice clearly identifying your Loan ID, transaction timeline, statutory citations (Regulation Z § 1026.13, FCRA § 1681s-2), and specific resolution demanded."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Copy Executive Leadership and Regulatory Inboxes",
+          "text": "Route formal dispute documentation to Executive Customer Care and compliance departments rather than front-line outsourced chat queues."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "File Formal Regulatory Complaints with Evidence Attachments",
+          "text": "Lodge formal complaints with the CFPB, State Attorney General Public Inquiry Unit, and BBB, attaching the unedited email thread and proof of non-responsiveness."
+        }
+      ],
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.21937896",
+        "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
+      ],
+      "citation": [
+        "CFPB Consumer Response Complaint Docket #260717-35668593 (12 C.F.R. § 1026.13)",
+        "SEC Office of the Whistleblower Form TCR Submission #17867-223-108-883",
+        "California Department of Justice Public Inquiry Unit Docket #26-1884",
+        "https://doi.org/10.5281/zenodo.21937896"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "CFPB Complaint Tracking Number",
+          "value": "260717-35668593"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "SEC Office of the Whistleblower Submission Number",
+          "value": "17867-223-108-883"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Zenodo Open Access Archive DOI",
+          "value": "10.5281/zenodo.21937896"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Charles W. Kinslow IV, J.D., C.P.A.",
+        "jobTitle": "Licensed CPA & Juris Doctor",
+        "sameAs": [
+          "https://www.linkedin.com/in/chasekn/",
+          "https://kinslow-regulatory-archive.org/"
         ]
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kinslow-regulatory-archive.org/guides/affirm-automated-customer-service-escalation.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why is it difficult to reach a human supervisor at Affirm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fintech platforms rely heavily on tiered automated bots and outsourced scripts to reduce operational costs. Front-line agents often lack the system permissions to overturn automated ledger entries or modify credit bureau reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What triggers mandatory executive review of an Affirm dispute?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Formal complaints submitted through regulatory portals (CFPB, State AG) or formal written notices citing statutory billing errors require review by specialized regulatory response teams rather than standard customer support."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <style>
     :root {
