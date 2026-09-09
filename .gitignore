@@ -28,3 +28,4 @@ search_audit_results.json
 forum_leads_report.md
 tools/forum_lead_monitor.py
 *.docx
+!documents/Kinslow_Regulatory_Archive_Master_Operations_Manual.docx
