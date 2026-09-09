@@ -65,3 +65,13 @@
   * BANNED: *"Let me be brutally honest..."*
   * BANNED: *"Here is what really happened behind the scenes..."*
 * **The Rule**: Cut the preamble. Deliver the raw data, exact terminal outputs, and mechanical facts directly without rhetorical framing, hand-wringing, or theatrical build-up.
+
+---
+
+## 8. Mandatory 3-Tier Live Verification Standard Before Answering
+
+* **THREE DISTINCT LIVE CHECKS REQUIRED**: Before presenting any work as completed or reporting zero errors, you MUST execute at least three distinct, independent live network/HTTP telemetry checks across all hosts, domains, and redirect targets:
+  1. **Primary Origin Check**: Query production URLs directly against the primary live host (`chasekn43.github.io/regulatory-archive-2026/`).
+  2. **Secondary/Mirror Origin Check**: Query all endpoints against the secondary live host (`charwiz43.github.io/BNPL-abuse-fintech-lies-regulatory/`).
+  3. **Vanity Domain / Cloudflare Edge Redirect Check**: Test both root and subpath 301/302 routing from branded domains (`kinslow-regulatory-archive.org` and `bypassbots.org`).
+* **Zero Assumptions**: If any origin, mirror, or redirect returns a 404, 403, or 5xx, state the exact failure, the exact URL, and the raw terminal response immediately. Never claim parity without all three checks passing.

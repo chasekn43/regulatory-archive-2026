@@ -89,7 +89,7 @@
       --maxw: 960px;
     }
     *, *::before, *::after { box-sizing: border-box; }
-    html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-behavior: smooth; background-color: var(--bg-canvas); }
+    html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; background-color: var(--bg-canvas); }
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "Outfit", Helvetica, Arial, sans-serif;
@@ -235,15 +235,34 @@
       color: var(--text-muted);
       margin-top: 40px;
     }
+    .top-legal-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .top-legal-link {
+      color: #38bdf8 !important;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+    .feature-list {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .cta-actions {
+      margin-top: 26px;
+    }
   </style>
 </head>
 <body>
 
   <!-- TOP BAR -->
   <aside class="top-legal-bar" role="complementary" aria-label="Consumer alert">
-    <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+    <div class="container top-legal-container">
       <span>🏛️ <strong>Kinslow Regulatory Archive &amp; Evidence Vault</strong> • Public Commentary Series</span>
-      <a href="../index.html" style="color: #38bdf8 !important; font-weight: 700; text-decoration: underline;">← Return to Main Archive Vault</a>
+      <a href="../index.html" class="top-legal-link">← Return to Main Archive Vault</a>
     </div>
   </aside>
 
@@ -309,7 +328,7 @@
       </p>
       
       <div class="callout-box callout-amber">
-        <ul style="margin: 0; padding-left: 18px;">
+        <ul class="feature-list">
           <li><strong>Zero Hardware Overhead:</strong> A dashcam mounted on a windshield while driving the routes he was already required to drive.</li>
           <li><strong>Instant Pipeline:</strong> Video footage uploaded directly to Claude Opus 4.6.</li>
           <li><strong>The Output:</strong> A complete breakdown showing exactly where the road was falling apart, what it would cost to fix, and which villages needed the repairs first—in <strong>5 hours</strong> instead of weeks of manual paperwork.</li>
@@ -335,7 +354,7 @@
         <strong>Core Thesis:</strong> The future of artificial intelligence does not belong to the managerial class or self-congratulatory professional echo chambers. It belongs to the frontline.
       </div>
 
-      <div style="margin-top: 26px;">
+      <div class="cta-actions">
         <a href="../index.html" class="btn-action">🏛️ Return to Master Archive</a>
         <a href="../tools/bnpl-refund-delay-diagnostic.html" class="btn-action btn-secondary">⚖️ Free Dispute Generator</a>
         <a href="../topics/affirm-cfpb-complaint-database-bbb-case-logs.html" class="btn-action btn-secondary">📊 CFPB Evidence Logs</a>

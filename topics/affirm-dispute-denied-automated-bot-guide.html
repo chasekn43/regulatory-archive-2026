@@ -150,6 +150,86 @@
       color: var(--text-muted);
       text-align: center;
     }
+    .header-desc {
+      font-size: 18px;
+      color: var(--text-muted);
+      margin: 0;
+    }
+    .triage-card-danger {
+      background: rgba(239, 68, 68, 0.08);
+      border: 1.5px solid var(--danger);
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin: 20px 0 30px;
+    }
+    .triage-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .triage-badge-danger {
+      background: var(--danger);
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .triage-time-danger {
+      color: #ef4444;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .triage-title {
+      color: #ffffff;
+      font-size: 15px;
+      margin: 0 0 12px;
+      font-weight: 600;
+    }
+    .triage-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .triage-btn-primary-danger {
+      background: var(--danger);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 9px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+    .triage-btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      color: #38bdf8;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 9px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+    .callout-danger-title {
+      color: #ef4444;
+      font-size: 16px;
+      display: block;
+    }
+    .callout-danger-desc {
+      margin: 8px 0 0 0;
+    }
+    .footer-link {
+      color: var(--accent);
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -162,25 +242,25 @@
   <header>
     <span class="badge">Consumer Rights &amp; Dispute Forensic Guide</span>
     <h1>Affirm Dispute Denied in Minutes? Why the "Investigation" Is an Automated Bot and How to Win</h1>
-    <p style="font-size: 18px; color: var(--text-muted); margin: 0;">
+    <p class="header-desc">
       A forensic breakdown of algorithmic dispute suppression in Buy Now Pay Later (BNPL) platforms, why standard customer support fails, and the exact paper trail required to force a zero liability resolution.
     </p>
   </header>
 
   <!-- SPENCER & ENGE MOBILE TRIAGE CARD: IMMEDIATE ESCALATION -->
-  <div style="background: rgba(239, 68, 68, 0.08); border: 1.5px solid var(--danger); border-radius: 10px; padding: 18px 20px; margin: 20px 0 30px;">
-    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
-      <span style="background: var(--danger); color: #ffffff; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">Urgent Recourse</span>
-      <span style="color: #ef4444; font-size: 12px; font-weight: 700;">⏱️ Dispute Overturn Protocol</span>
+  <div class="triage-card-danger">
+    <div class="triage-header">
+      <span class="triage-badge-danger">Urgent Recourse</span>
+      <span class="triage-time-danger">⏱️ Dispute Overturn Protocol</span>
     </div>
-    <p style="color: #ffffff; font-size: 15px; margin: 0 0 12px; font-weight: 600;">
+    <p class="triage-title">
       Did Affirm's bot deny your dispute in under 5 minutes without reviewing your return receipts? Bypass the customer service loop immediately with statutory notice letters and executive escalation.
     </p>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="../tools/affirm-dispute-demand-generator.html" style="background: var(--danger); color: #ffffff; font-weight: 700; font-size: 13px; padding: 9px 18px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center;">
+    <div class="triage-actions">
+      <a href="../tools/affirm-dispute-demand-generator.html" class="triage-btn-primary-danger">
         📄 Generate 12 CFR § 1026.13 Legal Notice &rarr;
       </a>
-      <a href="../guides/affirm-ceo-executive-contacts-escalation.html" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); color: #38bdf8; font-weight: 700; font-size: 13px; padding: 9px 18px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center;">
+      <a href="../guides/affirm-ceo-executive-contacts-escalation.html" class="triage-btn-secondary">
         📞 Executive Contacts Directory &rarr;
       </a>
     </div>
@@ -196,8 +276,8 @@
     </p>
 
     <div class="callout callout-danger">
-      <strong style="color: #ef4444; font-size: 16px;">The Automated Bot Failure Mode:</strong>
-      <p style="margin: 8px 0 0 0;">
+      <strong class="callout-danger-title">The Automated Bot Failure Mode:</strong>
+      <p class="callout-danger-desc">
         Affirm's algorithms verify whether an account session existed at the time of checkout. If a single-use virtual card was generated from the account—even via credential stuffing, SIM swapping, or session hijacking—the bot automatically deems the transaction "authorized" and closes the case, ignoring carrier proof showing the goods were shipped 1,800 miles away.
       </p>
     </div>
@@ -245,7 +325,7 @@
 
   <footer>
     <p>© 2026 Charles W. Kinslow IV, J.D., C.P.A. • Regulatory Archive &amp; Empirical Case Study Vault</p>
-    <p><a href="../index.html" style="color: var(--accent); text-decoration: none;">kinslow-regulatory-archive.org</a> • Verified Public Compliance Dossier</p>
+    <p><a href="../index.html" class="footer-link">kinslow-regulatory-archive.org</a> • Verified Public Compliance Dossier</p>
   </footer>
 </div>
 

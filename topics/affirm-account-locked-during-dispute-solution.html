@@ -115,6 +115,86 @@
       color: var(--text-muted);
       text-align: center;
     }
+    .header-desc {
+      font-size: 18px;
+      color: var(--text-muted);
+      margin: 0;
+    }
+    .triage-card {
+      background: rgba(56, 189, 248, 0.08);
+      border: 1.5px solid var(--accent);
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin: 20px 0 30px;
+    }
+    .triage-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .triage-badge {
+      background: var(--accent);
+      color: #0a0e17;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .triage-time {
+      color: #38bdf8;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .triage-title {
+      color: #ffffff;
+      font-size: 15px;
+      margin: 0 0 12px;
+      font-weight: 600;
+    }
+    .triage-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .triage-btn-primary {
+      background: var(--accent);
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 9px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+    .triage-btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      color: #38bdf8;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 9px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+    .callout-trap-title {
+      color: #f59e0b;
+      font-size: 16px;
+      display: block;
+    }
+    .callout-trap-desc {
+      margin: 8px 0 0 0;
+    }
+    .footer-link {
+      color: var(--accent);
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -127,25 +207,25 @@
   <header>
     <span class="badge">Technical &amp; Payment Architecture Guide</span>
     <h1>Affirm Account Locked After You Disputed a Charge? How to Protect Your Credit &amp; Force Settlement</h1>
-    <p style="font-size: 18px; color: var(--text-muted); margin: 0;">
+    <p class="header-desc">
       A practical guide on why Affirm locks user accounts following regulatory complaints, the "manufactured default" trap, and the exact Bank BillPay protocol to protect your credit.
     </p>
   </header>
 
   <!-- SPENCER & ENGE MOBILE TRIAGE CARD: IMMEDIATE ACTION -->
-  <div style="background: rgba(56, 189, 248, 0.08); border: 1.5px solid var(--accent); border-radius: 10px; padding: 18px 20px; margin: 20px 0 30px;">
-    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
-      <span style="background: var(--accent); color: #0a0e17; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">Immediate Action</span>
-      <span style="color: #38bdf8; font-size: 12px; font-weight: 700;">⏱️ Protect Credit Now</span>
+  <div class="triage-card">
+    <div class="triage-header">
+      <span class="triage-badge">Immediate Action</span>
+      <span class="triage-time">⏱️ Protect Credit Now</span>
     </div>
-    <p style="color: #ffffff; font-size: 15px; margin: 0 0 12px; font-weight: 600;">
+    <p class="triage-title">
       Locked out of making payments in the Affirm app? Pay legitimate loans directly via external bank BillPay to stop collection fees, then generate your statutory dispute notice.
     </p>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="../guides/affirm-bank-billpay-workaround.html" style="background: var(--accent); color: #0f172a; font-weight: 700; font-size: 13px; padding: 9px 18px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center;">
+    <div class="triage-actions">
+      <a href="../guides/affirm-bank-billpay-workaround.html" class="triage-btn-primary">
         ⚡ Open Bank BillPay Bypass Guide &rarr;
       </a>
-      <a href="../tools/affirm-dispute-demand-generator.html" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); color: #38bdf8; font-weight: 700; font-size: 13px; padding: 9px 18px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center;">
+      <a href="../tools/affirm-dispute-demand-generator.html" class="triage-btn-secondary">
         📄 Generate Dispute Letter &rarr;
       </a>
     </div>
@@ -161,8 +241,8 @@
     </p>
 
     <div class="callout callout-warning">
-      <strong style="color: #f59e0b; font-size: 16px;">The Manufactured Default Trap:</strong>
-      <p style="margin: 8px 0 0 0;">
+      <strong class="callout-trap-title">The Manufactured Default Trap:</strong>
+      <p class="callout-trap-desc">
         While Affirm disables the user's ability to make payments through the app, Affirm's automated collections engine continues issuing daily late notices, assessing late penalties, and threatening adverse credit reporting to Experian and TransUnion. This creates an engineered dilemma designed to coerce the consumer into dropping their dispute.
       </p>
     </div>
@@ -205,7 +285,7 @@
 
   <footer>
     <p>© 2026 Charles W. Kinslow IV, J.D., C.P.A. • Regulatory Archive &amp; Empirical Case Study Vault</p>
-    <p><a href="../index.html" style="color: var(--accent); text-decoration: none;">kinslow-regulatory-archive.org</a></p>
+    <p><a href="../index.html" class="footer-link">kinslow-regulatory-archive.org</a></p>
   </footer>
 </div>
 

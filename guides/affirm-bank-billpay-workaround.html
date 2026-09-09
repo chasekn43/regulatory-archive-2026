@@ -218,19 +218,19 @@
   </header>
 
   <!-- SPENCER & ENGE MOBILE TRIAGE CARD: IMMEDIATE RECOURSE -->
-  <div style="background: rgba(56, 189, 248, 0.08); border: 1.5px solid var(--accent); border-radius: 10px; padding: 18px 20px; margin-bottom: 25px;">
-    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
-      <span style="background: var(--accent); color: #0a0e17; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">Immediate Action</span>
-      <span style="color: #38bdf8; font-size: 12px; font-weight: 700;">⏱️ 3-Minute Setup</span>
+  <div class="triage-card">
+    <div class="triage-header">
+      <span class="triage-badge">Immediate Action</span>
+      <span class="triage-time">⏱️ 3-Minute Setup</span>
     </div>
-    <p style="color: #f3f4f6; font-size: 14px; margin: 0 0 10px; font-weight: 600;">
+    <p class="triage-title">
       Account locked after disputing a charge? Do not let Affirm claim a default on performing loans. Pay directly through your bank and generate your dispute notice.
     </p>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="#step-2" style="background: var(--accent); color: #0a0e17; font-weight: 700; font-size: 13px; padding: 8px 16px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center;">
+    <div class="triage-actions">
+      <a href="#step-2" class="triage-btn-primary">
         ⚡ Jump to Biller Routing Info &darr;
       </a>
-      <a href="../tools/affirm-dispute-demand-generator.html" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); color: #38bdf8; font-weight: 700; font-size: 13px; padding: 8px 16px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center;">
+      <a href="../tools/affirm-dispute-demand-generator.html" class="triage-btn-secondary">
         📄 Generate Dispute Notice &rarr;
       </a>
     </div>
@@ -242,29 +242,29 @@
     
     <div class="callout">
       <div class="callout-title">⚠️ The Corporate Myth: "You Can Only Pay in the App"</div>
-      <p style="margin-bottom: 0; color: #cbd5e1;">Despite statements from customer support representatives that app access is mandatory to make payments, Affirm maintains registered national payee accounts across standard US banking clearing networks (ACH). Consumers have the right to remit payments through their independent bank.</p>
+      <p class="callout-desc">Despite statements from customer support representatives that app access is mandatory to make payments, Affirm maintains registered national payee accounts across standard US banking clearing networks (ACH). Consumers have the right to remit payments through their independent bank.</p>
     </div>
 
     <h2>Step-by-Step Bank BillPay Routing Procedure</h2>
 
     <div class="step-card">
       <div class="step-title">Step 1: Log Into Your Personal Bank or Credit Union Portal</div>
-      <p style="margin-bottom: 0;">Navigate to the <strong>Bill Pay / Pay Bills</strong> section within your online banking portal (e.g., Chase, Wells Fargo, Bank of America, Citi, or local credit union).</p>
+      <p>Navigate to the <strong>Bill Pay / Pay Bills</strong> section within your online banking portal (e.g., Chase, Wells Fargo, Bank of America, Citi, or local credit union).</p>
     </div>
 
     <div class="step-card">
       <div class="step-title">Step 2: Add "Affirm, Inc." to Your Payee List</div>
-      <p style="margin-bottom: 0;">Search the bank's national electronic biller directory for <strong>Affirm</strong>. Most major financial institutions have pre-registered electronic routing for Affirm.</p>
+      <p>Search the bank's national electronic biller directory for <strong>Affirm</strong>. Most major financial institutions have pre-registered electronic routing for Affirm.</p>
     </div>
 
     <div class="step-card">
       <div class="step-title">Step 3: Enter Your Unique Loan ID or Registered Phone Number</div>
-      <p style="margin-bottom: 0;">In the <strong>Account Number</strong> field, input your specific Affirm Loan ID (e.g., 16-character alphanumeric code) or your registered primary telephone number. This ensures automated settlement against your ledger balance.</p>
+      <p>In the <strong>Account Number</strong> field, input your specific Affirm Loan ID (e.g., 16-character alphanumeric code) or your registered primary telephone number. This ensures automated settlement against your ledger balance.</p>
     </div>
 
     <div class="step-card">
       <div class="step-title">Step 4: Execute Payment and Preserve the Banking Trace Receipt</div>
-      <p style="margin-bottom: 0;">Submit the payment and immediately take a full screenshot or download the official bank confirmation displaying the <strong>Payment Confirmation Number</strong>, <strong>Processed Date</strong>, and <strong>Cleared Amount</strong>.</p>
+      <p>Submit the payment and immediately take a full screenshot or download the official bank confirmation displaying the <strong>Payment Confirmation Number</strong>, <strong>Processed Date</strong>, and <strong>Cleared Amount</strong>.</p>
     </div>
 
     <h2>Legal Protection Under Federal Law</h2>
@@ -283,7 +283,7 @@
 
   <footer>
     <p>Kinslow Regulatory Archive &amp; Forensic Evidence Vault &bull; Certified Case Records: CFPB #260717-35668593 &bull; Monroe PD #26-29572</p>
-    <p style="margin-top: 8px;"><a href="../index.html">Main Vault</a> | <a href="affirm-dispute-denied-returned-item.html">Returned Item Guide</a> | <a href="affirm-automated-customer-service-escalation.html">Dispute Escalation Guide</a></p>
+    <p class="footer-nav"><a href="../index.html">Main Vault</a> | <a href="affirm-dispute-denied-returned-item.html">Returned Item Guide</a> | <a href="affirm-automated-customer-service-escalation.html">Dispute Escalation Guide</a></p>
   </footer>
 
 </body>

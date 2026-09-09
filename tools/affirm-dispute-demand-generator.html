@@ -183,6 +183,31 @@
       align-items: center;
       gap: 8px;
     }
+    .tool-sub {
+      color: var(--text-muted);
+      margin: 0 0 20px 0;
+    }
+    .tool-h3 {
+      margin-top: 0;
+      color: #fff;
+    }
+    .calc-label {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+    .calc-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .tool-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
   </style>
 </head>
 <body>
@@ -192,14 +217,14 @@
 
   <div class="badge">100% Client-Side • Free Public Legal Tool</div>
   <h1>BNPL Statutory Demand Letter &amp; Penalty Calculator</h1>
-  <p style="color:var(--text-muted); margin:0 0 20px 0;">
+  <p class="tool-sub">
     Generate formal Truth in Lending Act (12 C.F.R. § 1026.13), Fair Credit Reporting Act (15 U.S.C. § 1681s-2(b)), and CFPB UDAAP dispute notices in seconds.
   </p>
 
   <div class="grid">
     <!-- INPUT FORM -->
     <div class="card">
-      <h3 style="margin-top:0; color:#fff;">1. Dispute Parameters</h3>
+      <h3 class="tool-h3">1. Dispute Parameters</h3>
 
       <div class="form-group">
         <label for="userName">Your Full Name</label>
@@ -253,11 +278,11 @@
 
       <!-- STATUTORY PENALTY ESTIMATOR -->
       <div class="calc-card">
-        <div style="font-size:11px; font-weight:800; color:var(--accent); text-transform:uppercase;">
+        <div class="calc-label">
           ⚖️ Potential Statutory Recovery Exposure
         </div>
         <div class="calc-val" id="totalDamages">$2,000.00 - $3,285.85</div>
-        <div style="font-size:12px; color:var(--text-muted); margin-top:4px;">
+        <div class="calc-sub">
           Includes TILA § 1640(a) individual penalties ($2,000 max) + FCRA § 1681n willful non-compliance ($1,000 max) + Full Principal Voiding.
         </div>
       </div>
@@ -277,7 +302,7 @@
 
       <div class="output-box" id="letterOutput"></div>
 
-      <div style="display:flex; gap:10px; margin-top:15px; flex-wrap:wrap;">
+      <div class="tool-actions">
         <button class="btn" onclick="copyLetter()">📋 Copy Letter to Clipboard</button>
         <button class="btn btn-secondary" onclick="downloadLetter()">💾 Download .TXT File</button>
       </div>

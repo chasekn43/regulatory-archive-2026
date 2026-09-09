@@ -201,19 +201,19 @@
   </header>
 
   <!-- SPENCER & ENGE MOBILE TRIAGE CARD: RETURN DISPUTE RECOURSE -->
-  <div style="background: rgba(239, 68, 68, 0.08); border: 1.5px solid var(--danger); border-radius: 10px; padding: 18px 20px; margin-bottom: 25px;">
-    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
-      <span style="background: var(--danger); color: #ffffff; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">Immediate Recourse</span>
-      <span style="color: #ef4444; font-size: 12px; font-weight: 700;">⏱️ Carrier Proof &amp; Reg Z Notice</span>
+  <div class="triage-card-danger">
+    <div class="triage-header">
+      <span class="triage-badge-danger">Immediate Recourse</span>
+      <span class="triage-time-danger">⏱️ Carrier Proof &amp; Reg Z Notice</span>
     </div>
-    <p style="color: #f3f4f6; font-size: 14px; margin: 0 0 10px; font-weight: 600;">
+    <p class="triage-title">
       Did you return merchandise with carrier tracking, but Affirm denied your refund dispute? Under 12 CFR § 1026.13, you are protected.
     </p>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="../tools/bnpl-refund-delay-diagnostic.html" style="background: var(--danger); color: #ffffff; font-weight: 700; font-size: 13px; padding: 8px 16px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center;">
+    <div class="triage-actions">
+      <a href="../tools/bnpl-refund-delay-diagnostic.html" class="triage-btn-primary-danger">
         ⚡ Launch Refund Diagnostic &rarr;
       </a>
-      <a href="../tools/affirm-dispute-demand-generator.html" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); color: #38bdf8; font-weight: 700; font-size: 13px; padding: 8px 16px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center;">
+      <a href="../tools/affirm-dispute-demand-generator.html" class="triage-btn-secondary">
         📄 Generate Formal Dispute Letter &rarr;
       </a>
     </div>
@@ -227,22 +227,22 @@
 
     <div class="step-card">
       <div class="step-title">Step 1: Download Certified Carrier Proof of Delivery (POD)</div>
-      <p style="margin-bottom: 0;">Do not simply take a screenshot of the delivery status. Download the carrier's official PDF <strong>Proof of Delivery</strong> document (from FedEx, UPS, or USPS) showing delivery timestamp, facility location, and receiving signature.</p>
+      <p>Do not simply take a screenshot of the delivery status. Download the carrier's official PDF <strong>Proof of Delivery</strong> document (from FedEx, UPS, or USPS) showing delivery timestamp, facility location, and receiving signature.</p>
     </div>
 
     <div class="step-card">
       <div class="step-title">Step 2: Preserve Merchant RMA and Communication Headers</div>
-      <p style="margin-bottom: 0;">Export the full email thread showing the merchant issuing the return label or Return Merchandise Authorization (RMA). Ensure timestamp and sender header information is fully visible.</p>
+      <p>Export the full email thread showing the merchant issuing the return label or Return Merchandise Authorization (RMA). Ensure timestamp and sender header information is fully visible.</p>
     </div>
 
     <div class="step-card">
       <div class="step-title">Step 3: Submit a Formal Written Notice of Dispute</div>
-      <p style="margin-bottom: 0;">Send a formal written letter to Affirm Customer Operations and Executive Relations asserting an unresolved billing error under <strong>12 C.F.R. § 1026.13</strong>. Attach the Proof of Delivery and RMA records.</p>
+      <p>Send a formal written letter to Affirm Customer Operations and Executive Relations asserting an unresolved billing error under <strong>12 C.F.R. § 1026.13</strong>. Attach the Proof of Delivery and RMA records.</p>
     </div>
 
     <div class="step-card">
       <div class="step-title">Step 4: Escalate to the CFPB and State Attorney General</div>
-      <p style="margin-bottom: 0;">If automated denials persist, file a formal complaint with the <strong>Consumer Financial Protection Bureau (CFPB)</strong> and your state Attorney General Consumer Protection Division, attaching your complete evidence package.</p>
+      <p>If automated denials persist, file a formal complaint with the <strong>Consumer Financial Protection Bureau (CFPB)</strong> and your state Attorney General Consumer Protection Division, attaching your complete evidence package.</p>
     </div>
 
     <h2>Frequently Asked Questions</h2>
@@ -258,7 +258,7 @@
 
   <footer>
     <p>Kinslow Regulatory Archive &amp; Forensic Evidence Vault &bull; Certified Case Records: CFPB #260717-35668593 &bull; Monroe PD #26-29572</p>
-    <p style="margin-top: 8px;"><a href="../index.html">Main Vault</a> | <a href="affirm-bank-billpay-workaround.html">Bank BillPay Guide</a> | <a href="affirm-automated-customer-service-escalation.html">Dispute Escalation Guide</a></p>
+    <p class="footer-nav"><a href="../index.html">Main Vault</a> | <a href="affirm-bank-billpay-workaround.html">Bank BillPay Guide</a> | <a href="affirm-automated-customer-service-escalation.html">Dispute Escalation Guide</a></p>
   </footer>
 
 </body>

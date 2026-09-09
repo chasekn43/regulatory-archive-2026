@@ -31,8 +31,7 @@
     content="Free statutory dispute letters, CFPB docket records, and bot bypass shortcuts to resolve Affirm refund delays under Regulation Z.">
   <meta name="twitter:image" content="https://kinslow-regulatory-archive.org/og_preview_banner.jpg">
 
-  <link rel="manifest"
-    href="data:application/manifest+json;charset=utf-8,%7B%22name%22%3A%20%22Charles%20W.%20Kinslow%20IV%20%7C%20Fintech%20%26%20BNPL%20Regulatory%20Archive%22%2C%20%22short_name%22%3A%20%22Kinslow%20Archive%22%2C%20%22description%22%3A%20%22Public%20regulatory%20archive%20of%20CFPB%20Complaint%20%23260717-35668593%2C%20primary%20exhibits%2C%20and%20legal%20research.%22%2C%20%22start_url%22%3A%20%22/%22%2C%20%22scope%22%3A%20%22/%22%2C%20%22display%22%3A%20%22standalone%22%2C%20%22background_color%22%3A%20%22%230b0f19%22%2C%20%22theme_color%22%3A%20%22%230b0f19%22%2C%20%22orientation%22%3A%20%22portrait-primary%22%2C%20%22icons%22%3A%20%5B%7B%22src%22%3A%20%22/icon-192.png%22%2C%20%22sizes%22%3A%20%22192x192%22%2C%20%22type%22%3A%20%22image/png%22%2C%20%22purpose%22%3A%20%22any%20maskable%22%7D%2C%20%7B%22src%22%3A%20%22/icon-512.png%22%2C%20%22sizes%22%3A%20%22512x512%22%2C%20%22type%22%3A%20%22image/png%22%2C%20%22purpose%22%3A%20%22any%20maskable%22%7D%5D%7D">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>">
   <link rel="apple-touch-icon" href="icon-192.png">
@@ -69,7 +68,6 @@
 
     html {
       -webkit-text-size-adjust: 100%;
-      text-size-adjust: 100%;
       scroll-behavior: smooth;
       background-color: var(--bg-canvas);
     }
@@ -529,7 +527,6 @@
 
     html {
       -webkit-text-size-adjust: 100%;
-      text-size-adjust: 100%;
       scroll-behavior: smooth;
       background-color: var(--bg-canvas);
     }
@@ -1838,6 +1835,7 @@ Sincerely,
         </div>
         <div class="cf-ai-input-group">
           <input type="text" class="cf-ai-input" id="cfAiQueryInput"
+            aria-label="Search archive with Cloudflare AI"
             placeholder="Ask anything about CFPB dockets, Farfetch exhibits, or dispute rights..."
             onkeydown="if(event.key==='Enter') executeCfAiSearch()" />
           <button class="cf-ai-btn" id="cfAiSubmitBtn" onclick="executeCfAiSearch()">Search</button>

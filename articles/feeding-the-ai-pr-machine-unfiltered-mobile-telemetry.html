@@ -162,25 +162,75 @@
     .source-list li {
       margin-bottom: 12px;
     }
+    .article-nav {
+      background: #ffffff;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 14px 20px;
+    }
+    .article-nav-container {
+      max-width: 860px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .article-nav-back {
+      color: #475569;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .article-nav-badge {
+      font-size: 12px;
+      color: #64748b;
+      font-weight: 600;
+    }
+    .article-title {
+      font-size: 34px;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.25;
+      margin: 10px 0 16px;
+    }
+    .article-byline {
+      color: #64748b;
+      font-size: 15px;
+      margin: 0;
+    }
+    .source-list-title {
+      margin-top: 0;
+      color: #0f172a;
+    }
+    .article-footer {
+      background: #ffffff;
+      border-top: 1px solid #e2e8f0;
+      padding: 24px;
+      text-align: center;
+      font-size: 14px;
+      color: #64748b;
+    }
+    .article-footer-link {
+      color: #1d4ed8;
+    }
   </style>
 </head>
 
 <body class="guide-page">
 
-  <nav style="background: #ffffff; border-bottom: 1px solid #e2e8f0; padding: 14px 20px;">
-    <div style="max-width: 860px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
-      <a href="../index.html" style="color: #475569; text-decoration: none; font-weight: 600; font-size: 14px;">&larr; Return to Public Regulatory Archive</a>
-      <span style="font-size: 12px; color: #64748b; font-weight: 600;">INDEPENDENT FORENSIC REPORT</span>
+  <nav class="article-nav">
+    <div class="article-nav-container">
+      <a href="../index.html" class="article-nav-back">&larr; Return to Public Regulatory Archive</a>
+      <span class="article-nav-badge">INDEPENDENT FORENSIC REPORT</span>
     </div>
   </nav>
 
   <main class="article-container">
     <header class="article-header">
       <span class="meta-badge">Forensic Technology &amp; Macroeconomic Audit</span>
-      <h1 style="font-size: 34px; font-weight: 800; color: #0f172a; line-height: 1.25; margin: 10px 0 16px;">
+      <h1 class="article-title">
         Feeding the AI PR Machine: Unfiltered Mobile Telemetry, Codebase Audits, and the Real Economy
       </h1>
-      <p style="color: #64748b; font-size: 15px; margin: 0;">
+      <p class="article-byline">
         By <strong>Charles W. Kinslow IV, J.D., C.P.A.</strong> &bull; Published September 2026 &bull; Verified Telemetry Audit
       </p>
 
@@ -378,7 +428,7 @@
     </section>
 
     <section class="source-list">
-      <h3 style="margin-top: 0; color: #0f172a;">Primary Data Sources &amp; Verification Links</h3>
+      <h3 class="source-list-title">Primary Data Sources &amp; Verification Links</h3>
       <ul>
         <li><strong>Sensor Tower Mobile App Telemetry:</strong> Global mobile screen time (5.3T hours) and generative AI share (48B hours / 0.90%). [<a href="https://sensortower.com" target="_blank" rel="noopener">Direct Link</a>]</li>
         <li><strong>Similarweb Web Traffic &amp; Engagement:</strong> Average visit duration (~6m 38s), bounce rates, and pages per visit for ChatGPT. [<a href="https://www.similarweb.com/website/chatgpt.com/" target="_blank" rel="noopener">Direct Link</a>]</li>
@@ -392,8 +442,8 @@
     </section>
   </main>
 
-  <footer style="background: #ffffff; border-top: 1px solid #e2e8f0; padding: 24px; text-align: center; font-size: 14px; color: #64748b;">
-    <p>&copy; 2026 Charles W. Kinslow IV, J.D., C.P.A. &bull; <a href="../index.html" style="color: #1d4ed8;">Public Regulatory Evidence Archive</a></p>
+  <footer class="article-footer">
+    <p>&copy; 2026 Charles W. Kinslow IV, J.D., C.P.A. &bull; <a href="../index.html" class="article-footer-link">Public Regulatory Evidence Archive</a></p>
   </footer>
 
 </body>

@@ -378,6 +378,35 @@
       font-size: 13px;
       color: var(--text-muted);
     }
+
+    .cta-heading {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: #fff;
+    }
+
+    .cta-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .viewer-icon {
+      color: var(--accent);
+    }
+
+    .viewer-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .share-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
   </style>
 </head>
 <body>
@@ -410,8 +439,8 @@
     <div class="cta-card">
       <div class="cta-grid">
         <div>
-          <h2 style="font-size: 20px; font-weight: 700; margin-bottom: 6px; color: #fff;">Complete Technical Dossier</h2>
-          <p style="font-size: 14px; color: var(--text-muted);">
+          <h2 class="cta-heading">Complete Technical Dossier</h2>
+          <p class="cta-desc">
             LinkedIn caps native document carousel uploads at 300 pages. The complete unredacted 2,599-page transcript and architectural teardown is hosted here via CDN.
           </p>
           <div class="doc-meta">
@@ -455,11 +484,11 @@
     <div class="viewer-container">
       <div class="viewer-header">
         <div class="viewer-title">
-          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="color: var(--accent);"><path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/></svg>
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="viewer-icon"><path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/></svg>
           Interactive Document Preview (Pages 1 &ndash; 2,599)
         </div>
         <div>
-          <a href="documents/Documentation.pdf" download="Documentation.pdf" style="color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;">Direct File Link &darr;</a>
+          <a href="documents/Documentation.pdf" download="Documentation.pdf" class="viewer-link">Direct File Link &darr;</a>
         </div>
       </div>
       <iframe class="viewer-frame" src="documents/Documentation.pdf#view=FitH" title="Documentation PDF Viewer"></iframe>
@@ -467,7 +496,7 @@
 
     <div class="share-box">
       <h4>LinkedIn Post Share Link</h4>
-      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 4px;">
+      <p class="share-desc">
         Copy this link to paste directly into your LinkedIn post. LinkedIn's crawler will automatically fetch the high-resolution Open Graph card and certified document badge:
       </p>
       <div class="share-input-group">
