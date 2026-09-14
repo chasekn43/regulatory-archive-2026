@@ -1,17 +1,18 @@
 # 🏛️ Charles W. Kinslow IV | Affirm, Inc. (NYSE: AFRM) Regulatory Archive & Evidentiary Vault
 
-[![Official Website](https://img.shields.io/badge/Official%20Vault-kinslow--regulatory--archive.org-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kinslow-regulatory-archive.org/)
+[![Official Website](https://img.shields.io/badge/Official%20Web%20Portal-kinslow--regulatory--archive.org-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kinslow-regulatory-archive.org/)
+[![GitHub Pages Mirror](https://img.shields.io/badge/GitHub%20Pages%20Mirror-Live%20App-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://chasekn43.github.io/regulatory-archive-2026/)
 [![Medium Exposé](https://img.shields.io/badge/Medium-Case%20Exposé-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@chasekn43/anatomy-of-a-an-atypical-consumer-dispute-how-an-everyday-worker-outmaneuvered-a-10-billion-2c81224f7f3f)
 [![Substack Publication](https://img.shields.io/badge/Substack-Case%20Exposé-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://chasekinslow1.substack.com/p/anatomy-of-an-atypical-consumer-dispute)
 [![CFPB Case](https://img.shields.io/badge/CFPB%20Complaint-%23260717--35668593-10b981?style=for-the-badge)](https://kinslow-regulatory-archive.org/documents/cfpb-complaint-and-affirm-false-response.pdf)
-[![Police Report](https://img.shields.io/badge/Police%20Report-Monroe%20PD%20%2326--29572-ef4444?style=for-the-badge)](https://kinslow-regulatory-archive.org/documents/monroe-police-report-26-29572.pdf)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--8851--7890-a6ce39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-8851-7890)
 
-> ### 🌐 **LIVE INTERACTIVE CASE STUDY & EVIDENCE VAULT:**  
-> 👉 **[https://kinslow-regulatory-archive.org/](https://kinslow-regulatory-archive.org/)** &bull; **[Read on Medium](https://medium.com/@chasekn43/anatomy-of-a-an-atypical-consumer-dispute-how-an-everyday-worker-outmaneuvered-a-10-billion-2c81224f7f3f)** &bull; **[Read on Substack](https://chasekinslow1.substack.com/p/anatomy-of-an-atypical-consumer-dispute)**  
-> *Access certified primary documents, statutory whitepapers, and interactive case timelines.*
+> ### 🌐 **OFFICIAL LIVE INTERACTIVE WEB PORTAL & CONSUMER DEFENSE TOOLKIT:**  
+> 👉 **[https://kinslow-regulatory-archive.org/](https://kinslow-regulatory-archive.org/)** &bull; **[GitHub Pages Portal](https://chasekn43.github.io/regulatory-archive-2026/)** &bull; **[Read on Medium](https://medium.com/@chasekn43/anatomy-of-a-an-atypical-consumer-dispute-how-an-everyday-worker-outmaneuvered-a-10-billion-2c81224f7f3f)** &bull; **[Read on Substack](https://chasekinslow1.substack.com/p/anatomy-of-an-atypical-consumer-dispute)**  
+> *Generate statutory dispute demand letters, calculate statutory damages under Regulation Z (12 C.F.R. § 1026.13), and inspect primary evidentiary dockets.*
 
 ---
+
 
 ## 📚 **Federal Regulatory & Statutory Research Portals**
 

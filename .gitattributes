@@ -1,0 +1,5 @@
+*.json linguist-generated=true
+*.log linguist-generated=true
+*.txt linguist-documentation=true
+*.md linguist-documentation=true
+*.html linguist-detectable=true
