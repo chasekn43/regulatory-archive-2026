@@ -24,6 +24,7 @@
 | 🏛️ **[Regulation Z & Administrative Law Compliance](https://chasekn43.github.io/regulatory-archive-2026/topics/regulation-z-apa-compliance.html)** | APA § 706, TILA § 161 | Arbitrary & capricious standards, nonbank supervisory examination authority |
 | 🛡️ **[California AG UCL § 17200 Regulatory Rebuttal](https://chasekn43.github.io/regulatory-archive-2026/topics/california-ag-regulatory-rebuttal.html)** | Cal. Bus. & Prof. Code § 17200 | State Attorney General statutory submissions, Morgan Lewis correspondence |
 | 🏦 **[Capital Stack & ABS Warehouse Facility Risks](https://chasekn43.github.io/regulatory-archive-2026/topics/affirm-capital-stack-abs-warehouse-facility-risks.html)** | SEC Form ABS-EE, SOX § 404 | Warehouse credit facility covenants, ABS repurchase triggers, and uncredited dispute friction |
+| 🔥 **[The Two-Book Machine: Dual-Track Underwriting](https://chasekn43.github.io/regulatory-archive-2026/articles/the-two-book-machine-inside-affirms-dual-track-underwriting-arbitrage.html)** | ASC 326 (CECL), ECOA 12 CFR § 1002 | Direct-app adverse action denials vs. embedded merchant checkout approvals (Shop Pay) |
 | 🚨 **[Institutional Whistleblower Memorandum](https://chasekn43.github.io/regulatory-archive-2026/topics/affirm-institutional-whistleblower-memorandum.html)** | SEC Whistleblower, Dodd-Frank § 922 | Formal warning to ABS rating agencies, short-seller forensic desks, and Senate Banking investigators |
 
 ---
