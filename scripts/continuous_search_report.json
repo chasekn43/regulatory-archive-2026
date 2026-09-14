@@ -1,0 +1,68 @@
+[
+  {
+    "pass": 1,
+    "timestamp": "2026-08-13 04:02:28",
+    "queries": [
+      {
+        "query": "Chase Kinslow Point of sale lines of credit dispute legal record",
+        "engines": {
+          "DuckDuckGo": [],
+          "Bing": [
+            {
+              "engine": "BingAPI",
+              "error": "HTTP Error 401: PermissionDenied"
+            }
+          ],
+          "Yahoo": [],
+          "Google": []
+        },
+        "matches": []
+      },
+      {
+        "query": "Chase Kinslow Andy Y. Chen Affirm cease and desist github",
+        "engines": {
+          "DuckDuckGo": [],
+          "Bing": [
+            {
+              "engine": "BingAPI",
+              "error": "HTTP Error 401: PermissionDenied"
+            }
+          ],
+          "Yahoo": [],
+          "Google": []
+        },
+        "matches": []
+      },
+      {
+        "query": "Charles W. Kinslow IV Monroe Police Department incident report 26-29572 evidence vault",
+        "engines": {
+          "DuckDuckGo": [],
+          "Bing": [
+            {
+              "engine": "BingAPI",
+              "error": "HTTP Error 401: PermissionDenied"
+            }
+          ],
+          "Yahoo": [],
+          "Google": []
+        },
+        "matches": []
+      },
+      {
+        "query": "Chase Kinslow Louisiana AG Liz Murrill dispute submission github",
+        "engines": {
+          "DuckDuckGo": [],
+          "Bing": [
+            {
+              "engine": "BingAPI",
+              "error": "HTTP Error 401: PermissionDenied"
+            }
+          ],
+          "Yahoo": [],
+          "Google": []
+        },
+        "matches": []
+      }
+    ]
+  }
+]

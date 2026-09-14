@@ -1,14 +1,14 @@
 # 🏛️ Charles W. Kinslow IV | Affirm, Inc. (NYSE: AFRM) Regulatory Archive & Evidentiary Vault
 
-[![Official Website](https://img.shields.io/badge/Official%20Web%20Portal-kinslow--regulatory--archive.org-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kinslow-regulatory-archive.org/)
+[![Official Website](https://img.shields.io/badge/Official%20Web%20Portal-kinslow--regulatory--archive.org-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chasekn43.github.io/regulatory-archive-2026/)
 [![GitHub Pages Mirror](https://img.shields.io/badge/GitHub%20Pages%20Mirror-Live%20App-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://chasekn43.github.io/regulatory-archive-2026/)
 [![Medium Exposé](https://img.shields.io/badge/Medium-Case%20Exposé-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@chasekn43/anatomy-of-a-an-atypical-consumer-dispute-how-an-everyday-worker-outmaneuvered-a-10-billion-2c81224f7f3f)
 [![Substack Publication](https://img.shields.io/badge/Substack-Case%20Exposé-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://chasekinslow1.substack.com/p/anatomy-of-an-atypical-consumer-dispute)
-[![CFPB Case](https://img.shields.io/badge/CFPB%20Complaint-%23260717--35668593-10b981?style=for-the-badge)](https://kinslow-regulatory-archive.org/documents/cfpb-complaint-and-affirm-false-response.pdf)
+[![CFPB Case](https://img.shields.io/badge/CFPB%20Complaint-%23260717--35668593-10b981?style=for-the-badge)](https://chasekn43.github.io/regulatory-archive-2026/documents/cfpb-complaint-and-affirm-false-response.pdf)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--8851--7890-a6ce39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-8851-7890)
 
 > ### 🌐 **OFFICIAL LIVE INTERACTIVE WEB PORTAL & CONSUMER DEFENSE TOOLKIT:**  
-> 👉 **[https://kinslow-regulatory-archive.org/](https://kinslow-regulatory-archive.org/)** &bull; **[GitHub Pages Portal](https://chasekn43.github.io/regulatory-archive-2026/)** &bull; **[Read on Medium](https://medium.com/@chasekn43/anatomy-of-a-an-atypical-consumer-dispute-how-an-everyday-worker-outmaneuvered-a-10-billion-2c81224f7f3f)** &bull; **[Read on Substack](https://chasekinslow1.substack.com/p/anatomy-of-an-atypical-consumer-dispute)**  
+> 👉 **[https://chasekn43.github.io/regulatory-archive-2026/](https://chasekn43.github.io/regulatory-archive-2026/)** &bull; **[GitHub Pages Portal](https://chasekn43.github.io/regulatory-archive-2026/)** &bull; **[Read on Medium](https://medium.com/@chasekn43/anatomy-of-a-an-atypical-consumer-dispute-how-an-everyday-worker-outmaneuvered-a-10-billion-2c81224f7f3f)** &bull; **[Read on Substack](https://chasekinslow1.substack.com/p/anatomy-of-an-atypical-consumer-dispute)**  
 > *Generate statutory dispute demand letters, calculate statutory damages under Regulation Z (12 C.F.R. § 1026.13), and inspect primary evidentiary dockets.*
 
 ---
@@ -18,24 +18,24 @@
 
 | Topic Hub & Whitepaper | Legal / Regulatory Framework | Primary Exhibits & Analysis |
 | :--- | :--- | :--- |
-| 📄 **[TILA & 12 C.F.R. § 1026 Dispute Mechanics](https://kinslow-regulatory-archive.org/topics/tila-12cfr1026-closed-end-dispute-mechanics.html)** | 12 C.F.R. § 1026.13, 15 U.S.C. § 1666 | Closed-end installment lending, billing error rights, algorithmic decision trees |
-| ⚖️ **[APA § 553 Notice-and-Comment & Reliance Defenses](https://kinslow-regulatory-archive.org/topics/apa-notice-and-comment-reliance-defenses.html)** | 5 U.S.C. § 553, Cal. UCL § 17200 | *FTA v. CFPB* litigation, regulatory reliance defenses, State AG enforcement |
-| 🔍 **[Forensic Ledger Reconciliation & SOX § 404 Controls](https://kinslow-regulatory-archive.org/topics/fintech-sox-ledger-friction-chargebacks.html)** | SOX § 404, 16 C.F.R. § 433 | 3PL carrier tracking anomalies, uncredited ledger balances, Bank BillPay clearing |
-| 🏛️ **[Regulation Z & Administrative Law Compliance](https://kinslow-regulatory-archive.org/topics/regulation-z-apa-compliance.html)** | APA § 706, TILA § 161 | Arbitrary & capricious standards, nonbank supervisory examination authority |
-| 🛡️ **[California AG UCL § 17200 Regulatory Rebuttal](https://kinslow-regulatory-archive.org/topics/california-ag-regulatory-rebuttal.html)** | Cal. Bus. & Prof. Code § 17200 | State Attorney General statutory submissions, Morgan Lewis correspondence |
-| 🏦 **[Capital Stack & ABS Warehouse Facility Risks](https://kinslow-regulatory-archive.org/topics/affirm-capital-stack-abs-warehouse-facility-risks.html)** | SEC Form ABS-EE, SOX § 404 | Warehouse credit facility covenants, ABS repurchase triggers, and uncredited dispute friction |
-| 🚨 **[Institutional Whistleblower Memorandum](https://kinslow-regulatory-archive.org/topics/affirm-institutional-whistleblower-memorandum.html)** | SEC Whistleblower, Dodd-Frank § 922 | Formal warning to ABS rating agencies, short-seller forensic desks, and Senate Banking investigators |
+| 📄 **[TILA & 12 C.F.R. § 1026 Dispute Mechanics](https://chasekn43.github.io/regulatory-archive-2026/topics/tila-12cfr1026-closed-end-dispute-mechanics.html)** | 12 C.F.R. § 1026.13, 15 U.S.C. § 1666 | Closed-end installment lending, billing error rights, algorithmic decision trees |
+| ⚖️ **[APA § 553 Notice-and-Comment & Reliance Defenses](https://chasekn43.github.io/regulatory-archive-2026/topics/apa-notice-and-comment-reliance-defenses.html)** | 5 U.S.C. § 553, Cal. UCL § 17200 | *FTA v. CFPB* litigation, regulatory reliance defenses, State AG enforcement |
+| 🔍 **[Forensic Ledger Reconciliation & SOX § 404 Controls](https://chasekn43.github.io/regulatory-archive-2026/topics/fintech-sox-ledger-friction-chargebacks.html)** | SOX § 404, 16 C.F.R. § 433 | 3PL carrier tracking anomalies, uncredited ledger balances, Bank BillPay clearing |
+| 🏛️ **[Regulation Z & Administrative Law Compliance](https://chasekn43.github.io/regulatory-archive-2026/topics/regulation-z-apa-compliance.html)** | APA § 706, TILA § 161 | Arbitrary & capricious standards, nonbank supervisory examination authority |
+| 🛡️ **[California AG UCL § 17200 Regulatory Rebuttal](https://chasekn43.github.io/regulatory-archive-2026/topics/california-ag-regulatory-rebuttal.html)** | Cal. Bus. & Prof. Code § 17200 | State Attorney General statutory submissions, Morgan Lewis correspondence |
+| 🏦 **[Capital Stack & ABS Warehouse Facility Risks](https://chasekn43.github.io/regulatory-archive-2026/topics/affirm-capital-stack-abs-warehouse-facility-risks.html)** | SEC Form ABS-EE, SOX § 404 | Warehouse credit facility covenants, ABS repurchase triggers, and uncredited dispute friction |
+| 🚨 **[Institutional Whistleblower Memorandum](https://chasekn43.github.io/regulatory-archive-2026/topics/affirm-institutional-whistleblower-memorandum.html)** | SEC Whistleblower, Dodd-Frank § 922 | Formal warning to ABS rating agencies, short-seller forensic desks, and Senate Banking investigators |
 
 ---
 
 ## 🛠️ **Actionable Consumer Problem-Solving Guides & Press Room**
 
-* 💳 **[External Bank BillPay Routing Guide](https://kinslow-regulatory-archive.org/guides/affirm-bank-billpay-workaround.html)** — Bypass locked mobile UI controls via Federal Reserve ACH.
-* 📦 **[Denied Return Dispute Resolution Guide](https://kinslow-regulatory-archive.org/guides/affirm-dispute-denied-returned-item.html)** — Carrier tracking POD, RMA validation, and police report documentation.
-* 🚀 **[Executive Escalation & Legal Notice Playbook](https://kinslow-regulatory-archive.org/guides/affirm-ceo-executive-contacts-escalation.html)** — Breaking out of automated chatbot loops under 12 CFR § 1026.13.
-* 📑 **[FCRA & Regulation Z Credit Dispute Letters](https://kinslow-regulatory-archive.org/guides/affirm-credit-bureau-dispute-letters.html)** — Removing unlawful adverse bureau reporting during pending disputes.
-* 🚚 **[Carrier Proof of Delivery & Affidavits](https://kinslow-regulatory-archive.org/guides/affirm-merchant-return-tracking-proof.html)** — Obtaining stamped carrier delivery confirmations.
-* 📰 **[Official AP-Style Press Wire Release](https://kinslow-regulatory-archive.org/press-release.html)** — Investigative summary, 5-panel comic saga, and media contacts.
+* 💳 **[External Bank BillPay Routing Guide](https://chasekn43.github.io/regulatory-archive-2026/guides/affirm-bank-billpay-workaround.html)** — Bypass locked mobile UI controls via Federal Reserve ACH.
+* 📦 **[Denied Return Dispute Resolution Guide](https://chasekn43.github.io/regulatory-archive-2026/guides/affirm-dispute-denied-returned-item.html)** — Carrier tracking POD, RMA validation, and police report documentation.
+* 🚀 **[Executive Escalation & Legal Notice Playbook](https://chasekn43.github.io/regulatory-archive-2026/guides/affirm-ceo-executive-contacts-escalation.html)** — Breaking out of automated chatbot loops under 12 CFR § 1026.13.
+* 📑 **[FCRA & Regulation Z Credit Dispute Letters](https://chasekn43.github.io/regulatory-archive-2026/guides/affirm-credit-bureau-dispute-letters.html)** — Removing unlawful adverse bureau reporting during pending disputes.
+* 🚚 **[Carrier Proof of Delivery & Affidavits](https://chasekn43.github.io/regulatory-archive-2026/guides/affirm-merchant-return-tracking-proof.html)** — Obtaining stamped carrier delivery confirmations.
+* 📰 **[Official AP-Style Press Wire Release](https://chasekn43.github.io/regulatory-archive-2026/press-release.html)** — Investigative summary, 5-panel comic saga, and media contacts.
 
 ---
 
@@ -51,18 +51,18 @@ This repository serves as the official public regulatory record, legal correspon
 
 Click any document link below to directly view or download the certified primary evidence PDF:
 
-* 📋 **[Doc #1]** [Monroe Police Department Incident Report #26-29572 (July 10, 2026)](https://kinslow-regulatory-archive.org/documents/monroe-police-report-26-29572.pdf)
-* 🚚 **[Doc #2]** [Merchant Fulfillment & OnTrac Carrier Tracking Evidence (#1LSDCR10011QF38)](https://kinslow-regulatory-archive.org/documents/fraudulent-vendor-emails-and-tracking.pdf)
-* 📞 **[Doc #3]** [Mobile Call History Screenshots — July 7 (20 min) & July 9 (56 min total)](https://kinslow-regulatory-archive.org/documents/mobile-call-history-screenshots.pdf)
-* ✅ **[Doc #4]** [Affirm Written Liability Clearance Resolution (July 16, 2026)](https://kinslow-regulatory-archive.org/documents/affirm-liability-clearance-july16.pdf)
-* 🔒 **[Doc #5]** [Affirm Managing Counsel Andy Chen C&D Orders & UI Lock Compilation](https://kinslow-regulatory-archive.org/documents/affirm-managing-counsel-directive-july17.pdf)
-* ⚖️ **[Doc #6]** [CFPB Master Regulatory Complaint Compilation (Initial, Reply, Feedback & Follow-up)](https://kinslow-regulatory-archive.org/documents/cfpb-complaint-and-affirm-false-response.pdf)
-* ✉️ **[Doc #7]** [Morgan Lewis Correspondence & Aug 6 Rule 4.2 Ethics Notice](https://kinslow-regulatory-archive.org/documents/morgan-lewis-correspondence.pdf)
-* 🏛️ **[Doc #8]** [Louisiana AG Master Dispute Filing & Executive Email to AG Liz Murrill](https://kinslow-regulatory-archive.org/documents/louisiana-ag-dispute-submission.pdf)
-* 🏛️ **[Doc #9]** [California AG Master Dispute Filing & Rob Bonta Notice](https://kinslow-regulatory-archive.org/documents/california-ag-dispute-notice.pdf)
-* 📄 **[Doc #10]** [California AG Formal Case Reply & Status Record (PIU #1553638)](https://kinslow-regulatory-archive.org/documents/ca-ag-reply-1553638.pdf)
-* ⚖️ **[Doc #11]** [State Bar of California Attorney Misconduct Complaint against Morgan Lewis](https://kinslow-regulatory-archive.org/documents/california-state-bar-misconduct-complaint-morgan-lewis.pdf)
-* 📰 **[Doc #12]** [Silence Amidst Reporter's Inquiry Full Case Narrative Dossier](https://kinslow-regulatory-archive.org/documents/Silence_Amidst_Reporters_Inquiry_Perfect_Fall_Detail.pdf)
+* 📋 **[Doc #1]** [Monroe Police Department Incident Report #26-29572 (July 10, 2026)](https://chasekn43.github.io/regulatory-archive-2026/documents/monroe-police-report-26-29572.pdf)
+* 🚚 **[Doc #2]** [Merchant Fulfillment & OnTrac Carrier Tracking Evidence (#1LSDCR10011QF38)](https://chasekn43.github.io/regulatory-archive-2026/documents/fraudulent-vendor-emails-and-tracking.pdf)
+* 📞 **[Doc #3]** [Mobile Call History Screenshots — July 7 (20 min) & July 9 (56 min total)](https://chasekn43.github.io/regulatory-archive-2026/documents/mobile-call-history-screenshots.pdf)
+* ✅ **[Doc #4]** [Affirm Written Liability Clearance Resolution (July 16, 2026)](https://chasekn43.github.io/regulatory-archive-2026/documents/affirm-liability-clearance-july16.pdf)
+* 🔒 **[Doc #5]** [Affirm Managing Counsel Andy Chen C&D Orders & UI Lock Compilation](https://chasekn43.github.io/regulatory-archive-2026/documents/affirm-managing-counsel-directive-july17.pdf)
+* ⚖️ **[Doc #6]** [CFPB Master Regulatory Complaint Compilation (Initial, Reply, Feedback & Follow-up)](https://chasekn43.github.io/regulatory-archive-2026/documents/cfpb-complaint-and-affirm-false-response.pdf)
+* ✉️ **[Doc #7]** [Morgan Lewis Correspondence & Aug 6 Rule 4.2 Ethics Notice](https://chasekn43.github.io/regulatory-archive-2026/documents/morgan-lewis-correspondence.pdf)
+* 🏛️ **[Doc #8]** [Louisiana AG Master Dispute Filing & Executive Email to AG Liz Murrill](https://chasekn43.github.io/regulatory-archive-2026/documents/louisiana-ag-dispute-submission.pdf)
+* 🏛️ **[Doc #9]** [California AG Master Dispute Filing & Rob Bonta Notice](https://chasekn43.github.io/regulatory-archive-2026/documents/california-ag-dispute-notice.pdf)
+* 📄 **[Doc #10]** [California AG Formal Case Reply & Status Record (PIU #1553638)](https://chasekn43.github.io/regulatory-archive-2026/documents/ca-ag-reply-1553638.pdf)
+* ⚖️ **[Doc #11]** [State Bar of California Attorney Misconduct Complaint against Morgan Lewis](https://chasekn43.github.io/regulatory-archive-2026/documents/california-state-bar-misconduct-complaint-morgan-lewis.pdf)
+* 📰 **[Doc #12]** [Silence Amidst Reporter's Inquiry Full Case Narrative Dossier](https://chasekn43.github.io/regulatory-archive-2026/documents/Silence_Amidst_Reporters_Inquiry_Perfect_Fall_Detail.pdf)
 
 ---
 
@@ -136,17 +136,17 @@ This evidentiary repository addresses core legal, statutory, and operational cha
 
 ### **📚 In-Depth Legal & Operational Whitepapers (`/topics/`)**
 
-1. ⚖️ **[Regulation Z & APA Compliance Analysis](https://kinslow-regulatory-archive.org/topics/regulation-z-apa-compliance.html):** Truth in Lending Act (12 C.F.R. § 1026.13) billing error procedures & APA § 553 notice-and-comment exemptions.
-2. 🛍️ **[BNPL Merchant Dispute Resolution Case Study](https://kinslow-regulatory-archive.org/topics/fintech-bnpl-merchant-dispute-resolution.html):** Merchant shipping refusal mechanics, carrier tracking logs, automated 86-min fraud denials, and bank BillPay workarounds.
-3. 📞 **[Dodd-Frank UDAAP & Support Loop Breakdown](https://kinslow-regulatory-archive.org/topics/udaap-customer-service-failures.html):** 12 U.S.C. § 5531 standards, support phone routing loops, contradictory Cease & Desist orders, and SOX Section 404 ledger defects.
-4. 🏛️ **[California UCL § 17200 & State AG Enforcement](https://kinslow-regulatory-archive.org/topics/california-ag-regulatory-rebuttal.html):** Extraterritorial jurisdiction over California fintech entities, public prosecutor standing under UCL § 17204, and AG constitutional duties.
+1. ⚖️ **[Regulation Z & APA Compliance Analysis](https://chasekn43.github.io/regulatory-archive-2026/topics/regulation-z-apa-compliance.html):** Truth in Lending Act (12 C.F.R. § 1026.13) billing error procedures & APA § 553 notice-and-comment exemptions.
+2. 🛍️ **[BNPL Merchant Dispute Resolution Case Study](https://chasekn43.github.io/regulatory-archive-2026/topics/fintech-bnpl-merchant-dispute-resolution.html):** Merchant shipping refusal mechanics, carrier tracking logs, automated 86-min fraud denials, and bank BillPay workarounds.
+3. 📞 **[Dodd-Frank UDAAP & Support Loop Breakdown](https://chasekn43.github.io/regulatory-archive-2026/topics/udaap-customer-service-failures.html):** 12 U.S.C. § 5531 standards, support phone routing loops, contradictory Cease & Desist orders, and SOX Section 404 ledger defects.
+4. 🏛️ **[California UCL § 17200 & State AG Enforcement](https://chasekn43.github.io/regulatory-archive-2026/topics/california-ag-regulatory-rebuttal.html):** Extraterritorial jurisdiction over California fintech entities, public prosecutor standing under UCL § 17204, and AG constitutional duties.
 
 ---
 
 ### **Official Primary Evidence Vault**
 
 All primary evidence documents, police reports, state AG complaints, call logs, and legal correspondence are hosted live in the Primary Evidence Vault:
-👉 [View Live Evidence Vault & Case Study](https://kinslow-regulatory-archive.org/)
+👉 [View Live Evidence Vault & Case Study](https://chasekn43.github.io/regulatory-archive-2026/)
 
 ---
 

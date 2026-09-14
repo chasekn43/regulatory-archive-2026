@@ -92,4 +92,4 @@ I declare under penalty of perjury under the laws of the United States of Americ
 **Submitted by:**
 Charles W. Kinslow IV, J.D., C.P.A.  
 Monroe, Louisiana | (501) 707-7779  
-Archive Repository: https://kinslow-regulatory-archive.org/
+Archive Repository: https://chasekn43.github.io/regulatory-archive-2026/

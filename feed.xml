@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Charles W. Kinslow IV | Fintech &amp; BNPL Regulatory Evidence Archive</title>
-  <link>https://kinslow-regulatory-archive.org/</link>
+  <link>https://chasekn43.github.io/regulatory-archive-2026/</link>
   <description>Certified regulatory case studies, statutory analyses, and open-access legal tools examining Buy Now Pay Later dispute infrastructure, automated bot rejections, and Dodd-Frank Title X UDAAP compliance.</description>
   <language>en-us</language>
   <lastBuildDate>Fri, 14 Aug 2026 18:25:00 -0500</lastBuildDate>
-  <atom:link href="https://kinslow-regulatory-archive.org/feed.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="https://chasekn43.github.io/regulatory-archive-2026/feed.xml" rel="self" type="application/rss+xml" />
 
   <item>
     <title>BNPL Dispute Statutory Demand Letter Generator &amp; Penalty Calculator</title>
-    <link>https://kinslow-regulatory-archive.org/tools/affirm-dispute-demand-generator.html</link>
-    <guid>https://kinslow-regulatory-archive.org/tools/affirm-dispute-demand-generator.html</guid>
+    <link>https://chasekn43.github.io/regulatory-archive-2026/tools/affirm-dispute-demand-generator.html</link>
+    <guid>https://chasekn43.github.io/regulatory-archive-2026/tools/affirm-dispute-demand-generator.html</guid>
     <pubDate>Fri, 14 Aug 2026 18:20:00 -0500</pubDate>
     <description>100% client-side legal demand letter generator and statutory damages calculator under Regulation Z (12 CFR § 1026.13) and FCRA § 1681s-2(b).</description>
   </item>
 
   <item>
     <title>Interactive Minute-by-Minute Evidentiary Docket Timeline</title>
-    <link>https://kinslow-regulatory-archive.org/tools/interactive-docket-timeline.html</link>
-    <guid>https://kinslow-regulatory-archive.org/tools/interactive-docket-timeline.html</guid>
+    <link>https://chasekn43.github.io/regulatory-archive-2026/tools/interactive-docket-timeline.html</link>
+    <guid>https://chasekn43.github.io/regulatory-archive-2026/tools/interactive-docket-timeline.html</guid>
     <pubDate>Fri, 14 Aug 2026 18:15:00 -0500</pubDate>
     <description>Interactive forensic timeline documenting the complete chronology of Loan ID XQ8M-YX19 from unauthorized order to SEC Form TCR Whistleblower filing.</description>
   </item>
 
   <item>
     <title>Affirm Merchant Settlement Holding &amp; BBB Refund Delay Mechanics</title>
-    <link>https://kinslow-regulatory-archive.org/topics/affirm-merchant-settlement-holding-refund-delays.html</link>
-    <guid>https://kinslow-regulatory-archive.org/topics/affirm-merchant-settlement-holding-refund-delays.html</guid>
+    <link>https://chasekn43.github.io/regulatory-archive-2026/topics/affirm-merchant-settlement-holding-refund-delays.html</link>
+    <guid>https://chasekn43.github.io/regulatory-archive-2026/topics/affirm-merchant-settlement-holding-refund-delays.html</guid>
     <pubDate>Fri, 14 Aug 2026 18:10:00 -0500</pubDate>
     <description>Why BNPL lenders refuse to cancel installment loans after verified merchant returns until the merchant remits settlement funds.</description>
   </item>
 
   <item>
     <title>Morgan Lewis &amp; Bockius Collections Protocol in Disputed BNPL Portfolios</title>
-    <link>https://kinslow-regulatory-archive.org/topics/morgan-lewis-amlaw10-collections-protocol.html</link>
-    <guid>https://kinslow-regulatory-archive.org/topics/morgan-lewis-amlaw10-collections-protocol.html</guid>
+    <link>https://chasekn43.github.io/regulatory-archive-2026/topics/morgan-lewis-amlaw10-collections-protocol.html</link>
+    <guid>https://chasekn43.github.io/regulatory-archive-2026/topics/morgan-lewis-amlaw10-collections-protocol.html</guid>
     <pubDate>Fri, 14 Aug 2026 18:05:00 -0500</pubDate>
     <description>An empirical legal analysis of AmLaw 10 outside counsel retention over nominal consumer disputes and California State Bar Rule 4.2/8.4 compliance.</description>
   </item>
 
   <item>
     <title>Single-Use Virtual Cards &amp; Reconciliation Loops in BNPL Returns</title>
-    <link>https://kinslow-regulatory-archive.org/topics/single-use-virtual-cards-reconciliation-loops.html</link>
-    <guid>https://kinslow-regulatory-archive.org/topics/single-use-virtual-cards-reconciliation-loops.html</guid>
+    <link>https://chasekn43.github.io/regulatory-archive-2026/topics/single-use-virtual-cards-reconciliation-loops.html</link>
+    <guid>https://chasekn43.github.io/regulatory-archive-2026/topics/single-use-virtual-cards-reconciliation-loops.html</guid>
     <pubDate>Fri, 14 Aug 2026 18:00:00 -0500</pubDate>
     <description>How token destruction upon merchant return traps consumer refunds in corporate suspense pools, causing SOX 404 internal control failures.</description>
   </item>

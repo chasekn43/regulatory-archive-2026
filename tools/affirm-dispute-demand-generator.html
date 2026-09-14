@@ -1,12 +1,16 @@
+HASEKN
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BNPL Dispute Demand Generator &amp; Damages Calculator</title>
-  <meta name="description" content="Free, 100% client-side legal demand letter generator and statutory penalty calculator for consumers facing automated Buy Now Pay Later bot dispute denials">
-  <meta name="keywords" content="Affirm dispute letter generator, BNPL dispute demand letter, Regulation Z 1026.13 dispute template, Affirm CFPB complaint generator, FCRA 1681s-2b demand notice, Affirm statutory damages calculator, how to dispute Affirm loan">
-  <link rel="canonical" href="https://kinslow-regulatory-archive.org/tools/affirm-dispute-demand-generator.html">
+  <meta name="description"
+    content="Free, 100% client-side legal demand letter generator and statutory penalty calculator for consumers facing automated Buy Now Pay Later bot dispute denials">
+  <meta name="keywords"
+    content="Affirm dispute letter generator, BNPL dispute demand letter, Regulation Z 1026.13 dispute template, Affirm CFPB complaint generator, FCRA 1681s-2b demand notice, Affirm statutory damages calculator, how to dispute Affirm loan">
+  <link rel="canonical" href="https://chasekn43.github.io/regulatory-archive-2026/tools/affirm-dispute-demand-generator.html">
 
   <style>
     :root {
@@ -22,7 +26,11 @@
       --success: #10b981;
       --warning: #f59e0b;
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       background-color: var(--bg-main);
@@ -31,11 +39,13 @@
       margin: 0;
       padding: 0;
     }
+
     .container {
       max-width: 1000px;
       margin: 0 auto;
       padding: 40px 20px;
     }
+
     .nav-back {
       display: inline-flex;
       align-items: center;
@@ -46,6 +56,7 @@
       font-weight: 600;
       margin-bottom: 20px;
     }
+
     .badge {
       display: inline-block;
       padding: 4px 12px;
@@ -58,30 +69,38 @@
       color: var(--accent);
       border: 1px solid var(--accent);
     }
+
     h1 {
       font-size: 32px;
       line-height: 1.25;
       margin: 0 0 10px 0;
       color: #ffffff;
     }
+
     .grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 25px;
       margin-top: 30px;
     }
+
     @media (max-width: 850px) {
-      .grid { grid-template-columns: 1fr; }
+      .grid {
+        grid-template-columns: 1fr;
+      }
     }
+
     .card {
       background: var(--bg-card);
       border: 1px solid var(--border);
       border-radius: 10px;
       padding: 25px;
     }
+
     .form-group {
       margin-bottom: 16px;
     }
+
     label {
       display: block;
       font-size: 13px;
@@ -89,7 +108,10 @@
       color: var(--text-muted);
       margin-bottom: 6px;
     }
-    input, select, textarea {
+
+    input,
+    select,
+    textarea {
       width: 100%;
       background: var(--bg-input);
       border: 1px solid var(--border);
@@ -98,10 +120,14 @@
       color: #ffffff;
       font-size: 14px;
     }
-    input:focus, select:focus, textarea:focus {
+
+    input:focus,
+    select:focus,
+    textarea:focus {
       outline: none;
       border-color: var(--accent);
     }
+
     .btn {
       background: var(--accent);
       color: #0a0e17;
@@ -116,12 +142,20 @@
       gap: 8px;
       transition: background 0.2s;
     }
-    .btn:hover { background: var(--accent-hover); }
+
+    .btn:hover {
+      background: var(--accent-hover);
+    }
+
     .btn-secondary {
       background: #374151;
       color: #ffffff;
     }
-    .btn-secondary:hover { background: #4b5563; }
+
+    .btn-secondary:hover {
+      background: #4b5563;
+    }
+
     .tabs {
       display: flex;
       gap: 8px;
@@ -130,6 +164,7 @@
       padding-bottom: 10px;
       overflow-x: auto;
     }
+
     .tab-btn {
       background: transparent;
       border: none;
@@ -140,10 +175,12 @@
       cursor: pointer;
       border-radius: 6px;
     }
+
     .tab-btn.active {
       background: rgba(56, 189, 248, 0.15);
       color: var(--accent);
     }
+
     .output-box {
       background: #0d1117;
       border: 1px solid var(--border);
@@ -159,6 +196,7 @@
       -webkit-user-select: all;
       user-select: all;
     }
+
     .calc-card {
       background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.9));
       border: 1px solid var(--accent);
@@ -166,11 +204,13 @@
       padding: 18px;
       margin-top: 20px;
     }
+
     .calc-val {
       font-size: 26px;
       font-weight: 800;
       color: var(--success);
     }
+
     .privacy-notice {
       background: rgba(16, 185, 129, 0.1);
       border: 1px solid rgba(16, 185, 129, 0.3);
@@ -183,25 +223,30 @@
       align-items: center;
       gap: 8px;
     }
+
     .tool-sub {
       color: var(--text-muted);
       margin: 0 0 20px 0;
     }
+
     .tool-h3 {
       margin-top: 0;
       color: #fff;
     }
+
     .calc-label {
       font-size: 11px;
       font-weight: 800;
       color: var(--accent);
       text-transform: uppercase;
     }
+
     .calc-sub {
       font-size: 12px;
       color: var(--text-muted);
       margin-top: 4px;
     }
+
     .tool-footer {
       margin-top: 40px;
       padding: 24px 0;
@@ -210,9 +255,11 @@
       font-size: 13px;
       color: var(--text-muted);
     }
+
     .tool-footer-links {
       margin-top: 8px;
     }
+
     .tool-footer-link {
       color: var(--accent);
       text-decoration: none;
@@ -227,7 +274,7 @@
   "headline": "BNPL Dispute Demand Generator & Damages Calculator",
   "name": "BNPL Dispute Demand Generator & Damages Calculator",
   "description": "Free, 100% client-side legal demand letter generator and statutory penalty calculator for consumers facing automated Buy Now Pay Later bot dispute denials",
-  "url": "https://kinslow-regulatory-archive.org/tools/affirm-dispute-demand-generator.html",
+  "url": "https://chasekn43.github.io/regulatory-archive-2026/tools/affirm-dispute-demand-generator.html",
   "isBasedOn": [
     "https://doi.org/10.5281/zenodo.21937896",
     "https://www.linkedin.com/posts/chasekn_the-very-first-instance-of-a-modern-buy-now-share-7495379456543346689-t3hC/"
@@ -261,160 +308,174 @@
     "jobTitle": "Licensed CPA & Juris Doctor",
     "sameAs": [
       "https://www.linkedin.com/in/chasekn/",
-      "https://kinslow-regulatory-archive.org/"
+      "https://chasekn43.github.io/regulatory-archive-2026/"
     ]
   },
   "publisher": {
     "@type": "Organization",
     "name": "Kinslow Regulatory Archive & Forensic Evidence Vault",
-    "url": "https://kinslow-regulatory-archive.org/"
+    "url": "https://chasekn43.github.io/regulatory-archive-2026/"
   }
 }
   </script>
 </head>
+
 <body>
 
-<div class="container">
-  <a href="../index.html" class="nav-back">&larr; Return to Master Regulatory Archive</a>
+  <div class="container">
+    <a href="../index.html" class="nav-back">&larr; Return to Master Regulatory Archive</a>
 
-  <div class="badge">100% Client-Side • Free Public Legal Tool</div>
-  <h1>BNPL Statutory Demand Letter &amp; Penalty Calculator</h1>
-  <p class="tool-sub">
-    Generate formal Truth in Lending Act (12 C.F.R. § 1026.13), Fair Credit Reporting Act (15 U.S.C. § 1681s-2(b)), and CFPB UDAAP dispute notices in seconds.
-  </p>
+    <div class="badge">100% Client-Side • Free Public Legal Tool</div>
+    <h1>BNPL Statutory Demand Letter &amp; Penalty Calculator</h1>
+    <p class="tool-sub">
+      Generate formal Truth in Lending Act (12 C.F.R. § 1026.13), Fair Credit Reporting Act (15 U.S.C. § 1681s-2(b)),
+      and CFPB UDAAP dispute notices in seconds.
+    </p>
 
-  <div class="grid">
-    <!-- INPUT FORM -->
-    <div class="card">
-      <h3 class="tool-h3">1. Dispute Parameters</h3>
+    <div class="grid">
+      <!-- INPUT FORM -->
+      <div class="card">
+        <h3 class="tool-h3">1. Dispute Parameters</h3>
 
-      <div class="form-group">
-        <label for="userName">Your Full Name</label>
-        <input type="text" id="userName" name="userName" title="Your Full Name" value="Jane Doe" placeholder="e.g. John Smith" oninput="generateLetters()">
-      </div>
-
-      <div class="form-group">
-        <label for="userState">State of Residence</label>
-        <input type="text" id="userState" name="userState" title="State of Residence" value="California" placeholder="e.g. Texas, New York" oninput="generateLetters()">
-      </div>
-
-      <div class="form-group">
-        <label for="lenderName">Lender / Fintech Entity</label>
-        <select id="lenderName" name="lenderName" title="Lender / Fintech Entity" aria-label="Lender / Fintech Entity" onchange="generateLetters()">
-          <option value="Affirm, Inc. / Cross River Bank">Affirm, Inc. (Cross River Bank / Celtic Bank)</option>
-          <option value="Klarna Inc.">Klarna Inc.</option>
-          <option value="Afterpay US Services, LLC">Afterpay (Block, Inc.)</option>
-          <option value="Zip Co US Inc.">Zip Co (Quadpay)</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="loanId">Loan / Disputed Transaction ID</label>
-        <input type="text" id="loanId" name="loanId" title="Loan / Disputed Transaction ID" value="XQ8M-YX19" placeholder="e.g. Loan ID or Reference #" oninput="generateLetters()">
-      </div>
-
-      <div class="form-group">
-        <label for="disputeAmount">Disputed Dollar Amount ($)</label>
-        <input type="number" id="disputeAmount" name="disputeAmount" title="Disputed Dollar Amount ($)" value="285.85" placeholder="e.g. 285.85" step="0.01" oninput="updateCalculator(); generateLetters()">
-      </div>
-
-      <div class="form-group">
-        <label for="merchantName">Merchant Name</label>
-        <input type="text" id="merchantName" name="merchantName" title="Merchant Name" value="Perfume Empire" placeholder="e.g. Retailer / Merchant" oninput="generateLetters()">
-      </div>
-
-      <div class="form-group">
-        <label for="trackingNumber">Carrier Tracking # (If Returned / Fraud Shipment)</label>
-        <input type="text" id="trackingNumber" name="trackingNumber" title="Carrier Tracking #" value="1LSDCR10011QF38" placeholder="e.g. FedEx / UPS / OnTrac Tracking" oninput="generateLetters()">
-      </div>
-
-      <div class="form-group">
-        <label for="policeReport">Police Incident Report # (Optional)</label>
-        <input type="text" id="policeReport" name="policeReport" title="Police Incident Report #" value="26-29572" placeholder="e.g. MPD Report #" oninput="generateLetters()">
-      </div>
-
-      <div class="form-group">
-        <label for="botMinutes">Automated Bot Rejection Time (Minutes)</label>
-        <input type="number" id="botMinutes" name="botMinutes" title="Automated Bot Rejection Time (Minutes)" value="86" placeholder="e.g. 16, 86 minutes" oninput="generateLetters()">
-      </div>
-
-      <!-- STATUTORY PENALTY ESTIMATOR -->
-      <div class="calc-card">
-        <div class="calc-label">
-          ⚖️ Potential Statutory Recovery Exposure
+        <div class="form-group">
+          <label for="userName">Your Full Name</label>
+          <input type="text" id="userName" name="userName" title="Your Full Name" value="Jane Doe"
+            placeholder="e.g. John Smith" oninput="generateLetters()">
         </div>
-        <div class="calc-val" id="totalDamages">$2,000.00 - $3,285.85</div>
-        <div class="calc-sub">
-          Includes TILA § 1640(a) individual penalties ($2,000 max) + FCRA § 1681n willful non-compliance ($1,000 max) + Full Principal Voiding.
+
+        <div class="form-group">
+          <label for="userState">State of Residence</label>
+          <input type="text" id="userState" name="userState" title="State of Residence" value="California"
+            placeholder="e.g. Texas, New York" oninput="generateLetters()">
+        </div>
+
+        <div class="form-group">
+          <label for="lenderName">Lender / Fintech Entity</label>
+          <select id="lenderName" name="lenderName" title="Lender / Fintech Entity" aria-label="Lender / Fintech Entity"
+            onchange="generateLetters()">
+            <option value="Affirm, Inc. / Cross River Bank">Affirm, Inc. (Cross River Bank / Celtic Bank)</option>
+            <option value="Klarna Inc.">Klarna Inc.</option>
+            <option value="Afterpay US Services, LLC">Afterpay (Block, Inc.)</option>
+            <option value="Zip Co US Inc.">Zip Co (Quadpay)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="loanId">Loan / Disputed Transaction ID</label>
+          <input type="text" id="loanId" name="loanId" title="Loan / Disputed Transaction ID" value="XQ8M-YX19"
+            placeholder="e.g. Loan ID or Reference #" oninput="generateLetters()">
+        </div>
+
+        <div class="form-group">
+          <label for="disputeAmount">Disputed Dollar Amount ($)</label>
+          <input type="number" id="disputeAmount" name="disputeAmount" title="Disputed Dollar Amount ($)" value="285.85"
+            placeholder="e.g. 285.85" step="0.01" oninput="updateCalculator(); generateLetters()">
+        </div>
+
+        <div class="form-group">
+          <label for="merchantName">Merchant Name</label>
+          <input type="text" id="merchantName" name="merchantName" title="Merchant Name" value="Perfume Empire"
+            placeholder="e.g. Retailer / Merchant" oninput="generateLetters()">
+        </div>
+
+        <div class="form-group">
+          <label for="trackingNumber">Carrier Tracking # (If Returned / Fraud Shipment)</label>
+          <input type="text" id="trackingNumber" name="trackingNumber" title="Carrier Tracking #"
+            value="1LSDCR10011QF38" placeholder="e.g. FedEx / UPS / OnTrac Tracking" oninput="generateLetters()">
+        </div>
+
+        <div class="form-group">
+          <label for="policeReport">Police Incident Report # (Optional)</label>
+          <input type="text" id="policeReport" name="policeReport" title="Police Incident Report #" value="26-29572"
+            placeholder="e.g. MPD Report #" oninput="generateLetters()">
+        </div>
+
+        <div class="form-group">
+          <label for="botMinutes">Automated Bot Rejection Time (Minutes)</label>
+          <input type="number" id="botMinutes" name="botMinutes" title="Automated Bot Rejection Time (Minutes)"
+            value="86" placeholder="e.g. 16, 86 minutes" oninput="generateLetters()">
+        </div>
+
+        <!-- STATUTORY PENALTY ESTIMATOR -->
+        <div class="calc-card">
+          <div class="calc-label">
+            ⚖️ Potential Statutory Recovery Exposure
+          </div>
+          <div class="calc-val" id="totalDamages">$2,000.00 - $3,285.85</div>
+          <div class="calc-sub">
+            Includes TILA § 1640(a) individual penalties ($2,000 max) + FCRA § 1681n willful non-compliance ($1,000 max)
+            + Full Principal Voiding.
+          </div>
+        </div>
+
+        <div class="privacy-notice">
+          🔒 <strong>100% Client-Side Privacy:</strong> All data is generated locally in your browser. No personal
+          information is stored or transmitted.
         </div>
       </div>
 
-      <div class="privacy-notice">
-        🔒 <strong>100% Client-Side Privacy:</strong> All data is generated locally in your browser. No personal information is stored or transmitted.
+      <!-- OUTPUT LETTERS -->
+      <div class="card">
+        <div class="tabs">
+          <button class="tab-btn active" id="tabA" onclick="switchTab('A')">1. Reg Z &amp; TILA Notice</button>
+          <button class="tab-btn" id="tabB" onclick="switchTab('B')">2. CFPB / AG Complaint</button>
+          <button class="tab-btn" id="tabC" onclick="switchTab('C')">3. Outside Counsel Spoliation</button>
+        </div>
+
+        <div class="output-box" id="letterOutput"></div>
+
+        <div class="tool-actions">
+          <button class="btn" onclick="copyLetter()">📋 Copy Letter to Clipboard</button>
+          <button class="btn btn-secondary" onclick="downloadLetter()">💾 Download .TXT File</button>
+        </div>
       </div>
     </div>
 
-    <!-- OUTPUT LETTERS -->
-    <div class="card">
-      <div class="tabs">
-        <button class="tab-btn active" id="tabA" onclick="switchTab('A')">1. Reg Z &amp; TILA Notice</button>
-        <button class="tab-btn" id="tabB" onclick="switchTab('B')">2. CFPB / AG Complaint</button>
-        <button class="tab-btn" id="tabC" onclick="switchTab('C')">3. Outside Counsel Spoliation</button>
-      </div>
-
-      <div class="output-box" id="letterOutput"></div>
-
-      <div class="tool-actions">
-        <button class="btn" onclick="copyLetter()">📋 Copy Letter to Clipboard</button>
-        <button class="btn btn-secondary" onclick="downloadLetter()">💾 Download .TXT File</button>
-      </div>
-    </div>
+    <footer class="tool-footer">
+      <p>&copy; 2026 Charles W. Kinslow IV, J.D., C.P.A. &bull; Regulatory Archive &bull; All Rights Reserved</p>
+      <p class="tool-footer-links">
+        <a href="../index.html" class="tool-footer-link">Master Regulatory Archive</a> &bull;
+        <a href="../articles/feeding-the-ai-pr-machine-unfiltered-mobile-telemetry.html" class="tool-footer-link">📱
+          Mobile Telemetry &amp; Bot Audit Investigation</a> &bull;
+        <a href="../tools/bnpl-refund-delay-diagnostic.html" class="tool-footer-link">Dispute Diagnostic</a>
+      </p>
+    </footer>
   </div>
 
-  <footer class="tool-footer">
-    <p>&copy; 2026 Charles W. Kinslow IV, J.D., C.P.A. &bull; Regulatory Archive &bull; All Rights Reserved</p>
-    <p class="tool-footer-links">
-      <a href="../index.html" class="tool-footer-link">Master Regulatory Archive</a> &bull;
-      <a href="../articles/feeding-the-ai-pr-machine-unfiltered-mobile-telemetry.html" class="tool-footer-link">📱 Mobile Telemetry &amp; Bot Audit Investigation</a> &bull;
-      <a href="../tools/bnpl-refund-delay-diagnostic.html" class="tool-footer-link">Dispute Diagnostic</a>
-    </p>
-  </footer>
-</div>
+  <script>
+    let currentTab = 'A';
 
-<script>
-  let currentTab = 'A';
+    function updateCalculator() {
+      const amt = parseFloat(document.getElementById('disputeAmount').value) || 0;
+      const minDamages = (amt + 1000 + 200).toFixed(2);
+      const maxDamages = (amt + 1000 + 2000).toFixed(2);
+      document.getElementById('totalDamages').innerText = `$${minDamages} - $${maxDamages}`;
+    }
 
-  function updateCalculator() {
-    const amt = parseFloat(document.getElementById('disputeAmount').value) || 0;
-    const minDamages = (amt + 1000 + 200).toFixed(2);
-    const maxDamages = (amt + 1000 + 2000).toFixed(2);
-    document.getElementById('totalDamages').innerText = `$${minDamages} - $${maxDamages}`;
-  }
+    function switchTab(tab) {
+      currentTab = tab;
+      document.getElementById('tabA').className = 'tab-btn' + (tab === 'A' ? ' active' : '');
+      document.getElementById('tabB').className = 'tab-btn' + (tab === 'B' ? ' active' : '');
+      document.getElementById('tabC').className = 'tab-btn' + (tab === 'C' ? ' active' : '');
+      generateLetters();
+    }
 
-  function switchTab(tab) {
-    currentTab = tab;
-    document.getElementById('tabA').className = 'tab-btn' + (tab === 'A' ? ' active' : '');
-    document.getElementById('tabB').className = 'tab-btn' + (tab === 'B' ? ' active' : '');
-    document.getElementById('tabC').className = 'tab-btn' + (tab === 'C' ? ' active' : '');
-    generateLetters();
-  }
+    function generateLetters() {
+      const name = document.getElementById('userName').value || '[CONSUMER NAME]';
+      const state = document.getElementById('userState').value || '[STATE]';
+      const lender = document.getElementById('lenderName').value;
+      const loan = document.getElementById('loanId').value || '[LOAN ID]';
+      const amt = parseFloat(document.getElementById('disputeAmount').value || 0).toFixed(2);
+      const merchant = document.getElementById('merchantName').value || '[MERCHANT]';
+      const track = document.getElementById('trackingNumber').value;
+      const police = document.getElementById('policeReport').value;
+      const minutes = document.getElementById('botMinutes').value || '86';
+      const dateStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
-  function generateLetters() {
-    const name = document.getElementById('userName').value || '[CONSUMER NAME]';
-    const state = document.getElementById('userState').value || '[STATE]';
-    const lender = document.getElementById('lenderName').value;
-    const loan = document.getElementById('loanId').value || '[LOAN ID]';
-    const amt = parseFloat(document.getElementById('disputeAmount').value || 0).toFixed(2);
-    const merchant = document.getElementById('merchantName').value || '[MERCHANT]';
-    const track = document.getElementById('trackingNumber').value;
-    const police = document.getElementById('policeReport').value;
-    const minutes = document.getElementById('botMinutes').value || '86';
-    const dateStr = new Date().toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
+      let text = '';
 
-    let text = '';
-
-    if (currentTab === 'A') {
-      text = `FORMAL BILLING ERROR DISPUTE & MANDATORY INVESTIGATION DEMAND
+      if (currentTab === 'A') {
+        text = `FORMAL BILLING ERROR DISPUTE & MANDATORY INVESTIGATION DEMAND
 PURSUANT TO THE TRUTH IN LENDING ACT (15 U.S.C. § 1666) & REGULATION Z (12 C.F.R. § 1026.13)
 
 Date: ${dateStr}
@@ -444,8 +505,8 @@ Sincerely,
 
 ${name}
 Digital Signature & Evidentiary Reservation of Rights`;
-    } else if (currentTab === 'B') {
-      text = `CONSUMER FINANCIAL PROTECTION BUREAU (CFPB) & STATE ATTORNEY GENERAL COMPLAINT NARRATIVE
+      } else if (currentTab === 'B') {
+        text = `CONSUMER FINANCIAL PROTECTION BUREAU (CFPB) & STATE ATTORNEY GENERAL COMPLAINT NARRATIVE
 DODD-FRANK TITLE X UDAAP (12 U.S.C. § 5536) & FCRA 15 U.S.C. § 1681s-2(b)
 
 Complainant: ${name} (${state})
@@ -465,8 +526,8 @@ REQUESTED REGULATORY RELIEF:
 - Immediate administrative order directing ${lender} to permanently zero out Loan ID ${loan};
 - Expungement of any negative credit bureau reporting or internal delinquent flags;
 - Supervisory audit of Respondent's automated denial decision algorithms and single-use virtual card suspense account reconciliations.`;
-    } else if (currentTab === 'C') {
-      text = `FORMAL NOTICE OF LITIGATION HOLD, SPOLIATION PROHIBITION & ETHICAL CONFLICT NOTICE
+      } else if (currentTab === 'C') {
+        text = `FORMAL NOTICE OF LITIGATION HOLD, SPOLIATION PROHIBITION & ETHICAL CONFLICT NOTICE
 DELIVERED TO OUTSIDE COUNSEL / LITIGATION REPRESENTATIVES
 
 Date: ${dateStr}
@@ -496,31 +557,32 @@ Governed by the Kinslow Regulatory Evidence Archive (Zenodo DOI: 10.5281/zenodo.
 Sincerely,
 
 ${name}`;
+      }
+
+      document.getElementById('letterOutput').innerText = text;
     }
 
-    document.getElementById('letterOutput').innerText = text;
-  }
+    function copyLetter() {
+      const text = document.getElementById('letterOutput').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Letter copied to clipboard successfully!');
+      });
+    }
 
-  function copyLetter() {
-    const text = document.getElementById('letterOutput').innerText;
-    navigator.clipboard.writeText(text).then(() => {
-      alert('Letter copied to clipboard successfully!');
-    });
-  }
+    function downloadLetter() {
+      const text = document.getElementById('letterOutput').innerText;
+      const blob = new Blob([text], { type: 'text/plain' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `BNPL_Dispute_Notice_${currentTab}.txt`;
+      a.click();
+    }
 
-  function downloadLetter() {
-    const text = document.getElementById('letterOutput').innerText;
-    const blob = new Blob([text], { type: 'text/plain' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = `BNPL_Dispute_Notice_${currentTab}.txt`;
-    a.click();
-  }
-
-  // Initialize
-  updateCalculator();
-  generateLetters();
-</script>
+    // Initialize
+    updateCalculator();
+    generateLetters();
+  </script>
 
 </body>
+
 </html>

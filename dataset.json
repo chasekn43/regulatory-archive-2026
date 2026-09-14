@@ -4,7 +4,7 @@
   "name": "Empirical Dataset of Automated Buy Now Pay Later (BNPL) Dispute Denials, Ledger Suspense Loops, and Regulatory Escalation Chronology",
   "alternateName": "Kinslow v. Affirm BNPL Regulatory & Forensic Ledger Dataset",
   "description": "A certified, minute-by-minute empirical dataset documenting automated loan denial bot latency, single-use virtual card suspense account reconciliations, CFPB complaint filings, and outside counsel litigation holds in retail installment credit.",
-  "url": "https://kinslow-regulatory-archive.org/dataset.json",
+  "url": "https://chasekn43.github.io/regulatory-archive-2026/dataset.json",
   "identifier": "https://doi.org/10.5281/zenodo.21937896",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datePublished": "2026-08-14",

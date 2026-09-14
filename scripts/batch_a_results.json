@@ -1,0 +1,206 @@
+{
+  "timestamp": "2026-08-10T12:36:18.623742",
+  "query_set": [
+    "Chase Kinslow CFPB complaint 260717-35668593",
+    "Chase Kinslow Monroe Police Department report 26-29572",
+    "Chase Kinslow regulatory-archive-2026 github",
+    "Chase Kinslow Louisiana AG Liz Murrill dispute submission",
+    "Chase Kinslow California AG Rob Bonta dispute notice"
+  ],
+  "queries_run": [
+    {
+      "query": "Chase Kinslow CFPB complaint 260717-35668593",
+      "engines": {
+        "DuckDuckGo": [
+          {
+            "error": "HTTP Error 403: Forbidden"
+          }
+        ],
+        "Google": [],
+        "Bing": [],
+        "Yahoo": [
+          {
+            "error": "HTTP Error 500: INKApi Error"
+          }
+        ]
+      },
+      "target_matches": []
+    },
+    {
+      "query": "Chase Kinslow Monroe Police Department report 26-29572",
+      "engines": {
+        "DuckDuckGo": [
+          {
+            "error": "HTTP Error 403: Forbidden"
+          }
+        ],
+        "Google": [],
+        "Bing": [],
+        "Yahoo": [
+          {
+            "error": "HTTP Error 500: INKApi Error"
+          }
+        ]
+      },
+      "target_matches": []
+    },
+    {
+      "query": "Chase Kinslow regulatory-archive-2026 github",
+      "engines": {
+        "DuckDuckGo": [
+          {
+            "error": "HTTP Error 403: Forbidden"
+          }
+        ],
+        "Google": [],
+        "Bing": [],
+        "Yahoo": [
+          {
+            "error": "HTTP Error 500: INKApi Error"
+          }
+        ]
+      },
+      "target_matches": []
+    },
+    {
+      "query": "Chase Kinslow Louisiana AG Liz Murrill dispute submission",
+      "engines": {
+        "DuckDuckGo": [
+          {
+            "error": "HTTP Error 403: Forbidden"
+          }
+        ],
+        "Google": [],
+        "Bing": [],
+        "Yahoo": [
+          {
+            "title": "Yahoo",
+            "url": "https://www.yahoo.com",
+            "snippet": ""
+          },
+          {
+            "title": "Home",
+            "url": "https://www.yahoo.com/",
+            "snippet": ""
+          },
+          {
+            "title": "Mail",
+            "url": "https://us.mail.yahoo.com/?.intl=us&.lang=en-US",
+            "snippet": ""
+          },
+          {
+            "title": "News",
+            "url": "https://www.yahoo.com/news",
+            "snippet": ""
+          },
+          {
+            "title": "Finance",
+            "url": "https://finance.yahoo.com",
+            "snippet": ""
+          },
+          {
+            "title": "Sports",
+            "url": "https://sports.yahoo.com/",
+            "snippet": ""
+          },
+          {
+            "title": "Weather",
+            "url": "https://www.yahoo.com/news/weather",
+            "snippet": ""
+          },
+          {
+            "title": "Shopping",
+            "url": "https://shopping.yahoo.com/search?siteId=us-search&pageId=vertical-srp&renderBySimilarity=1&viewId=YbmJ7ArEtXyE25bprkN4G8a.Jgf7kU6EQG08d99gzl7.yQAOemUAA9AV&p=Chase+Kinslow+Louisiana+AG+Liz+Murrill+dispute+submission&fr2=piv-web",
+            "snippet": ""
+          },
+          {
+            "title": "Githubhttps://github.com \u203a chasekn43 \u203a regulatory-archive-2026GitHub - chasekn43/regulatory-archive-2026: Finalized public ...",
+            "url": "https://github.com/chasekn43/regulatory-archive-2026",
+            "snippet": ""
+          },
+          {
+            "title": "Louisiana Attorney Generalhttps://www.ag.state.la.us \u203a HomeLouisiana Office of the Attorney General - ag.state.la.us",
+            "url": "https://www.ag.state.la.us/Home",
+            "snippet": ""
+          },
+          {
+            "title": "FOX 8 WVUE-TV in New Orleanshttps://www.fox8live.com \u203a 2026/07/14 \u203a judge-grantsJudge grants subpoenas sought by AG Liz Murrill\u2019s attorneys ...",
+            "url": "https://www.fox8live.com/2026/07/14/judge-grants-subpoenas-sought-by-ag-liz-murrills-attorneys-grand-jury-probe/",
+            "snippet": ""
+          },
+          {
+            "title": "Louisiana Illuminatorhttps://lailluminator.com \u203a 2026/07/14 \u203a ag-liz-murrillAG Liz Murrill seeks subpoenas for Orleans DA, special ...",
+            "url": "https://lailluminator.com/2026/07/14/ag-liz-murrill-seeks-subpoenas-for-orleans-da-special-prosecutor-over-indictment/",
+            "snippet": ""
+          },
+          {
+            "title": "Louisiana Illuminatorhttps://lailluminator.com \u203a indictment-of-ag-liz-murrillThe lingering question: Who\u2019s behind the indictment of AG Liz ...",
+            "url": "https://lailluminator.com/2026/07/17/indictment-of-ag-liz-murrill/",
+            "snippet": ""
+          },
+          {
+            "title": "WAFB Channel 9https://www.wafb.com \u203a 2026/07/09 \u203a grand-jury-indictsGrand jury indicts Louisiana AG Murrill; all Orleans Parish ...",
+            "url": "https://www.wafb.com/2026/07/09/grand-jury-indicts-louisiana-ag-murrill-all-orleans-parish-criminal-judges-step-aside/",
+            "snippet": ""
+          },
+          {
+            "title": "WAFB Channel 9https://www.wafb.com \u203a 2026/03/19 \u203a louisiana-attorneyLouisiana attorney general asks 3 judges to recuse themselves ...",
+            "url": "https://www.wafb.com/2026/03/19/louisiana-attorney-general-asks-3-judges-recuse-themselves-state-cases/",
+            "snippet": ""
+          },
+          {
+            "title": "Suggestions",
+            "url": "https://yahoo.uservoice.com/forums/193847-search",
+            "snippet": ""
+          },
+          {
+            "title": "Terms",
+            "url": "https://guce.yahoo.com/terms?locale=en-US",
+            "snippet": ""
+          },
+          {
+            "title": "Privacy",
+            "url": "https://guce.yahoo.com/privacy-policy?locale=en-US",
+            "snippet": ""
+          },
+          {
+            "title": "Privacy Dashboard",
+            "url": "https://guce.yahoo.com/privacy-dashboard?locale=en-US&done=https%3A%2F%2Fsearch.yahoo.com%2Fsearch%3Fp%3DChase%2BKinslow%2BLouisiana%2BAG%2BLiz%2BMurrill%2Bdispute%2Bsubmission",
+            "snippet": ""
+          },
+          {
+            "title": "Advertise",
+            "url": "https://advertising.yahoo.com/article/search-advertising.html",
+            "snippet": ""
+          }
+        ]
+      },
+      "target_matches": [
+        {
+          "engine": "Yahoo",
+          "indicator": "chasekn43",
+          "title": "Githubhttps://github.com \u203a chasekn43 \u203a regulatory-archive-2026GitHub - chasekn43/regulatory-archive-2026: Finalized public ...",
+          "url": "https://github.com/chasekn43/regulatory-archive-2026"
+        }
+      ]
+    },
+    {
+      "query": "Chase Kinslow California AG Rob Bonta dispute notice",
+      "engines": {
+        "DuckDuckGo": [
+          {
+            "error": "HTTP Error 403: Forbidden"
+          }
+        ],
+        "Google": [],
+        "Bing": [],
+        "Yahoo": [
+          {
+            "error": "HTTP Error 500: INKApi Error"
+          }
+        ]
+      },
+      "target_matches": []
+    }
+  ]
+}

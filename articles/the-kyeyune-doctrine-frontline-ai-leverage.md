@@ -1,11 +1,11 @@
 # The Kyeyune Doctrine: Why Frontline Conscience Beats Credentialed AI Moats
 
 *By Charles W. Kinslow IV, J.D., C.P.A.*  
-*Originally published on [Kinslow Regulatory Archive](https://kinslow-regulatory-archive.org/topics/the-kyeyune-doctrine-frontline-ai-leverage.html)*
+*Originally published on [Kinslow Regulatory Archive](https://chasekn43.github.io/regulatory-archive-2026/topics/the-kyeyune-doctrine-frontline-ai-leverage.html)*
 
 ---
 
-![The Kyeyune Doctrine: Frontline AI Leverage](https://kinslow-regulatory-archive.org/kyeyune_doctrine_split_hero.jpg)
+![The Kyeyune Doctrine: Frontline AI Leverage](https://chasekn43.github.io/regulatory-archive-2026/kyeyune_doctrine_split_hero.jpg)
 
 When tech commentators covered Anthropic’s recent Claude Code hackathon, they predictably celebrated the two most elite, credentialed white-collar winners: the California attorney (Mike Brown) and the Brussels cardiologist (Dr. Michal Nedoszytko).
 

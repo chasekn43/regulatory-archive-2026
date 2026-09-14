@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-08-10T12:30:19.597074",
+  "query_set": "Set B - Corporate & Outside Counsel",
+  "queries": [
+    {
+      "query": "Chase Kinslow Affirm Morgan Lewis Bockius lawsuit",
+      "engines": {
+        "DuckDuckGo": [],
+        "Google": [],
+        "Bing": [],
+        "Yahoo": [
+          {
+            "error": "HTTP Error 500: INKApi Error"
+          }
+        ]
+      },
+      "counts": {
+        "DuckDuckGo": 0,
+        "Google": 0,
+        "Bing": 0,
+        "Yahoo": 0
+      },
+      "target_matches": []
+    },
+    {
+      "query": "Chase Kinslow Andy Chen Affirm cease and desist",
+      "engines": {
+        "DuckDuckGo": [],
+        "Google": [],
+        "Bing": [],
+        "Yahoo": [
+          {
+            "error": "HTTP Error 500: INKApi Error"
+          }
+        ]
+      },
+      "counts": {
+        "DuckDuckGo": 0,
+        "Google": 0,
+        "Bing": 0,
+        "Yahoo": 0
+      },
+      "target_matches": []
+    },
+    {
+      "query": "Chase Kinslow Madison Marshall Arjun Rao Morgan Lewis",
+      "engines": {
+        "DuckDuckGo": [],
+        "Google": [],
+        "Bing": [],
+        "Yahoo": [
+          {
+            "error": "HTTP Error 500: INKApi Error"
+          }
+        ]
+      },
+      "counts": {
+        "DuckDuckGo": 0,
+        "Google": 0,
+        "Bing": 0,
+        "Yahoo": 0
+      },
+      "target_matches": []
+    },
+    {
+      "query": "Chase Kinslow Scott Williams Affirm Vice President Client Success",
+      "engines": {
+        "DuckDuckGo": [],
+        "Google": [],
+        "Bing": [],
+        "Yahoo": [
+          {
+            "error": "HTTP Error 500: INKApi Error"
+          }
+        ]
+      },
+      "counts": {
+        "DuckDuckGo": 0,
+        "Google": 0,
+        "Bing": 0,
+        "Yahoo": 0
+      },
+      "target_matches": []
+    },
+    {
+      "query": "Chase Kinslow Affirm in-app payment lock BillPay workaround",
+      "engines": {
+        "DuckDuckGo": [],
+        "Google": [],
+        "Bing": [],
+        "Yahoo": [
+          {
+            "error": "HTTP Error 500: INKApi Error"
+          }
+        ]
+      },
+      "counts": {
+        "DuckDuckGo": 0,
+        "Google": 0,
+        "Bing": 0,
+        "Yahoo": 0
+      },
+      "target_matches": []
+    }
+  ]
+}

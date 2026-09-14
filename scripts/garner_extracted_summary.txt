@@ -1,0 +1,630 @@
+=== Page 1 ===
+LEGAL 
+WRITING 
+~ 
+I N 3/-IMM-
+PLAIN 
+ENGLISH 
+'1f llil IT m II) JI II) JI '1f TI ct) JM
+
+=== Page 2 ===
+LEGAL WRITING IN PLAIN ENGLISH
+
+=== Page 3 ===
+Permissions, A Survival Guide
+Susan M. Bielstein
+The Craft of Research
+Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams, Joseph Bizup,  
+and William T. FitzGerald
+The Chicago Guide to Fact- Checking
+Brooke Borel
+The Chicago Guide to Grammar, Usage, and Punctuation
+Bryan A. Garner
+Getting It Published
+William Germano
+On Revision
+William Germano
+What Editors Do
+Peter Ginna, editor
+Writing Science in Plain English
+Anne E. Greene
+Storycraft
+Jack Hart
+Wordcraft
+Jack Hart
+Cite Right
+Charles Lipson
+Economical Writing
+Deirdre Nansen McCloskey
+The Chicago Guide to Writing about Numbers
+Jane E. Miller
+A Manual for Writers of Research Papers, Theses, and Dissertations
+Kate L. Turabian
+A complete list of series titles is available on the University of Chicago Press website.
+8.f-2~ 
+ui 
+• Ir~ 
+1 ➔-
+00 5' ft 
+~~
+
+=== Page 4 ===
+LEGAL 
+WRITING  
+IN  
+PLAIN 
+ENGLISH
+A Text with Exercises
+t h i r d e d i t i o n
+bryan a. garner
+the university of chicago press
+Chicago and London
+
+=== Page 5 ===
+The University of Chicago Press, Chicago 60637
+The University of Chicago Press, Ltd., London
+© 2001, 2013, 2023 by Bryan A. Garner
+All rights reserved. No part of this book may be used or reproduced in any manner whatsoever 
+without written permission, except in the case of brief quotations in critical articles and reviews. For 
+more information, contact the University of Chicago Press, 1427 E. 60th St., Chicago, IL 60637.
+Published 2023
+Printed in the United States of America
+32 31 30 29 28 27 26 25 24 23  1 2 3 4 5
+ISBN- 13: 978- 0- 226- 81654- 8 (paper)
+ISBN- 13: 978- 0- 226- 81655- 5 (e- book)
+DOI: https:// doi .org /10 .7208 /chicago /9780226816555 .001 .0001
+Library of Congress  Cataloging- in- Publication Data
+Names: Garner, Bryan A., author.
+Title: Legal writing in plain English : a text with exercises / Bryan A. Garner.
+Other titles: Chicago guides to writing, editing, and publishing.
+Description: Third edition. | Chicago : The University of Chicago Press, 2023. | Series: Chicago 
+guides to writing, editing, and publishing | Includes bibliographical references and index.
+Identifiers: LCCN 2022053761 | ISBN 9780226816548 (paperback) | ISBN 9780226816555 (ebook)
+Subjects: LCSH: Legal composition.
+Classification: LCC KF250 .G373 2023 | DDC 808.06/634—dc23/eng/20230403
+LC record available at https:// lccn .loc .gov /2022053761
+♾ This paper meets the requirements of ANSI/NISO Z39.48- 1992 (Permanence of Paper).
+
+=== Page 6 ===
+For my beloved daughter
+alexandra bess
+
+=== Page 7 ===
+
+
+=== Page 8 ===
+other books written or edited by bryan a. garner
+Garner’s Modern English Usage
+Garner’s Dictionary of Legal Usage
+Black’s Law Dictionary (all editions since 1996)
+The Redbook: A Manual on Legal Style
+The Elements of Legal Style
+Garner on Language and Writing (foreword by Justice Ruth Bader Ginsburg)
+Reading Law: The Interpretation of Legal Texts (with Justice Antonin Scalia)
+Making Your Case: The Art of Persuading Judges (with Justice Antonin Scalia)
+The Law of Judicial Precedent (with 12 judicial coauthors) (foreword by Justice Stephen 
+Breyer)
+The Chicago Manual of Style, chap. 5, “Grammar and Usage” (since the 15th edition)
+The Chicago Guide to Grammar, Usage, and Punctuation
+The Winning Brief: 100 Tips for Persuasive Briefing in Trial and Appellate Courts
+The Winning Oral Argument
+Ethical Communications for Lawyers
+Securities Disclosure in Plain English
+Guidelines for Drafting and Editing Court Rules
+Guidelines for Drafting and Editing Legislation
+Garner’s Guidelines for Drafting and Editing Contracts
+Garner’s Coursebook on Drafting and Editing Contracts
+A New Miscellany- at- Law by Sir Robert Megarry
+The Oxford Dictionary of American Usage and Style
+The Rules of Golf in Plain English (with Jeffrey Kuhn)
+The HBR Guide to Better Business Writing
+A Handbook of Basic Legal Terms
+A Handbook of Business Law Terms
+A Handbook of Criminal Law Terms
+A Handbook of Family Law Terms
+Nino and Me: An Intimate Portrait of Scalia’s Last Ten Years
+Quack This Way: David Foster Wallace and Bryan A. Garner Talk Language and Writing
+Texas, Our Texas: Remembrances of the University
+Taming the Tongue in the Heyday of English Grammar (1711– 1851)
+
+=== Page 9 ===
+
+
+=== Page 10 ===
+CONTENTS
+ 
+Preface xiii
+ 
+Introduction 1
+part one: Principles for All Legal Writing 5
+1. Framing Your Thoughts 7
+ 
+§ 1. 
+Have something to say, and think it through. Approach your task with a 
+fervent desire to get your message across. 7
+ 
+§ 2. 
+Carry out your writing projects in four steps: think and research; plan and 
+organize; write; revise. 11
+ 
+§ 3. 
+Order your material in a logical sequence. Present facts chronologically. 
+For other material, make the order (a) deductive, (b) comparative, or  
+(c) spatial. Keep related material together. 19
+ 
+§ 4. 
+Use informative headings to mark sections and, if helpful,  
+subsections. 25
+2. Phrasing Your Sentences 32
+ 
+§ 5. 
+Exclude unnecessary words. 32
+ 
+§ 6. 
+Keep your average sentence length to about 20 words. 36
+ 
+§ 7. 
+Keep the subject, the verb, and the object together— toward the beginning 
+of the sentence. 41
+ 
+§ 8. 
+Use parallel phrasing for parallel ideas: don’t pair unlike grammatical 
+forms. 44
+ 
+§ 9. 
+Use strong, precise verbs. Minimize is, are, was, and were— especially when 
+they are part of a passive- voice construction. 51
+ 
+§ 10. Avoid multiple negatives. 57
+ 
+§ 11. End sentences emphatically. 59
+3. Choosing Your Words 62
+ 
+§ 12. Use plain English, not legalese. 62
+ 
+§ 13. Be wary of pretension, officialese, and stiff formulas. 69
+ 
+§ 14. Simplify wordy phrases— especially those containing of. 74
+ 
+§ 15. Avoid zombie nouns— especially - ion words that you can turn into 
+verbs. 78
+
+=== Page 11 ===
+x 
+contents
+ 
+§ 16. Avoid doublets and triplets. 81
+ 
+§ 17. Refer to people and companies by name. Never use corresponding terms 
+ending in - or and - ee. 84
+ 
+§ 18. Use shorthand names only when you must. Shun unfamiliar 
+acronyms. 87
+ 
+§ 19. Make it snappy, vivid, and interesting. 90
+ 
+§ 20. Be a companionable voice of reason. Make everything you write 
+speakable. 93
+part two: Principles Mainly for Analytical and 
+Persuasive Writing 99
+ 
+§ 21. Plan all three parts: the beginning, the middle, and the end. 101
+ 
+§ 22. For the all- important opener, use the deep issue to state the problem 
+clearly. 110
+ 
+§ 23. Summarize concretely and effectively. But don’t overparticularize with 
+dates and similar unimportant details. 118
+ 
+§ 24. Make your paragraphs cohesive. Introduce each one with a topic 
+sentence. 122
+ 
+§ 25. Link your paragraphs explicitly. 125
+ 
+§ 26. Vary the length of your paragraphs, but keep them generally short. 133
+ 
+§ 27. Provide textual signposts along the way. 137
+ 
+§ 28. Unclutter the text by footnoting citations. Keep the footnotes free of 
+sentences. 140
+ 
+§ 29. Weave quotations deftly into your prose. “Quotation sandwiches” are hard 
+to skip. 151
+ 
+§ 30. Be forthright in dealing with counterarguments. 157
+part three: Principles Mainly for Legal Drafting 161
+ 
+§ 31. Draft for an ordinary reader, not for a mythical judge who might someday 
+review the document. 163
+ 
+§ 32. Organize provisions in descending order of importance. Use a good 
+numbering system and abundant headings to make things easy to 
+find. 166
+ 
+§ 33. Minimize definitions and cross- references. If you have more than a few 
+definitions, put them in a schedule at the end, not at the beginning. 171
+ 
+§ 34. Break down enumerations into parallel provisions. Put every list of 
+subparts at the end of the sentence— never at the beginning or in the 
+middle. 175
+ 
+§ 35. Replace every shall. 181
+ 
+§ 36. Don’t use provisos. 191
+ 
+§ 37. Replace and/or wherever it appears. 197
+ 
+§ 38. Prefer the singular over the plural. 199
+
+=== Page 12 ===
+contents 
+xi
+ 
+§ 39. Use numerals, not words, to denote amounts. Avoid word– numeral 
+doublets. 201
+ 
+§ 40. If you don’t understand a form provision— or why it should be included in 
+your document— try diligently to gain that understanding. If you still can’t 
+understand it, cut it. 205
+part four: Principles for Document Design 209
+ 
+§ 41. Make sensible choices about typography: use a readable font and type 
+size, don’t underline, minimize all- caps and initial caps, and put one space 
+between sentences. 211
+ 
+§ 42. Create ample white space— and use it meaningfully. 214
+ 
+§ 43. Highlight ideas with attention- getters such as bullets. 216
+ 
+§ 44. Use graphics whenever they can enhance your message. 218
+ 
+§ 45. For a long document, make a table of contents. 224
+part five: Methods for Continued Improvement 233
+ 
+§ 46. Embrace constructive criticism. 235
+ 
+§ 47. Edit your work rigorously and systematically. 237
+ 
+§ 48. Seek out reliable answers to questions of grammar and usage. 240
+ 
+§ 49. Habitually gauge your own readerly likes and dislikes, as well as those of 
+other readers. 244
+ 
+§ 50. Remember that good writing makes the reader’s job easy; bad writing 
+makes it hard. 247
+ 
+Appendix A: A Restatement of Punctuation 249
+ 
+Appendix B: Four Model Documents 273
+ 
+1. 
+Research Memos 275
+ 
+2. 
+Motions 287
+ 
+3. 
+Appellate Briefs 299
+ 
+4. 
+Contracts 317
+ 
+Key to Basic Exercises 337
+ 
+Bibliography 357
+ 
+Index 361
+
+=== Page 13 ===
+
+
+=== Page 14 ===
+xiii
+PREFACE
+This book takes a practical approach to legal writing. It derives from my ex-
+perience over several decades working with law students and— in far greater 
+numbers— practicing lawyers and judges. It is intended not just for law stu-
+dents and paralegals but also for practitioners— including experienced ones. 
+In devising the exercises for each section, I envisioned either a writing class 
+or an informal group of legal writers who meet periodically to work through 
+the book.
+Particularly in its approach to exercises, the book differs markedly from 
+other legal- writing texts. Each of the 50 sections contains a basic, an inter-
+mediate, and an advanced exercise. (Model answers for many of the basic ex-
+ercises are in the back of the book.) Some of these exercises are open- ended, 
+requiring you to supply examples of writing that illustrates the problem the 
+section addresses. This simply means that you’ll have to pay attention to other 
+writers’ technique when you read. Other exercises require you to research the 
+literature on effective writing. Why? Because as professional writers, lawyers 
+should know this literature. After all, everyday questions about writing are 
+generally much easier to answer than the legal questions that arise in law prac-
+tice. If you worry about points of grammar and usage, see § 48. Better yet, 
+make friends with the nearest librarian. Librarians are there to help you, and 
+they’re generally eager to do it.
+The book’s organization reflects the different types of writing that law-
+yers do. Some techniques apply to virtually all types (see §§ 1– 20). Others ap-
+ply mostly— though not exclusively— to analytical and persuasive writing (see 
+§§ 21– 30). Still others apply mostly to transactional drafting (see §§ 31– 40). 
+Then there are two other groupings of techniques: those that lead to readable 
+typography (see §§ 41– 45) and those that lead to ongoing improvement (see 
+§§ 46– 50).
+Much of the advice in this book depends on— and even promotes— sound 
+legal analysis. Many sections are essentially about thinking straight. This is 
+crucial, since it’s impossible to separate good writing from clear thinking.
+Here you’ll find discussed and illustrated the primary techniques for im-
+proving your writing style. Some sections will serve as reminders of things
+
+=== Page 15 ===
+xiv 
+preface
+you’ve heard before but perhaps forgotten. Other techniques will probably be 
+new to you. What matters most, in the end, is how you apply sound practices 
+in your writing. You’ll have to use good judgment. No blackletter rule can 
+substitute for that.
+Finally, a word about “plain English.” The phrase shouldn’t connote drab 
+and dreary language. Actually, plain English can be captivating. It’s robust and 
+direct. You achieve plain English when you use the simplest, most straight-
+forward way to express an idea. You can still choose interesting words. But 
+you’ll avoid gaudy, pretentious ones that have everyday replacements meaning 
+precisely the same thing.
+I hope that you’ll enjoy and profit from the book. The examples are drawn 
+from all practice areas, and the exercises are practical and realistic. If you can 
+handle them capably, you’re quite a legal writer. If not, keep working. This 
+book is meant to offer both help and hope.
+☙☙☙
+The more books I write, the more abettors I have. Among the indispensable 
+contributors to this book are the participants in continuing- legal- education 
+seminars— as well as law students— who have contributed to my knowledge 
+of legal writing and legal language over more than 20 years. Although the 
+group probably consists of several thousand people, it’s a select group among 
+the some 250,000 lawyers and students who, in my seminars, have been ex-
+posed to many of the principles discussed in these pages. To the lawyers and 
+students whose comments gave insight and energy to this investigation, a gen-
+uine thank- you.
+Some debts are so specific that I must name names. Two English profes-
+sors at the University of Texas— John R. Trimble and Betty Sue Flowers— 
+have occasionally team- taught with me, and I’ve learned volumes from them. 
+Trimble influenced my thinking especially in §§ 14, 20, 25, 29, and 50, and 
+Flowers provided the intellectual framework for § 2.
+I greatly benefited from the suggestions of several readers who acted as 
+consultants for this and previous editions: Joel Atlas, Frances K. Browne, 
+Kathleen Coles, A. Darby Dickerson, Elizabeth S. Duquette, Elana Einhorn, 
+Molly Fergusson, Joe Fore, Robert Harrison, Wendy- Adele Humphrey, Kay 
+Kavanagh, Joseph Kimble, Karen Larsen, Charles W. Oldfield, Kathleen 
+O’Neill, David Raatz, Susannah Tobin, Kathryn Tullos, and Kathleen Vinson.
+I’m indebted to Michael L. Atchley, Beverly Ray Burlingame, Dominic G. 
+Castillo, Charles Dewey Cole Jr., Shareda Coleman, Tina G. Davis, Elise Fos-
+ter, Lawrence Friedman, Maria Luisa Hernandez Juarez, Whitney Knox Lee, 
+Michael A. Logan, Kenisha Marks, Erin Rodenhouse, E. Joshua Rosenkranz,
+
+=== Page 16 ===
+preface 
+xv
+Steven C. Seeger, Karen Sistrunk, and David W. West for the good models I’ve 
+cited. They are splendid writers, and I am delighted to showcase their work.
+I’ve had the help of many able editors. Linda J. Halvorson of the Univer-
+sity of Chicago Press originally invited me to write the book and made many 
+helpful suggestions, as did Mary Laur on the second and third editions. Many 
+others contributed in myriad ways: my heartfelt thanks to Ryden McComas 
+Anderson, David Bemelmans, Karolyne H.C. Garner, Tiger Jackson, Ryan 
+Kemrite, Ilan Lavian, Karen Magnuson, Becky R. Moler, Jeff Newman, Eliz-
+abeth C. Powell, Wanda Raiford, David W. Schultz, Joseph F. Spaniol Jr., and 
+David J. Zheng.
+I wrote the first edition in July and August of 1999 in Oxford, England, at 
+the Bodleian Law Library. Many thanks to my generous friend Professor Tony 
+Honoré, both for his electric wit (on any subject) and for his many kindnesses 
+(including the extended use of his library carrel).
+My wife, Karolyne, and my two daughters, Caroline and Alexandra, have 
+been extraordinarily supportive. I believe they know how grateful I am.
+Bryan A. Garner
+Dallas, Texas
+
+=== Page 17 ===
+
+
+=== Page 18 ===
+1
+INTRODUCTION
+“Notwithstanding any provision to the contrary contained in this document 
+(or any part thereof). . . .” No. Strike that.
+There’s an age- old cycle of poor legal writing. You can help break it.
+Start with the premise that writing well isn’t easy. Most people don’t do 
+it well— even many college graduates who think they do. Most doctors, ac-
+countants, and businesspeople— even most professors— aren’t accomplished 
+writers. Why should lawyers be any different?
+When you plunge groups of mediocre writers into a complex field with its 
+own mind- boggling jargon, rife with bloated expressions that displace every-
+day words, the results are predictable enough. But it’s even worse: Make law 
+students pore over reams of tedious, hyperformal, creaky prose. Acculturate 
+them to pomposity. Then what do you suppose you’ll get? You’ll end up with 
+average legal writers, whose work is wordy, stuffy, artificial, often ungrammat-
+ical, and largely unreadable.
+Each generation trains the next, steeping students and junior colleagues in 
+stale forms and jargon; underlying the churn is the premise that writing well is 
+not to be expected (perhaps even suspect).
+It doesn’t have to be this way— for you or anybody else. Even if you’re 
+entering the legal profession as a fairly weak writer, you can help break the 
+cycle. You don’t have to blindly adopt the worn- out, ineffective writing habits 
+of the past.
+Once you become a skillful writer— especially a skillful writer on legal 
+subjects— your rewards will be great. But before we talk about rewards, let’s 
+ponder some obstacles you must overcome.
+First, though anyone can learn to write effectively, it takes hard work. 
+Good style is something you must strive to attain. In that way it’s like a sport: 
+there are relatively few really good players, and they don’t reach that level of 
+competence through inertia. They work at it. So remember: writing is like any 
+other skill— you can improve, but you’ll have to dedicate yourself to it. The 
+easier path is to settle for being a so- so writer.
+If you want to become a first- rate writer, you’ll have to make a com-
+mitment.
+
+=== Page 19 ===
+2 
+introduction
+Second, since you’re in law, you’re already swimming in a sea of bad writ-
+ing. We learn our trade by struggling through oceans of dreck— legal prose 
+that seems designed to stifle any flair for language. When on the job, we read 
+poor prose almost exclusively. It’s wordy, heavy, and antique- sounding. A part 
+of you may well come to believe that you must sound that way to be truly law-
+yerlike.
+You’ll have to inoculate yourself against legalese.
+Third, the world is complex, and so is the law. You might think that good 
+legal writing is necessarily complex. You might even be tempted to make your 
+writing more complex than necessary just to impress. You’ll feel the impulse 
+to shun simplicity.
+Of all the hurdles we’ve considered, this will be the hardest. You’ll have 
+to embrace simplicity— while always resisting oversimplification. And that 
+will require intelligence and maturity.
+This brings us to the fourth and final point. You’ll have to be psycholog-
+ically mature. It’s a prerequisite. Law school is a life- changing experience. 
+When you’re through with it, you’re a different person— perhaps better, per-
+haps not, but undeniably different. Ultimately, you’ll have to answer a ques-
+tion that your parents started helping you answer before you understood a 
+single word: What kind of person are you? And every time you write, you’ll 
+be answering some related questions: What kind of person are you as a writer? 
+What do you sound like?
+If you want to write well, you’ll have to resist sounding like a machine— or 
+a foreign philosopher in translation. You will have to learn to sound like your-
+self. It’s even possible that you’ll find yourself by learning to write well.
+Yet the rewards are more tangible than that. They’re by- products of good 
+writing. Because legal employers prize writing ability more highly than almost 
+any other skill, you’ll gain several immediate advantages:
+• You’ll be more likely to get and keep whatever job you want.
+• You’ll be more likely to be promoted quickly.
+• You’ll have better opportunities for career mobility, with a broader 
+range of possibilities.
+If you can write— really write— people will assume certain other things about 
+you. The most important is that you’re a clear thinker and communicator.
+Even so, you’ll surely encounter some workplace obstacles. You’ll find 
+that time pressures make writing and revising difficult. An employer may tell 
+you that you’re being too clear in your writing— that you should learn to ob-
+fuscate. Maybe the advice will be to leave a court paper vague so that the spe-
+cific arguments can be fashioned orally before the judge— a seat- of- the- pants 
+approach. Maybe you’ll be chastised for departing from some mind- numbing
+
+=== Page 20 ===
+introduction 
+3
+convention that ill- informed legal writers cling to, such as doubling up words 
+and numerals. Good writers hear all this bad advice and much more. So how 
+are you to deal with it?
+The answer is twofold. First, do what you must in the short run. Don’t 
+butt heads with someone who refuses to engage in an intelligent discussion 
+about writing. If that person happens to be your supervisor, simply learn what 
+you can from the situation— including respect for legitimate stylistic dif-
+ferences or approaches. (The lessons may have more to do with the human 
+ psyche than with good writing.) Second, don’t lose your critical sense; in-
+stead, cultivate it. Think independently about why you consider some writing 
+good and other writing bad.
+In the end, you might learn to write in a bold, clear, powerful way. It will 
+be a struggle for you— as it is for anyone. You’ll be combating both a natural 
+human tendency to write poorly and unnatural pressure from colleagues to 
+write poorly. But you’ll have struck a blow for yourself and for the law. You’ll 
+be championing clarity and cogency— even truth. The law could stand to have 
+those qualities in greater abundance.
+But let’s not get ahead of ourselves. The journey toward clear thinking is 
+only beginning.
+
+=== Page 21 ===
+
+
+=== Page 22 ===
+part one
+Principles for All Legal Writing
+There are many types of legal documents— demand letters, opinion letters, 
+research memos, motions, briefs, judicial opinions, contracts, statutes, and 
+ordinances, to name a few. Although each type presents a unique set of chal-
+lenges, some principles of good writing apply to the whole gamut. These 20 
+principles make up Part One, which is divided into three subparts:
+• Framing Your Thoughts
+• Phrasing Your Sentences
+• Choosing Your Words
+Whatever the document, you’ll be doing those three things. The 20 tips that 
+follow should help you do them better.
+
+=== Page 23 ===
+
+
+=== Page 24 ===
+7
+1
+Framing Your Thoughts
+§ 1. 
+Have something to say, and think it through. Approach 
+your task with a fervent desire to get your message 
+across.
+What’s your biggest challenge as a writer? It’s figuring out, from the mass of 
+possibilities, exactly what your points are— and then stating them coherently, 
+with adequate reasoning and support.
+Although this advice might seem obvious, legal writers constantly ignore 
+it. The result is a mushy, aimless style. Even with your point well in mind, if 
+you take too long to reach it, you might as well have no point at all. Only read-
+ers with a high incentive to understand you will labor to grasp your meaning.
+That’s where law school comes in. Every law student must read and digest 
+scads of diffuse writing. You read through old cases that take forever to convey 
+fairly straightforward points. You read law- review articles that take 50 pages 
+to say what might be said more powerfully in 5. Through it all, your incentive 
+for gleaning the main message remains high because your grades depend on it.
+Take, for example, a sentence from a judicial opinion. See if you can fol-
+low the court’s point:
+And in the outset we may as well be frank enough to confess, and, indeed, 
+in view of the seriousness of the consequences which upon fuller reflec-
+tion we find would inevitably result to municipalities in the matter of street 
+improvements from the conclusion reached and announced in the former 
+opinion, we are pleased to declare that the arguments upon rehearing have 
+convinced us that the decision upon the ultimate question involved here 
+formerly rendered by this court, even if not faulty in its reasoning from 
+the premises announced or wholly erroneous in conclusions as to some of 
+the questions incidentally arising and necessarily legitimate subjects of dis-
+cussion in the decision of the main proposition, is, at any rate, one which 
+may, under the peculiar circumstances of this case, the more justly and at 
+the same time, upon reasons of equal cogency, be superseded by a conclu-
+sion whose effect cannot be to disturb the integrity of the long and well- 
+established system for the improvement of streets in the incorporated cities 
+and towns of California not governed by freeholders’ charters.*
+* Chase v. Kalber, 153 P. 397, 398 (Cal. Ct. App. 1915).
+
+=== Page 25 ===
+8 
+part one: principles for all legal writing
+What’s the court saying? In a highly embellished style, it says simply, “We 
+made a mistake last time.” That’s all.
+If you add sentence after sentence in this style— all filled with syntactic 
+curlicues— you end up with an even more impenetrable morass of words. The 
+only readers who will bother to decipher it are law students and lawyers paid 
+to do so.
+However willing you might be to pierce through another writer’s obscu-
+rity, you must have empathy, insisting that your own writing never put your 
+readers to that trouble. As a reader, then, you’ll need a penetrating mind to 
+cut through overgrown verbal foliage. As a writer, you’ll need a focused mind 
+to leave aside anything that doesn’t help you swiftly communicate your ideas. 
+That’s the start to becoming an effective legal writer.
+You must approach the task with communicative fervor— an intense de-
+sire to have someone else understand what you’re saying. That’s key. If you 
+don’t approach the task that way, real communication almost certainly won’t 
+take place.
+Always write with a particular reader in mind. Even when what you’re 
+writing— say, an article or lawnote— is likely to have many different readers, 
+choose one with whom you’re trying to connect. Ask yourself: How would 
+you explain things to this specific person, step by step, in a rational order? You 
+can imagine such a reader, to be sure, but it’s easy enough to pick someone you 
+know. As you explain, imagine the questions your reader might ask, and an-
+swer them as they might naturally arise if the reader were right there with you.
+Even if you’re just taking notes, as in briefing a case you’ve just read, try 
+to write prose that a friend could understand. Does that sound unrealistic? It 
+shouldn’t. You see, every piece of writing is likely to have a secondary as well 
+as a primary readership. Except perhaps with a diary or your own grocery list, 
+you’re never writing just for yourself. So aim for general comprehensibility. This 
+idea reinforces that of communicative fervor. Put the two together, and you have 
+a winning combination for successful writing.
+Let’s dwell for a moment on this idea of a secondary readership. When 
+you’re on the job, you’re never writing just for your boss who has asked for 
+a memo. Never. You’re also writing for your boss’s colleagues on the man-
+agement committee. You’re writing for your boss two years from now, after 
+the assignment has been long forgotten. You’re writing for your boss’s re-
+placement (though at the time of writing you had no clue that might happen!). 
+You’re writing for your boss’s boss. You’re writing for the client, probably 
+a nonlawyer, who is paying for your analysis. You’re writing for all sorts of 
+strangers to the actual assignment. They’ll be judging you: your critical think-
+ing, your research skills, your expository abilities, your care and thoroughness,
+

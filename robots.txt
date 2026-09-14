@@ -1,6 +1,5 @@
 # regulatory-archive-2026 — Crawler Directives & Search Engine Indexing
 # Sitemaps
-Sitemap: https://kinslow-regulatory-archive.org/sitemap.xml
 Sitemap: https://chasekn43.github.io/regulatory-archive-2026/sitemap.xml
 
 # Default Rule for All Crawlers
