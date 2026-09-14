@@ -15,9 +15,14 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-KEY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "google_credentials.json")
-if not os.path.exists(KEY_FILE):
-    KEY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "google_console_key.json")
+CANDIDATE_KEYS = [
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "charwizbnpl_google_console_key.json"),
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "bnpl_google_console_key.json"),
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "google_credentials.json"),
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "google_console_key.json"),
+    os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "")
+]
+KEY_FILE = next((k for k in CANDIDATE_KEYS if k and os.path.exists(k)), CANDIDATE_KEYS[0])
 
 SITEMAP_FILE = os.path.join(REPO_ROOT, "sitemap.xml")
 SITE_URL = "https://chasekn43.github.io/regulatory-archive-2026/"
@@ -31,10 +36,10 @@ def get_service_account_email():
         try:
             with open(KEY_FILE, 'r') as f:
                 data = json.load(f)
-                return data.get('client_email', 'gsc-indexer@regulatory-archive-2026.iam.gserviceaccount.com')
+                return data.get('client_email', 'sitemap-indexer@bnpl-abuse-fintech-regulatory.iam.gserviceaccount.com')
         except:
             pass
-    return 'gsc-indexer@regulatory-archive-2026.iam.gserviceaccount.com'
+    return 'sitemap-indexer@bnpl-abuse-fintech-regulatory.iam.gserviceaccount.com'
 
 def parse_sitemap():
     """Extracts all URLs from sitemap.xml."""
@@ -65,13 +70,25 @@ def submit_sitemap_to_gsc():
         return False
     try:
         credentials = service_account.Credentials.from_service_account_file(KEY_FILE, scopes=['https://www.googleapis.com/auth/webmasters'])
-        webmasters_service = build('webmasters', 'v3', credentials=credentials)
-        site_property = "sc-domain:kinslow-regulatory-archive.org"
-        sitemap_url = "https://kinslow-regulatory-archive.org/sitemap.xml"
+        webmasters_service = build('searchconsole', 'v1', credentials=credentials)
         
-        webmasters_service.sitemaps().submit(siteUrl=site_property, feedpath=sitemap_url).execute()
-        print(f"[+] Google Search Console: Successfully submitted {sitemap_url} for {site_property}")
-        return True
+        # Discover authorized sites
+        sites_res = webmasters_service.sites().list().execute()
+        site_entries = sites_res.get('siteEntry', [])
+        site_urls = [s.get('siteUrl') for s in site_entries if s.get('siteUrl')]
+        if SITE_URL not in site_urls:
+            site_urls.append(SITE_URL)
+
+        success = False
+        for site_property in site_urls:
+            sitemap_url = f"{site_property.rstrip('/')}/sitemap.xml"
+            try:
+                webmasters_service.sitemaps().submit(siteUrl=site_property, feedpath=sitemap_url).execute()
+                print(f"[+] Google Search Console: Successfully submitted {sitemap_url} for {site_property}")
+                success = True
+            except Exception as sub_err:
+                print(f"[-] GSC sitemap submission for {site_property}: {sub_err}")
+        return success
     except Exception as e:
         print(f"[-] Google Search Console sitemap submission notice: {e}")
         return False
