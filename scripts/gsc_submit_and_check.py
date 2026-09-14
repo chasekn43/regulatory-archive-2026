@@ -1,7 +1,9 @@
+import os
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
-creds = service_account.Credentials.from_service_account_file('google_console_key.json', scopes=['https://www.googleapis.com/auth/webmasters'])
+KEY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'google_console_key.json')
+creds = service_account.Credentials.from_service_account_file(KEY_FILE, scopes=['https://www.googleapis.com/auth/webmasters'])
 service = build('webmasters', 'v3', credentials=creds)
 
 site_url = 'https://chasekn43.github.io/regulatory-archive-2026/'
