@@ -1,7 +1,7 @@
 # 🏛️ Charles W. Kinslow IV | Affirm, Inc. (NYSE: AFRM) Regulatory Archive & Evidentiary Vault
 
-[![Official Website](https://img.shields.io/badge/Official%20Web%20Portal-kinslow--regulatory--archive.org-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chasekn43.github.io/regulatory-archive-2026/)
-[![GitHub Pages Mirror](https://img.shields.io/badge/GitHub%20Pages%20Mirror-Live%20App-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://chasekn43.github.io/regulatory-archive-2026/)
+[![Official Website](https://img.shields.io/badge/Official%20Web%20Portal-chasekn43.github.io-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chasekn43.github.io/regulatory-archive-2026/)
+[![GitHub Pages Mirror](https://img.shields.io/badge/GitHub%20Pages-Live%20App-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://chasekn43.github.io/regulatory-archive-2026/)
 [![Medium Exposé](https://img.shields.io/badge/Medium-Case%20Exposé-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@chasekn43/anatomy-of-a-an-atypical-consumer-dispute-how-an-everyday-worker-outmaneuvered-a-10-billion-2c81224f7f3f)
 [![Substack Publication](https://img.shields.io/badge/Substack-Case%20Exposé-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://chasekinslow1.substack.com/p/anatomy-of-an-atypical-consumer-dispute)
 [![CFPB Case](https://img.shields.io/badge/CFPB%20Complaint-%23260717--35668593-10b981?style=for-the-badge)](https://chasekn43.github.io/regulatory-archive-2026/documents/cfpb-complaint-and-affirm-false-response.pdf)
