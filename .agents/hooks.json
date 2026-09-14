@@ -1,0 +1,11 @@
+{
+  "grift-enforcer-local": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "python C:/Users/Charwiz43/.gemini/config/scripts/grift_guard.py pre_invocation",
+        "timeout": 10
+      }
+    ]
+  }
+}

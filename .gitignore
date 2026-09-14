@@ -1,6 +1,12 @@
 # Secrets & Credentials
-google_console_key.json
-google_credentials.json
+**/google_console_key.json
+**/google_credentials.json
+**/*key*.json
+**/*credentials*.json
+**/*secret*.json
+**/bnpl-abuse-*.json
+**/regulatory-archive-*.json
+**/focused-house-*.json
 *.key
 *.pem
 
