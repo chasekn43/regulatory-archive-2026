@@ -6,12 +6,12 @@ import xml.etree.ElementTree as ET
 from fireprox_config import get_base_url, get_bing_indexnow_url
 from waf_bypass_headers import apply_bypass_headers
 
-# Configuration
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KEY = "4366b539c9914619a970e53a2707ec41"
-HOST = "kinslow-regulatory-archive.org"
-KEY_LOCATION = f"https://{HOST}/{KEY}.txt"
-SITEMAP_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sitemap.xml")
-KEY_FILE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), f"{KEY}.txt")
+HOST = "chasekn43.github.io"
+KEY_LOCATION = f"https://chasekn43.github.io/regulatory-archive-2026/{KEY}.txt"
+SITEMAP_PATH = os.path.join(REPO_ROOT, "sitemap.xml")
+KEY_FILE_PATH = os.path.join(REPO_ROOT, f"{KEY}.txt")
 
 def create_key_file():
     """Creates the IndexNow verification key file at the site root."""

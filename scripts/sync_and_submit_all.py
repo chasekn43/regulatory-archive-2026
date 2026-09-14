@@ -12,7 +12,7 @@ from submit_indexnow import submit_to_indexnow, parse_sitemap
 def sync_and_submit():
     print(f"=======================================================")
     print(f"  EXECUTING UNIFIED INDEXATION ENGINE ({datetime.now().strftime('%Y-%m-%d %H:%M:%S')})")
-    print(f"  Target Domain: https://kinslow-regulatory-archive.org")
+    print(f"  Target Domain: https://chasekn43.github.io/regulatory-archive-2026/")
     print(f"=======================================================\n")
     
     # 1. IndexNow Submission to Bing, Yahoo, Yandex, Naver
@@ -33,8 +33,8 @@ def sync_and_submit():
     # 3. Bing Webmaster Tools API Feed Submission
     print("\n[3/3] Submitting Feed to Bing Webmaster Tools API...")
     bing_api_key = "34b9bbd3b295468c8d754700c3750742"
-    site_url = "http://kinslow-regulatory-archive.org/"
-    feed_url = "https://kinslow-regulatory-archive.org/sitemap.xml"
+    site_url = "https://chasekn43.github.io/regulatory-archive-2026/"
+    feed_url = "https://chasekn43.github.io/regulatory-archive-2026/sitemap.xml"
     
     endpoint = f"https://ssl.bing.com/webmaster/api.svc/json/SubmitFeed?apikey={bing_api_key}"
     payload = {

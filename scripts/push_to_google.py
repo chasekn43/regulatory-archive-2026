@@ -14,12 +14,13 @@ from datetime import datetime
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KEY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "google_credentials.json")
 if not os.path.exists(KEY_FILE):
     KEY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "google_console_key.json")
 
-SITEMAP_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sitemap.xml")
-SITE_URL = "https://kinslow-regulatory-archive.org/"
+SITEMAP_FILE = os.path.join(REPO_ROOT, "sitemap.xml")
+SITE_URL = "https://chasekn43.github.io/regulatory-archive-2026/"
 SCOPES = [
     'https://www.googleapis.com/auth/indexing',
     'https://www.googleapis.com/auth/webmasters'
